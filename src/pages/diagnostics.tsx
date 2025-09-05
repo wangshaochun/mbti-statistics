@@ -27,18 +27,54 @@ const Diagnostics = ({ questions, typeDescriptions }: Props) => {
   };
 
   const calculateResult = (allAnswers: Record<number, string>) => {
-    const counts: Record<string, number> = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
-    
-    Object.values(allAnswers).forEach(answer => {
-      counts[answer] = (counts[answer] || 0) + 1;
+    // 初期化
+    const counts = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 } as Record<string, number>;
+
+    // 各質問の採点規則（Y=はい / N=いいえ）
+    Object.entries(allAnswers).forEach(([qIdStr, ans]) => {
+      const q = Number(qIdStr);
+      const yes = ans === 'Y';
+      switch (q) {
+        // 1. E vs I
+        case 0: // 問題1
+        case 4: // 問題5
+          if (yes) counts.E++; else counts.I++; break;
+        case 10: // 問題11: はい=I, いいえ=E
+          if (yes) counts.I++; else counts.E++; break;
+
+        // 2. S vs N
+        case 2: // 問題3
+        case 5: // 問題6
+        case 8: // 問題9
+        case 11: // 問題12
+          if (yes) counts.S++; else counts.N++; break;
+
+        // 3. T vs F
+        case 3: // 問題4 (はい=F)
+        case 9: // 問題10 (はい=F)
+        case 14: // 問題15 (はい=F)
+          if (yes) counts.F++; else counts.T++; break;
+        case 15: // 問題16 (はい=T)
+          if (yes) counts.T++; else counts.F++; break;
+
+        // 4. J vs P
+        case 1: // 問題2 (はい=J)
+          if (yes) counts.J++; else counts.P++; break;
+        case 6: // 問題7 (はい=P)
+        case 7: // 問題8 (はい=P)
+        case 12: // 問題13 (はい=P)
+        case 13: // 問題14 (はい=P)
+          if (yes) counts.P++; else counts.J++; break;
+        default:
+          break;
+      }
     });
 
-    const type = 
-      (counts.E >= counts.I ? 'E' : 'I') +
-      (counts.S >= counts.N ? 'S' : 'N') +
-      (counts.T >= counts.F ? 'T' : 'F') +
-      (counts.J >= counts.P ? 'J' : 'P');
-
+    const type =
+      (counts.E > counts.I ? 'E' : 'I') +
+      (counts.S > counts.N ? 'S' : 'N') +
+      (counts.T > counts.F ? 'T' : 'F') +
+      (counts.J > counts.P ? 'J' : 'P');
     setShowResult(type);
   };
 
@@ -136,12 +172,17 @@ const Diagnostics = ({ questions, typeDescriptions }: Props) => {
   return (
     <div className="min-h-screen bg-white py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* SEO (no result yet) */}
+        <Seo 
+          title="MBTI診断ツール - 簡易テスト"
+          description="16の簡易質問に答えてあなたのMBTI性格タイプを推定する無料診断ツール。結果から各タイプの特徴や相性、向いている分野を学べます。"
+        />
         {/* Header */}
         <div className="text-center mb-12">
           <Target className="w-16 h-16 mx-auto mb-6 text-blue-500" />
           <h1 className="text-4xl font-bold text-gray-900 mb-4">MBTI診断ツール</h1>
           <p className="text-xl text-gray-600 mb-6">
-            8つの質問であなたの性格タイプを診断します
+            16のステートメントに「はい / いいえ」で答えてあなたの性格タイプを推定します
           </p>
           
           {/* Progress Bar */}

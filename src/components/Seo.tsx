@@ -18,7 +18,7 @@ const Seo: React.FC<Props> = ({ title, description, noIndex, canonical }) => {
       {description && <meta name="description" content={description} />}
       <meta property="og:title" content={fullTitle} />
       {description && <meta property="og:description" content={description} />}
-      <meta property="og:site_name" content={SITE_NAME} />
+      {/* <meta property="og:site_name" content={SITE_NAME} /> */}
       {canonical && <link rel="canonical" href={canonical} />}
       {noIndex && <meta name="robots" content="noindex,nofollow" />}
     </Head>
