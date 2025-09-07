@@ -19,7 +19,7 @@ const TypesOverview = ({ categories }:{ categories:Category[] }) => {
       <Seo title="MBTI 16タイプ一覧 - 各タイプの特徴と詳細分析" description="MBTI 16タイプの詳細な特徴、強み・弱み、職業適性を分かりやすく解説。INFP、ENFP、INTJ、ISFJなど人気タイプの分析から、4つのカテゴリー（アナリスト・外交官・番人・探検家）まで網羅。" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div id="types-overview" className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             MBTI 16タイプ一覧
           </h1>
@@ -31,7 +31,7 @@ const TypesOverview = ({ categories }:{ categories:Category[] }) => {
         </div>
 
         {/* Categories Overview */}
-        <div className="mb-16">
+        <div id="categories" className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">4つのカテゴリー</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {categories.map((category, index) => {
@@ -132,7 +132,7 @@ const TypesOverview = ({ categories }:{ categories:Category[] }) => {
         </div>
 
         {/* All Types Grid */}
-        <div className="text-center mb-8">
+        <div id="all-types" className="text-center mb-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">全16タイプ詳細</h2>
           <p className="text-lg text-gray-600">各タイプをクリックして詳細な特徴と相性を確認できます</p>
         </div>

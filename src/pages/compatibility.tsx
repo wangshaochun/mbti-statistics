@@ -214,7 +214,7 @@ const CompatibilityOverview = () => {
         </div>
 
         {/* Compatibility Matrix Sample */}
-        <div className="mb-16">
+        <div id="compatibility-matrix" className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             {contexts.find(c => c.key === selectedContext)?.label}での相性マトリックス
           </h2>
@@ -281,7 +281,7 @@ const CompatibilityOverview = () => {
         </div>
 
         {/* Compatibility Tips */}
-        <div className="mb-16">
+        <div id="compatibility-tips" className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             {contexts.find(c => c.key === selectedContext)?.label}での関係改善のコツ
           </h2>
@@ -309,7 +309,7 @@ const CompatibilityOverview = () => {
  
 
         {/* Popular Compatibility Insights */}
-        <div className="mb-16">
+        <div id="popular-pairs" className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">人気の相性パターン</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">

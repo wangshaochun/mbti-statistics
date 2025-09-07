@@ -4,6 +4,7 @@ import { ArrowRight, Heart, Brain, BarChart3, Users, Sparkles, Target } from 'lu
 import TypeGrid from '../components/TypeGrid';
 import Seo from '../components/Seo';
 import CompatibilityPreview from '../components/CompatibilityPreview';
+import BlogPreview from '../components/BlogPreview';
 
 const HomePage = () => {
   const keyFeatures = [
@@ -248,6 +249,9 @@ const HomePage = () => {
           </div> */}
         </div>
       </section>
+
+      {/* Blog Preview */}
+      <BlogPreview limit={3} showTitle={true} />
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-br from-blue-600 to-purple-700 text-white">

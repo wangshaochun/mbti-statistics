@@ -149,7 +149,7 @@ const Statistics = () => {
         {/* Statistics Display */}
         {selectedView === 'career' ? (
           /* Career Statistics */
-          <div className="mb-16">
+          <div id="career-stats" className="mb-16">
             <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">職業別MBTI分析</h2>
             <div className="space-y-6">
               {careerStats.map((item, index) => (
@@ -172,7 +172,7 @@ const Statistics = () => {
           </div>
         ) : (
           /* Type Distribution */
-          <div className="mb-16">
+          <div id="distribution-chart" className="mb-16">
             <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
               {selectedView === 'japan' ? 'MBTI分布' : '世界のMBTI分布'}
             </h2>
@@ -340,7 +340,7 @@ const Statistics = () => {
         </div>
 
         {/* Featured Type Analysis */}
-        <div className="mb-16">
+        <div id="featured-types" className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">注目タイプの詳細分析</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link href="/type/infp" className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 hover:shadow-lg transition-all group">

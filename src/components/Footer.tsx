@@ -5,28 +5,24 @@ import Link from 'next/link';
 const Footer = () => {
   const footerLinks = {
     'MBTI基本情報': [
-      { label: 'MBTI一覧', path: '/types' },
-      { label: '16タイプの特徴', path: '/types' },
-      { label: 'MBTI心理機能', path: '/types' },
-      { label: 'MBTI分類', path: '/types' },
+      { label: 'MBTI一覧', path: '/types#types-overview' },
+      { label: '16タイプの特徴', path: '/types#all-types' },
+      { label: 'MBTI分類', path: '/types#categories' }
     ],
     '相性・恋愛': [
-      { label: '相性一覧', path: '/compatibility' },
-      { label: 'MBTI恋愛相性', path: '/compatibility' },
-      { label: '仕事での相性', path: '/compatibility' },
-      { label: '友情の相性', path: '/compatibility' },
+      { label: '相性一覧', path: '/compatibility#compatibility-matrix' },
+      { label: 'MBTI恋愛相性', path: '/compatibility#popular-pairs' },
+      { label: '友情の相性', path: '/compatibility#compatibility-tips' }
     ],
     '統計・データ': [
-      { label: 'MBTI割合', path: '/statistics' },
-      { label: 'タイプ別人気ランキング', path: '/statistics' },
-      { label: '職業別分布', path: '/statistics' },
-      { label: '年代別傾向', path: '/statistics' },
+      { label: 'MBTI割合', path: '/statistics#distribution-chart' },
+      { label: 'タイプ別人気ランキング', path: '/statistics#featured-types' },
+      { label: '職業別分布', path: '/statistics#career-stats' }
     ],
     'エンタメ・キャラ': [
-      { label: 'アニメキャラMBTI', path: '/characters' },
-      { label: 'ワンピースMBTI', path: '/characters?series=onepiece' },
-      { label: 'ハイキューMBTI', path: '/characters?series=haikyuu' },
-      { label: '芸能人MBTI', path: '/characters?type=celebrities' },
+      { label: 'アニメキャラMBTI', path: '/characters#character-grid' },
+      { label: 'ワンピースMBTI', path: '/characters?series=ワンピース#character-grid' },
+      { label: 'ハイキューMBTI', path: '/characters?series=ハイキュー!!#character-grid' }
     ],
   };
 
