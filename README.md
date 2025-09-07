@@ -1,46 +1,52 @@
-mbti-statistics
+# MBTI 一覧 & 相性 - 16タイプ徹底ガイド
 
-Pure Next.js + TypeScript + Tailwind project.
+サイトプレビュー: [https://mbti-aisho.com/](https://mbti-aisho.com/)
 
-Tech stack:
+## プロジェクト概要
 
-* Next.js 14 (Pages Router)
-* React 18
-* Tailwind CSS 3
-* TypeScript 5
+MBTI 16タイプの性格分析と相性診断を分かりやすく解説するWebサイトです。統計データとアニメキャラクター分析も充実しています。
 
-Project structure (key folders):
+## 主要機能
 
-* `src/pages` – Next.js pages (routing)
-* `src/components` – Reusable UI components
-* `src/data` – Static data & type definitions
-* `src/styles/globals.css` – Global Tailwind entry
+### MBTI 16タイプ一覧
 
-Removed legacy Vite artifacts (main.tsx, App.tsx, index.css, vite-env.d.ts, extra tsconfig.*) to simplify maintenance.
+全16タイプの特徴、強み、弱みを詳しく解説。あなたの性格タイプを深く理解できます。
 
-Development (Windows PowerShell):
+### 相性診断・分析
 
-```powershell
-cd d:\git\mbti-statistics
-npm install
-npm run dev
-```
+タイプ別の恋愛・友情・仕事での相性を詳細分析。理想のパートナーを見つけましょう。
 
-Build & start production:
+### 割合統計
 
-```powershell
-npm run build
-npm start
-```
+日本人に多いMBTIタイプのランキングと統計データを最新情報で提供。
 
-Lint:
+### キャラクター分析
 
-```powershell
-npm run lint
-```
+アニメ・漫画の人気キャラクターのMBTI分析。推しキャラの性格を深掘り。
 
-Environment variables: create `.env.local` and prefix custom vars with `NEXT_PUBLIC_` if needed on client side.
+## 日本人に多いMBTIタイプ
 
-TypeScript config consolidated into single `tsconfig.json` with strict checks enabled.
+当サイトの統計データに基づく性格タイプ分布：
 
-Feel free to open issues or extend pages/components.
+- **INFP (仲介者)**: 16.44%
+- **ENFP (広報運動家)**: 13.79%
+- **INTP (論理学者)**: 7.19%
+- **ISFJ (擁護者)**: 6.81%
+
+## 技術スタック
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+
+## 機能紹介
+
+- 無料MBTI診断
+- 16タイプの詳細解説
+- タイプ間の相性マトリックス
+- 日本での統計データ
+- アニメキャラクターの性格分析
+
+---
+
+あなたの性格タイプを発見し、理想の人間関係を築くためのツールをご提供します。

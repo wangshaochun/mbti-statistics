@@ -4,6 +4,7 @@ import Seo from '../components/Seo';
 
 const CompatibilityOverview = () => {
   const [selectedContext, setSelectedContext] = useState<'love' | 'friendship' | 'work'>('love');
+  const [selectedType, setSelectedType] = useState<string>('INFJ');
 
   const compatibilityMatrix = {
     love: {
@@ -130,6 +131,47 @@ const CompatibilityOverview = () => {
     ]
   };
 
+  const allTypes = ['ISTJ', 'ISFJ', 'ESTJ', 'ESFJ', 'ISTP', 'ISFP', 'ESTP', 'ESFP', 'INFJ', 'INFP', 'INTJ', 'INTP', 'ENFP', 'ENFJ', 'ENTJ', 'ENTP'];
+  
+  const popularPairs = [
+    {
+      types: 'INFJ × ENFP',
+      title: '魂の伴侶のような深い結びつき',
+      icon: Star,
+      gradient: 'from-pink-400 to-rose-500',
+      summary: 'NFの共有による深い対話と理解。直感と感情が共鳴する関係。',
+      details: {
+        love: '両者は互いの内面世界を深く理解し、長時間の対話が自然に続く理想的なパートナー。',
+        friendship: 'ENFPは内向的なINFJを外へ導き、INFJはENFPに深い洞察を提供する補完関係。',
+        work: '芸術・教育・心理分野で高い相乗効果を発揮。INFJの構想力とENFPの創造性が調和。'
+      }
+    },
+    {
+      types: 'ISTJ × ESFJ',
+      title: '揺るぎない現実の盟友',
+      icon: Shield,
+      gradient: 'from-green-400 to-teal-500',
+      summary: 'SJの共有による安定と信頼性。伝統と責任を重んじる関係。',
+      details: {
+        love: '事実・責任・伝統・家庭を大切にする共通価値観で堅実な関係を築く。',
+        friendship: '実務的な協力体制に優れ、地域活動や家庭の企画を効率よく進められる。',
+        work: '組織の安定運営に最適。ESFJが人間関係を調整し、ISTJが品質管理を担う。'
+      }
+    },
+    {
+      types: 'INTJ × ENTP',
+      title: '火花散る知的な挑戦',
+      icon: Zap,
+      gradient: 'from-yellow-400 to-orange-500',
+      summary: 'NTの共有による知的興奮。戦略と可能性を探求する関係。',
+      details: {
+        love: '抽象概念と戦略的思考への共通の興味。知的な刺激と駆け引きが関係を活性化。',
+        friendship: '「思考のジム」のような関係で、複雑な問題や新しいアイデアを議論するのを楽しむ。',
+        work: 'ENTPのアイデア創出力とINTJの体系化能力が高効率な補完関係を形成する。'
+      }
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white py-12">
       <Seo title="MBTI 相性診断・分析 - 恋愛・友人・職場の相性" description="MBTIタイプ別の相性マトリクスを恋愛・友情・職場ごとに分析。相性の良い組み合わせや改善のコツを紹介します。" />
@@ -175,40 +217,63 @@ const CompatibilityOverview = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             {contexts.find(c => c.key === selectedContext)?.label}での相性マトリックス
           </h2>
+          
+          {/* Type Selector */}
+          <div className="mb-8">
+            <h3 className="text-lg font-semibold text-gray-700 mb-4 text-center">MBTIタイプを選択してください</h3>
+            <div className="grid grid-cols-4 md:grid-cols-8 gap-2 max-w-4xl mx-auto">
+              {allTypes.map((type) => (
+                <button
+                  key={type}
+                  onClick={() => setSelectedType(type)}
+                  className={`px-3 py-2 rounded-lg font-bold text-sm transition-all ${
+                    selectedType === type
+                      ? 'bg-gradient-to-br from-blue-500 to-purple-600 text-white shadow-lg scale-105'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
+                  }`}
+                >
+                  {type}
+                </button>
+              ))}
+            </div>
+          </div>
+
           <div className="bg-white rounded-2xl shadow-lg p-6">
-            <div className="overflow-x-auto">
-              <div className="min-w-full">
-                {Object.entries(compatibilityMatrix[selectedContext]).map(([type, compatibility]) => (
-                  <div key={type} className="mb-6 last:mb-0">
-                    <div className="flex items-center mb-2">
-                      <div className="w-16 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white font-bold mr-4">
-                        {type}
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-semibold text-gray-900">{type} - {selectedContext === 'love' ? '恋愛パートナー' : selectedContext === 'friendship' ? '友人関係' : '職場での関係'} - タイプとの相性</h3>
-                     
-                      </div>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {Object.entries(compatibility).map(([level, types]) => (
-            <div key={level} className={`p-2 rounded-lg border-2 ${getCompatibilityColor(level as Level)}`}>
-                          <h4 className="font-semibold mb-2">
-                            {level === 'excellent' ? '★★★ 抜群の相性' : 
-                             level === 'good' ? '★★☆ 良好な相性' : '★☆☆ 要注意の相性'}
-                          </h4>
-                          <div className="flex flex-wrap gap-2">
-                            {types.map((compatibleType) => (
-                              <span key={compatibleType} className="px-2 py-1 bg-white bg-opacity-50 rounded text-sm font-medium">
-                                {compatibleType}
-                              </span>
-                            ))}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+            <div className="max-w-4xl mx-auto">
+              {/* Selected Type Compatibility */}
+              <div className="mb-6">
+                <div className="flex items-center justify-center mb-6">
+                  <div className="w-20 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white font-bold text-lg mr-4">
+                    {selectedType}
                   </div>
-                ))}
+                  <div className="text-center">
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      {selectedType}タイプの{selectedContext === 'love' ? '恋愛パートナー' : selectedContext === 'friendship' ? '友人関係' : '職場での関係'}相性
+                    </h3>
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  {Object.entries(compatibilityMatrix[selectedContext][selectedType as keyof typeof compatibilityMatrix.love]).map(([level, types]) => (
+                    <div key={level} className={`p-4 rounded-lg border-2 ${getCompatibilityColor(level as Level)}`}>
+                      <h4 className="font-semibold mb-3 text-center">
+                        {level === 'excellent' ? '★★★ 抜群の相性' : 
+                         level === 'good' ? '★★☆ 良好な相性' : '★☆☆ 要注意の相性'}
+                      </h4>
+                      <div className="flex flex-wrap gap-2 justify-center">
+                        {types.map((compatibleType) => (
+                          <span 
+                            key={compatibleType} 
+                            className="px-3 py-1 bg-white bg-opacity-70 rounded-md text-sm font-medium cursor-pointer hover:bg-opacity-90 transition-all"
+                            onClick={() => setSelectedType(compatibleType)}
+                          >
+                            {compatibleType}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -245,91 +310,81 @@ const CompatibilityOverview = () => {
         {/* Popular Compatibility Insights */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">人気の相性パターン</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {[
-              {
-                types: 'INFJ × ENFP',
-                title: '魂の伴侶のような深い結びつき',
-        icon: Star,
-        gradient: 'from-pink-400 to-rose-500',
-                content: `
-恋愛次元：優秀
-
-魅力の源：両者は直感（N）と感情（F）を共有し、可能性や深層的な意味、人間の感情に関心を持つ点で強く共鳴します。INFJは関係に深みと洞察、安定感をもたらし、ENFPは情熱と無限の可能性、活力を与えます。長時間にわたる深い対話が自然に続き、恋人であり親友でもある関係になり得ます。
-
-友人次元：優秀
-
-相互のあり方：ENFPは内向的なINFJを外へと促し、世界の楽しさを体験させます。INFJは散漫になりがちなENFPを内省へ導き、より深い気づきを提供します。互いに刺激し合い、温かく励ます友人関係になります。
-
-職場次元：良好〜優秀
-
-協力のモデル：INFJは戦略的な構想を練り、ENFPは創意と対外的な推進力を担当することで、芸術、教育、心理、非営利など人文領域のプロジェクトで高い相乗効果を発揮します。注意点は実行の細部や締め切り管理で、ENFPは過程のフォロー、INFJは進捗管理で補完が必要です。
-                `
-              },
-              {
-                types: 'ISTJ × ESFJ',
-                title: '揺るぎない現実の盟友',
-                icon: Shield,
-                gradient: 'from-green-400 to-teal-500',
-                content: `
-恋愛次元：優秀
-
-魅力の源：両者は感覚（S）と判断（J）を重視し、事実・責任・伝統・家庭を大切にします。ISTJはESFJの社交性と気配りを尊重し、ESFJはISTJの確かな信頼性と忠誠を評価します。共通の価値観と生活様式の上に堅牢な関係が築かれます。
-
-友人次元：優秀
-
-相互のあり方：『一緒にやる』ことに長けたコンビです。地域活動や家庭の企画、実務プロジェクトも互いに分担して進められます。ESFJが対外的な調整と雰囲気作りを担い、ISTJが計画と細部の管理を担当することで、実用的で長続きする友情が生まれます。
-
-職場次元：優秀
-
-協力のモデル：組織の安定運営に不可欠なペアです。ESFJは人間関係の潤滑油、ISTJはプロセスと品質の担保を行います。行政・医療・教育・法務など、高い責任感と正確さが求められる分野で理想的に機能します。
-                `
-              },
-              {
-                types: 'INTJ × ENTP',
-                title: '火花散る知的な挑戦',
-                icon: Zap,
-                gradient: 'from-yellow-400 to-orange-500',
-                content: `
-恋愛次元：良好〜優秀（注意点あり）
-
-魅力の源：直感（N）と思考（T）を共有し、抽象概念や戦略的思考への強い興味で惹かれ合います。INTJはENTPの機知と発想力に魅了され、ENTPはINTJの深さと決断力に引かれます。会話はしばしば刺激的で、知的な駆け引きが関係を活性化させます。
-
-潜在的摩擦：INTJの『結論志向（J）』とENTPの『議論を楽しむ（P）』という差が摩擦を生みやすい点に注意が必要です。INTJは結論と実行を求め、ENTPは可能性を探り続けるため、双方の尊重と成熟が欠かせません。
-
-友人次元：優秀
-
-相互のあり方：お互いの頭脳を鍛え合う『思考のジム』のような関係性です。複雑な問題の分解や斬新なアイデアの議論は二人にとって楽しみの一つであり、深い相互尊重の下で強い友情が育ちます。
-
-職場次元：優秀（高効率な補完）
-
-協力のモデル：ENTPが大量のアイデアを生み出し、INTJがそれらを体系化して実行可能な計画に落とし込むという強力な組み合わせです。スタートアップ、研究開発、戦略コンサルティングなどで高いパフォーマンスを発揮します。
-                `
-              }
-            ].map((insight, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
-                <div className="flex items-center justify-center mb-4">
-                  <div className={`w-12 h-12 rounded-md flex items-center justify-center text-white mr-3 bg-gradient-to-br ${insight.gradient}`}>
-                    {insight.icon ? React.createElement(insight.icon as React.ComponentType<React.SVGProps<SVGSVGElement>>, { className: 'w-6 h-6' }) : null}
-                  </div>
-                  <div className="text-center">
-                    <div className="text-lg font-bold text-blue-600">{insight.types}</div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {popularPairs.map((pair, index) => {
+              const Icon = pair.icon;
+              return (
+                <div 
+                  key={index} 
+                  className="bg-white rounded-xl shadow-md overflow-hidden transform transition-all hover:-translate-y-1 hover:shadow-xl"
+                >
+                  <div className={`w-full h-3 bg-gradient-to-r ${pair.gradient}`}></div>
+                  <div className="p-6">
+                    <div className="flex items-center mb-4">
+                      <div className={`w-12 h-12 rounded-full flex items-center justify-center text-white mr-3 bg-gradient-to-br ${pair.gradient}`}>
+                        <Icon className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <div className="text-lg font-bold text-blue-600">{pair.types}</div>
+                        <h3 className="text-md font-semibold text-gray-900">{pair.title}</h3>
+                      </div>
+                    </div>
+                    
+                    <p className="text-gray-600 text-sm mb-4">{pair.summary}</p>
+                    
+                    <div className="mt-4 space-y-4 border-t pt-4">
+                      <div>
+                        <div className="flex items-center">
+                          <Heart className="w-5 h-5 text-rose-500 mr-2" />
+                          <span className="font-semibold text-sm text-gray-700">恋愛関係:</span>
+                        </div>
+                        <p className="text-sm text-gray-600 ml-7">{pair.details.love}</p>
+                      </div>
+                      
+                      <div>
+                        <div className="flex items-center">
+                          <Users className="w-5 h-5 text-blue-500 mr-2" />
+                          <span className="font-semibold text-sm text-gray-700">友人関係:</span>
+                        </div>
+                        <p className="text-sm text-gray-600 ml-7">{pair.details.friendship}</p>
+                      </div>
+                      
+                      <div>
+                        <div className="flex items-center">
+                          <Briefcase className="w-5 h-5 text-green-500 mr-2" />
+                          <span className="font-semibold text-sm text-gray-700">職場関係:</span>
+                        </div>
+                        <p className="text-sm text-gray-600 ml-7">{pair.details.work}</p>
+                      </div>
+                    </div>
+                    
+                    <div className="mt-4 text-right">
+                      {(() => {
+                        const firstType = pair.types.split('×')[0].trim().toLowerCase();
+                        return (
+                          <a 
+                            href={`/type/${firstType}`} 
+                            className="inline-block px-4 py-2 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 rounded-md text-sm hover:brightness-95"
+                          >
+                            詳細ページへ
+                          </a>
+                        );
+                      })()}
+                    </div>
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{insight.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">{insight.content}</p>
-                <div className="mt-4 text-right">
-                  {/* Link to TypeDetail page anchor — uses first type in pair */}
-                  {(() => {
-                    const firstType = insight.types.split('×')[0].trim();
-                    const anchor = `pair-${firstType.replace(/\s+/g, '')}-${insight.types.split('×')[1].trim().replace(/\s+/g,'')}`;
-                    return (
-                      <a href={`/type/${firstType}#${anchor}`} className="inline-block px-4 py-2 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 rounded-md text-sm hover:brightness-95">もっと読む</a>
-                    );
-                  })()}
-                </div>
-              </div>
-            ))}
+              );
+            })}
+          </div>
+          
+          <div className="text-center">
+            <a href="/types" className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 font-medium rounded-lg hover:from-blue-200 hover:to-purple-200 transition-colors">
+              すべての相性パターンを見る
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg>
+            </a>
           </div>
         </div>
 

@@ -23,7 +23,7 @@ const Header = () => {
               <Users className="w-6 h-6 text-white" />
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-gray-900">MBTI診断ガイド</h1>
+              <h4 className="text-xl font-bold text-gray-900">MBTI診断ガイド</h4>
               <p className="text-xs text-gray-500">16タイプ性格分析</p>
             </div>
           </Link>
