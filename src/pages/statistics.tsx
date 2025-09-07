@@ -1,5 +1,6 @@
 // (file defines Statistics component below)
 import { useState } from 'react';
+import Link from 'next/link';
 import { BarChart3, Users, TrendingUp, Globe, Target, Award } from 'lucide-react';
 import Seo from '../components/Seo';
 
@@ -183,7 +184,12 @@ const Statistics = () => {
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center justify-between mb-2">
                         <div>
-                          <span className="text-lg font-semibold text-gray-900">{stat.type}</span>
+                          <Link 
+                            href={`/type/${stat.type.toLowerCase()}`}
+                            className="text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors"
+                          >
+                            {stat.type}
+                          </Link>
                           <span className="text-sm text-gray-500 ml-2">{stat.name}</span>
                         </div>
                         <div className="text-xl font-bold text-gray-900">{stat.percentage}%</div>
@@ -316,7 +322,7 @@ const Statistics = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center">
+        <div className="text-center mb-16">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
             <BarChart3 className="w-16 h-16 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4">あなたはどの統計に当てはまる？</h3>
@@ -330,6 +336,56 @@ const Statistics = () => {
             >
               診断で確認する
             </a>
+          </div>
+        </div>
+
+        {/* Featured Type Analysis */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">注目タイプの詳細分析</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/type/infp" className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 hover:shadow-lg transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-12 h-8 bg-green-500 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">INFP</span>
+                </div>
+                <div className="text-green-600 font-bold text-lg">16.44%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-green-600 transition-colors">仲介者</h4>
+              <p className="text-gray-600 text-sm">日本で最も多いタイプ。創造性と理想主義を兼ね備えた人気のタイプです。</p>
+            </Link>
+            
+            <Link href="/type/enfp" className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 hover:shadow-lg transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-12 h-8 bg-blue-500 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">ENFP</span>
+                </div>
+                <div className="text-blue-600 font-bold text-lg">13.79%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">広報運動家</h4>
+              <p className="text-gray-600 text-sm">第2位の人気タイプ。エネルギッシュで人とのつながりを大切にします。</p>
+            </Link>
+            
+            <Link href="/type/intj" className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 hover:shadow-lg transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-12 h-8 bg-purple-500 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">INTJ</span>
+                </div>
+                <div className="text-purple-600 font-bold text-lg">3.69%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">建築家</h4>
+              <p className="text-gray-600 text-sm">希少なタイプ。戦略的思考と独立性で知られる理想的なリーダー。</p>
+            </Link>
+            
+            <Link href="/type/isfj" className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 hover:shadow-lg transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-12 h-8 bg-orange-500 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">ISFJ</span>
+                </div>
+                <div className="text-orange-600 font-bold text-lg">6.81%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors">擁護者</h4>
+              <p className="text-gray-600 text-sm">献身的で思いやりがあり、安定した関係を築くのが得意なタイプ。</p>
+            </Link>
           </div>
         </div>
       </div>

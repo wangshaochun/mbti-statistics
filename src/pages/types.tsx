@@ -1,5 +1,6 @@
 // React automatic JSX runtime is enabled; import React for types
 import React from 'react';
+import Link from 'next/link';
 import TypeGrid from '../components/TypeGrid';
 import { Brain, Users, Lightbulb, Heart, LucideProps } from 'lucide-react';
 type Category = {
@@ -15,7 +16,7 @@ const TypesOverview = ({ categories }:{ categories:Category[] }) => {
 
   return (
     <div className="min-h-screen bg-white py-12">
-      <Seo title="MBTI 16タイプ一覧 - 各タイプの特徴と活用方法" description="MBTIの16タイプを詳しく紹介。各タイプの特徴、強み・弱み、仕事や人間関係での活かし方を分かりやすく解説します。" />
+      <Seo title="MBTI 16タイプ一覧 - 各タイプの特徴と詳細分析" description="MBTI 16タイプの詳細な特徴、強み・弱み、職業適性を分かりやすく解説。INFP、ENFP、INTJ、ISFJなど人気タイプの分析から、4つのカテゴリー（アナリスト・外交官・番人・探検家）まで網羅。" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -50,10 +51,14 @@ const TypesOverview = ({ categories }:{ categories:Category[] }) => {
                   <p className="text-gray-600 mb-4 text-sm leading-relaxed">{category.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {category.types.map((type: string) => (
-                              <span key={type} className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-md font-medium">
-                                {type}
-                              </span>
-                            ))}
+                      <Link 
+                        key={type}
+                        href={`/type/${type.toLowerCase()}`}
+                        className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-md font-medium hover:bg-blue-100 hover:text-blue-700 transition-colors"
+                      >
+                        {type}
+                      </Link>
+                    ))}
                   </div>
                 </div>
               );
@@ -135,7 +140,7 @@ const TypesOverview = ({ categories }:{ categories:Category[] }) => {
         <TypeGrid />
 
         {/* Call to Action */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-16 mb-16">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">あなたのMBTIタイプを見つけましょう</h3>
             <p className="text-blue-100 mb-6">無料診断であなたの性格タイプを詳しく分析します</p>
@@ -145,6 +150,78 @@ const TypesOverview = ({ categories }:{ categories:Category[] }) => {
             >
               診断を始める
             </a>
+          </div>
+        </div>
+
+        {/* Related Type Recommendations */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">人気のタイプ詳細</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Link href="/type/infp" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-10 h-6 bg-green-500 rounded-md flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">INFP</span>
+                </div>
+                <div className="text-green-600 text-sm font-medium">16.44%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">仲介者</h4>
+              <p className="text-gray-600 text-sm">詩的で親切な利他主義者。創造性と理想主義で日本で最も多いタイプ。</p>
+            </Link>
+            
+            <Link href="/type/enfp" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-10 h-6 bg-blue-500 rounded-md flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">ENFP</span>
+                </div>
+                <div className="text-blue-600 text-sm font-medium">13.79%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">広報運動家</h4>
+              <p className="text-gray-600 text-sm">情熱的で創造的なアイデア触媒。エネルギッシュで人を惹きつける魅力的なタイプ。</p>
+            </Link>
+            
+            <Link href="/type/intj" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-10 h-6 bg-purple-600 rounded-md flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">INTJ</span>
+                </div>
+                <div className="text-purple-600 text-sm font-medium">3.69%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">建築家</h4>
+              <p className="text-gray-600 text-sm">戦略的で洞察力のある独立志向の計画立案者。希少な理想的リーダータイプ。</p>
+            </Link>
+            
+            <Link href="/type/isfj" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-10 h-6 bg-orange-500 rounded-md flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">ISFJ</span>
+                </div>
+                <div className="text-orange-600 text-sm font-medium">6.81%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">擁護者</h4>
+              <p className="text-gray-600 text-sm">思いやりと実務力を兼ね備えた支援型の守り手。安定した人間関係を築くプロ。</p>
+            </Link>
+            
+            <Link href="/type/enfj" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-10 h-6 bg-teal-500 rounded-md flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">ENFJ</span>
+                </div>
+                <div className="text-teal-600 text-sm font-medium">5.59%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">主人公</h4>
+              <p className="text-gray-600 text-sm">カリスマ性があり魅力的なリーダー。人を励まし導く天性のコーチタイプ。</p>
+            </Link>
+            
+            <Link href="/type/intp" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all group">
+              <div className="flex items-center mb-3">
+                <div className="w-10 h-6 bg-indigo-500 rounded-md flex items-center justify-center mr-3">
+                  <span className="text-white text-sm font-bold">INTP</span>
+                </div>
+                <div className="text-indigo-600 text-sm font-medium">7.19%</div>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">論理学者</h4>
+              <p className="text-gray-600 text-sm">概念的探究と原理理解を好む理論構築者。革新的なアイデアの源泉。</p>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Heart, Users, Briefcase, Star, Shield, Zap } from 'lucide-react';
 import Seo from '../components/Seo';
 
@@ -262,13 +263,13 @@ const CompatibilityOverview = () => {
                       </h4>
                       <div className="flex flex-wrap gap-2 justify-center">
                         {types.map((compatibleType) => (
-                          <span 
-                            key={compatibleType} 
-                            className="px-3 py-1 bg-white bg-opacity-70 rounded-md text-sm font-medium cursor-pointer hover:bg-opacity-90 transition-all"
-                            onClick={() => setSelectedType(compatibleType)}
+                          <Link
+                            key={compatibleType}
+                            href={`/type/${compatibleType.toLowerCase()}`}
+                            className="px-3 py-1 bg-white bg-opacity-70 rounded-md text-sm font-medium hover:bg-opacity-90 transition-all"
                           >
                             {compatibleType}
-                          </span>
+                          </Link>
                         ))}
                       </div>
                     </div>
@@ -363,12 +364,12 @@ const CompatibilityOverview = () => {
                       {(() => {
                         const firstType = pair.types.split('×')[0].trim().toLowerCase();
                         return (
-                          <a 
+                          <Link 
                             href={`/type/${firstType}`} 
                             className="inline-block px-4 py-2 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 rounded-md text-sm hover:brightness-95"
                           >
                             詳細ページへ
-                          </a>
+                          </Link>
                         );
                       })()}
                     </div>
@@ -379,12 +380,12 @@ const CompatibilityOverview = () => {
           </div>
           
           <div className="text-center">
-            <a href="/types" className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 font-medium rounded-lg hover:from-blue-200 hover:to-purple-200 transition-colors">
+            <Link href="/types" className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 font-medium rounded-lg hover:from-blue-200 hover:to-purple-200 transition-colors">
               すべての相性パターンを見る
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
 

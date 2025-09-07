@@ -47,8 +47,8 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-white">
       <Seo 
-        title="MBTI 一覧・相性 - 統計と16タイプの解説"
-        description="MBTI 16タイプの特徴・相性・統計データをわかりやすく解説。無料診断や性格タイプ別の仕事・恋愛傾向も確認できます。"
+        title="MBTI 16タイプ一覧・相性診断 - 詳細分析と統計データ"
+        description="MBTI 16タイプの詳細な特徴・相性・統計データを無料で提供。INFP、ENFP、INTJなど人気タイプの分析から、恋愛・仕事・友情の相性診断まで充実のコンテンツ。"
       />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-16 lg:py-24">
@@ -137,14 +137,18 @@ const HomePage = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             {popularTypes.map((type, index) => (
-              <div key={index} className="bg-gray-50 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+              <Link
+                key={index}
+                href={`/type/${type.type.toLowerCase()}`}
+                className="bg-gray-50 rounded-xl p-6 text-center hover:shadow-md transition-shadow group"
+              >
                 <div className={`inline-block px-3 py-1 rounded-full text-sm font-medium ${type.color} mb-3`}>
                   {type.type}
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{type.name}</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">{type.name}</h3>
                 <div className="text-2xl font-bold text-blue-600">{type.percentage}</div>
                 <p className="text-sm text-gray-500 mt-1">人口比</p>
-              </div>
+              </Link>
             ))}
           </div>
           
@@ -160,31 +164,68 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Type Grid Preview */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">MBTI 16タイプ一覧</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              各タイプの特徴と相性を一目で確認できます
-            </p>
+        {/* Type Grid Preview */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">MBTI 16タイプ一覧</h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                各タイプの特徴と相性を一目で確認できます。気になるタイプをクリックして詳細をチェック！
+              </p>
+            </div>
+            
+            <TypeGrid preview={true} />
+            
+            {/* Popular Type Cards with Internal Links */}
+            <div className="mt-12 mb-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">注目のタイプ詳細</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <Link href="/type/infp" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all group">
+                  <div className="flex items-center mb-3">
+                    <div className="w-10 h-6 bg-green-500 rounded-md flex items-center justify-center mr-3">
+                      <span className="text-white text-sm font-bold">INFP</span>
+                    </div>
+                    <h4 className="text-lg font-semibold group-hover:text-blue-600 transition-colors">仲介者</h4>
+                  </div>
+                  <p className="text-gray-600 text-sm">詩的で親切な利他主義者。創造性と理想主義で知られる人気タイプ。</p>
+                  <div className="mt-3 text-blue-600 text-sm font-medium">詳細を見る →</div>
+                </Link>
+                
+                <Link href="/type/enfp" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all group">
+                  <div className="flex items-center mb-3">
+                    <div className="w-10 h-6 bg-green-600 rounded-md flex items-center justify-center mr-3">
+                      <span className="text-white text-sm font-bold">ENFP</span>
+                    </div>
+                    <h4 className="text-lg font-semibold group-hover:text-blue-600 transition-colors">広報運動家</h4>
+                  </div>
+                  <p className="text-gray-600 text-sm">情熱的で創造的なアイデア触媒。人と可能性を結びつけるエネルギッシュなタイプ。</p>
+                  <div className="mt-3 text-blue-600 text-sm font-medium">詳細を見る →</div>
+                </Link>
+                
+                <Link href="/type/intj" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all group">
+                  <div className="flex items-center mb-3">
+                    <div className="w-10 h-6 bg-purple-600 rounded-md flex items-center justify-center mr-3">
+                      <span className="text-white text-sm font-bold">INTJ</span>
+                    </div>
+                    <h4 className="text-lg font-semibold group-hover:text-blue-600 transition-colors">建築家</h4>
+                  </div>
+                  <p className="text-gray-600 text-sm">戦略的で洞察力のある独立志向の計画立案者。長期的ビジョンで知られる。</p>
+                  <div className="mt-3 text-blue-600 text-sm font-medium">詳細を見る →</div>
+                </Link>
+              </div>
+            </div>
+            
+            <div className="text-center mt-8">
+              <Link
+                href="/types"
+                className="inline-flex items-center space-x-2 px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors"
+              >
+                <Brain className="w-5 h-5" />
+                <span>全16タイプを詳しく見る</span>
+              </Link>
+            </div>
           </div>
-          
-          <TypeGrid preview={true} />
-          
-          <div className="text-center mt-8">
-            <Link
-              href="/types"
-              className="inline-flex items-center space-x-2 px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors"
-            >
-              <Brain className="w-5 h-5" />
-              <span>全タイプを詳しく見る</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Compatibility Preview */}
+        </section>      {/* Compatibility Preview */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">

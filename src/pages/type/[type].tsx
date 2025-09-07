@@ -1,5 +1,6 @@
 
 import Seo from '../../components/Seo';
+import Link from 'next/link';
 import { ArrowLeft, Users, Heart, Briefcase, Star } from 'lucide-react';
 import { allTypes, typeData, TypeInfo } from '../../data/types';
 
@@ -25,10 +26,10 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Navigation */}
         <div className="mb-8">
-          <a href="/types" className="flex items-center text-blue-600 hover:text-blue-700 transition-colors">
+          <Link href="/types" className="flex items-center text-blue-600 hover:text-blue-700 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
             タイプ一覧に戻る
-          </a>
+          </Link>
         </div>
 
         {/* Header */}
@@ -110,9 +111,13 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
                 <h3 className="text-xl font-bold text-green-800 mb-4">★★★ 抜群の相性</h3>
                 <div className="flex flex-wrap gap-2">
                   {currentType.compatibility.excellent.map((t: string) => (
-                    <span key={t} className="px-3 py-1 bg-green-200 text-green-800 rounded-lg text-sm font-medium">
+                    <Link
+                      key={t}
+                      href={`/type/${t.toLowerCase()}`}
+                      className="px-3 py-1 bg-green-200 text-green-800 rounded-lg text-sm font-medium hover:bg-green-300 transition-colors"
+                    >
                       {t}
-                    </span>
+                    </Link>
                   ))}
                 </div>
                 <p className="text-green-700 text-sm mt-3">深い理解と成長を促し合える関係</p>
@@ -121,9 +126,13 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
                 <h3 className="text-xl font-bold text-blue-800 mb-4">★★☆ 良好な相性</h3>
                 <div className="flex flex-wrap gap-2">
                   {currentType.compatibility.good.map((t: string) => (
-                    <span key={t} className="px-3 py-1 bg-blue-200 text-blue-800 rounded-lg text-sm font-medium">
+                    <Link
+                      key={t}
+                      href={`/type/${t.toLowerCase()}`}
+                      className="px-3 py-1 bg-blue-200 text-blue-800 rounded-lg text-sm font-medium hover:bg-blue-300 transition-colors"
+                    >
                       {t}
-                    </span>
+                    </Link>
                   ))}
                 </div>
                 <p className="text-blue-700 text-sm mt-3">安定した良い関係を築ける</p>
@@ -132,9 +141,13 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
                 <h3 className="text-xl font-bold text-red-800 mb-4">★☆☆ 要注意の相性</h3>
                 <div className="flex flex-wrap gap-2">
                   {currentType.compatibility.challenging.map((t: string) => (
-                    <span key={t} className="px-3 py-1 bg-red-200 text-red-800 rounded-lg text-sm font-medium">
+                    <Link
+                      key={t}
+                      href={`/type/${t.toLowerCase()}`}
+                      className="px-3 py-1 bg-red-200 text-red-800 rounded-lg text-sm font-medium hover:bg-red-300 transition-colors"
+                    >
                       {t}
-                    </span>
+                    </Link>
                   ))}
                 </div>
                 <p className="text-red-700 text-sm mt-3">理解し合うために努力が必要</p>
@@ -243,7 +256,7 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
         </div>
 
         {/* Call to Action */}
-        <div className="text-center">
+        <div className="text-center mb-16">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">あなたも自分のタイプを詳しく分析しませんか？</h3>
             <p className="text-blue-100 mb-6">
@@ -255,6 +268,51 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
             >
               診断を始める
             </a>
+          </div>
+        </div>
+
+        {/* Related Types */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">他の人気タイプも見てみる</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Show popular types excluding current one */}
+            {[
+              { type: 'INFP', name: '仲介者', desc: '詩的で親切な利他主義者', color: 'bg-green-500' },
+              { type: 'ENFP', name: '広報運動家', desc: '情熱的で創造的な触媒', color: 'bg-blue-500' },
+              { type: 'INTJ', name: '建築家', desc: '戦略的な独立志向者', color: 'bg-purple-500' },
+              { type: 'ISFJ', name: '擁護者', desc: '思いやり深い守り手', color: 'bg-orange-500' }
+            ]
+              .filter(relatedType => relatedType.type !== upperType)
+              .slice(0, 3)
+              .map((relatedType, index) => (
+                <Link 
+                  key={index}
+                  href={`/type/${relatedType.type.toLowerCase()}`}
+                  className="bg-white rounded-xl shadow-sm p-6 hover:shadow-lg transition-all group"
+                >
+                  <div className={`w-12 h-8 ${relatedType.color} rounded-lg flex items-center justify-center mb-3`}>
+                    <span className="text-white text-sm font-bold">{relatedType.type}</span>
+                  </div>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                    {relatedType.name}
+                  </h4>
+                  <p className="text-gray-600 text-sm">{relatedType.desc}</p>
+                  <div className="mt-3 text-blue-600 text-sm font-medium">詳細を見る →</div>
+                </Link>
+              ))}
+            
+            {/* Link to all types */}
+            <Link 
+              href="/types"
+              className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 hover:shadow-lg transition-all group flex flex-col items-center justify-center text-center"
+            >
+              <Users className="w-12 h-12 text-gray-400 mb-3 group-hover:text-blue-500 transition-colors" />
+              <h4 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                全16タイプ
+              </h4>
+              <p className="text-gray-600 text-sm">すべてのMBTIタイプを見る</p>
+              <div className="mt-3 text-blue-600 text-sm font-medium">一覧を見る →</div>
+            </Link>
           </div>
         </div>
       </div>
