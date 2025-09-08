@@ -105,7 +105,7 @@ INTPにはもう一つの面白い特徴がある。それは各種の知恵遊�
 過度に理論的であり、現実性を軽視或いは無視する可能性がある
     `,
     author: 'MBTI専門研究者',
-    publishDate: '2025-02-07',
+    publishDate: '2025-09-08',
     tags: ['INTP'],
     readTime: 10,
     image: '/images/intp-01.png'

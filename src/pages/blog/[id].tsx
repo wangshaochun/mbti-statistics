@@ -1,17 +1,18 @@
 import React from 'react';
-import { useRouter } from 'next/router';
+import { GetStaticProps, GetStaticPaths } from 'next';
 import Link from 'next/link';
 import { Calendar, Clock, User, Tag, ArrowLeft } from 'lucide-react';
 import { blogPosts, BlogPost } from '../../data/blogs';
 import Seo from '../../components/Seo';
 import MarkdownRenderer from '../../components/MarkdownRenderer';
+import seoConfig from '../../config/seo.config';
 
-const BlogPostPage = () => {
-  const router = useRouter();
-  const { id } = router.query;
+interface BlogPostPageProps {
+  post: BlogPost | null;
+  relatedPosts: BlogPost[];
+}
 
-  const post = blogPosts.find((p: BlogPost) => p.id === id);
-
+const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
   if (!post) {
     return (
       <>
@@ -40,17 +41,19 @@ const BlogPostPage = () => {
     });
   };
 
-  const relatedPosts = blogPosts
-    .filter((p: BlogPost) => p.id !== post.id && 
-      p.tags.some((tag: string) => post.tags.includes(tag))
-    )
-    .slice(0, 3);
-
   return (
     <>
       <Seo 
-        title={`${post.title} - MBTI診断ガイド`}
+        title={`${post.title}`}
         description={post.excerpt}
+        type="article"
+        image={post.image}
+        canonical={`${seoConfig.siteUrl}/blog/${post.id}`}
+        article={{
+          publishedTime: new Date(post.publishDate).toISOString(),
+          author: post.author,
+          tags: post.tags
+        }}
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* 戻るボタン */}
@@ -262,6 +265,40 @@ const BlogPostPage = () => {
       </div>
     </>
   );
+};
+
+// 获取所有可能的博客ID路径
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = blogPosts.map((post) => ({
+    params: { id: post.id },
+  }));
+
+  return {
+    paths,
+    fallback: false, // 404页面用于不存在的路径
+  };
+};
+
+// 获取特定博客文章的数据
+export const getStaticProps: GetStaticProps<BlogPostPageProps> = async ({ params }) => {
+  const id = params?.id as string;
+  const post = blogPosts.find((p: BlogPost) => p.id === id) || null;
+
+  // 获取相关文章
+  const relatedPosts = post
+    ? blogPosts
+        .filter((p: BlogPost) => p.id !== post.id && 
+          p.tags.some((tag: string) => post.tags.includes(tag))
+        )
+        .slice(0, 3)
+    : [];
+
+  return {
+    props: {
+      post,
+      relatedPosts,
+    },
+  };
 };
 
 export default BlogPostPage;

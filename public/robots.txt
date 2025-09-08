@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# すべての爬虫類アクセスを許可
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://mbti-aisho.com/sitemap.xml
+
+Crawl-delay: 1
