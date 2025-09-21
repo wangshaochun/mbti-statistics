@@ -1,6 +1,7 @@
 import React from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Calendar, Clock, User, Tag, ArrowLeft } from 'lucide-react';
 import { blogPosts, BlogPost } from '../../data/blogs';
 import Seo from '../../components/Seo';
@@ -69,20 +70,10 @@ const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
 
         {/* 記事ヘッダー */}
         <article className="bg-white rounded-lg shadow-md overflow-hidden">
-          {/* 記事画像 */}
-          {post.image && (
-            <div className="h-40 md:h-40 bg-gradient-to-br from-blue-500 to-purple-600 relative overflow-hidden">
-              <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-                <h1 className="text-white text-2xl md:text-4xl font-bold text-center px-6">
-                  {post.title}
-                </h1>
-              </div>
-            </div>
-          )}
-
+          {/* 記事画像 */} 
           <div className="p-6 md:p-8">
             {/* タイトル（画像がない場合） */}
-            {!post.image && (
+            { (
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 {post.title}
               </h1>
@@ -108,7 +99,18 @@ const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8">
               <p className="text-blue-800 font-medium">{post.excerpt}</p>
             </div>
-
+              {/* imamge */}
+              {post.image && (
+                <div className="mb-8">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    width={600}
+                    height={400}
+                    className="w-full h-auto rounded-lg shadow-md" 
+                  />
+                </div>
+              )}
             {/* 記事本文 - 使用 MarkdownRenderer 解析 */}
             <MarkdownRenderer content={post.content} />
 
