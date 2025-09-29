@@ -9,4 +9,4 @@ Disallow: /admin/
 # Sitemap
 Sitemap: https://mbti-aisho.com/sitemap.xml
 
-Crawl-delay: 1
+Crawl-delay: 15
