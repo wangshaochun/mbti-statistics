@@ -1,12 +1,26 @@
 
 import Seo from '../../components/Seo';
 import Link from 'next/link';
-import { ArrowLeft, Users, Heart, Briefcase, Star } from 'lucide-react';
+import { ArrowLeft, Users, Heart, Briefcase, Star, HeartHandshake, AlertTriangle, MessageCircle, Sparkles, Newspaper } from 'lucide-react';
 import { allTypes, typeData, TypeInfo } from '../../data/types';
+import { blogPosts, BlogPost } from '../../data/blogs';
 
 export default function TypeDetailPage({ type, data }: { type: string; data: TypeInfo | null }) {
   const upperType = type ? type.toUpperCase() : undefined;
   const currentType = data;
+  const formatDate = (dateString: string) =>
+    new Date(dateString).toLocaleDateString('ja-JP', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  const relatedBlogs: BlogPost[] = upperType
+    ? blogPosts
+        .filter(post =>
+          post.tags.some(tag => tag.toUpperCase() === upperType)
+        )
+        .slice(0, 6)
+    : [];
 
   if (!currentType) {
     return (
@@ -255,6 +269,242 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
           </div>
         </div>
 
+        {/* Love Tendencies */}
+        {currentType.loveTendencies && (
+          <div className="mb-12">
+            <div className="bg-pink-50 rounded-2xl p-8 shadow-sm">
+              <h2 className="text-2xl font-bold text-pink-800 mb-4 flex items-center">
+                <HeartHandshake className="w-6 h-6 mr-3" />
+                恋愛傾向とアドバイス
+              </h2>
+              {currentType.loveTendencies.approach && (
+                <p className="text-pink-900 text-sm md:text-base mb-6 leading-relaxed">
+                  {currentType.loveTendencies.approach}
+                </p>
+              )}
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div>
+                  <h3 className="text-lg font-semibold text-pink-900 mb-3">得意なスタイル</h3>
+                  <ul className="space-y-2 text-sm text-pink-900">
+                    {currentType.loveTendencies.strengths.map((item, idx) => (
+                      <li key={idx} className="flex items-start">
+                        <span className="mt-1 mr-2 text-pink-600">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-pink-900 mb-3">課題になりやすい点</h3>
+                  <ul className="space-y-2 text-sm text-pink-900">
+                    {currentType.loveTendencies.challenges.map((item, idx) => (
+                      <li key={idx} className="flex items-start">
+                        <span className="mt-1 mr-2 text-pink-600">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-pink-900 mb-3">長続きのヒント</h3>
+                  <ul className="space-y-2 text-sm text-pink-900">
+                    {currentType.loveTendencies.advice.map((item, idx) => (
+                      <li key={idx} className="flex items-start">
+                        <span className="mt-1 mr-2 text-pink-600">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              {currentType.loveTendencies.idealPartnerTraits && currentType.loveTendencies.idealPartnerTraits.length > 0 && (
+                <div className="mt-6">
+                  <h3 className="text-sm font-semibold text-pink-800 mb-2">相性が良いと感じやすい特徴</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {currentType.loveTendencies.idealPartnerTraits.map((trait, idx) => (
+                      <span key={idx} className="px-3 py-1 bg-pink-100 text-pink-700 rounded-full text-xs md:text-sm">
+                        {trait}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Stress Response */}
+        {currentType.stressResponse && (
+          <div className="mb-12">
+            <div className="bg-red-50 rounded-2xl p-8 shadow-sm border border-red-100">
+              <h2 className="text-2xl font-bold text-red-800 mb-4 flex items-center">
+                <AlertTriangle className="w-6 h-6 mr-3" />
+                ストレスサインとセルフケア
+              </h2>
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 text-sm text-red-900">
+                <div>
+                  <h3 className="font-semibold mb-2">現れやすいサイン</h3>
+                  <ul className="space-y-2">
+                    {currentType.stressResponse.signs.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">主なトリガー</h3>
+                  <ul className="space-y-2">
+                    {currentType.stressResponse.triggers.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">おすすめ対処法</h3>
+                  <ul className="space-y-2">
+                    {currentType.stressResponse.copingStrategies.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                {currentType.stressResponse.avoid && currentType.stressResponse.avoid.length > 0 && (
+                  <div>
+                    <h3 className="font-semibold mb-2">避けたい行動</h3>
+                    <ul className="space-y-2">
+                      {currentType.stressResponse.avoid.map((item, idx) => (
+                        <li key={idx}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Communication Style */}
+        {currentType.communicationStyle && (
+          <div className="mb-12">
+            <div className="bg-blue-50 rounded-2xl p-8 shadow-sm">
+              <h2 className="text-2xl font-bold text-blue-800 mb-4 flex items-center">
+                <MessageCircle className="w-6 h-6 mr-3" />
+                コミュニケーションの特徴
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-blue-900">
+                <div>
+                  <h3 className="font-semibold mb-2">強み</h3>
+                  <ul className="space-y-2">
+                    {currentType.communicationStyle.strengths.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">課題</h3>
+                  <ul className="space-y-2">
+                    {currentType.communicationStyle.challenges.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">周囲が意識すると良いこと</h3>
+                  <ul className="space-y-2">
+                    {currentType.communicationStyle.tipsForOthers.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">本人へのヒント</h3>
+                  <ul className="space-y-2">
+                    {currentType.communicationStyle.tipsForSelf.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Team Role */}
+        {currentType.teamRole && (
+          <div className="mb-12">
+            <div className="bg-indigo-50 rounded-2xl p-8 shadow-sm border border-indigo-100">
+              <h2 className="text-2xl font-bold text-indigo-900 mb-4 flex items-center">
+                <Users className="w-6 h-6 mr-3" />
+                チームでの役割
+              </h2>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 text-sm text-indigo-900">
+                <div>
+                  <h3 className="font-semibold mb-2">得意なポジション</h3>
+                  <ul className="space-y-2">
+                    {currentType.teamRole.preferredRoles.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">協働のコツ</h3>
+                  <ul className="space-y-2">
+                    {currentType.teamRole.collaborationTips.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                {currentType.teamRole.leadershipNotes && currentType.teamRole.leadershipNotes.length > 0 && (
+                  <div>
+                    <h3 className="font-semibold mb-2">リーダーシップメモ</h3>
+                    <ul className="space-y-2">
+                      {currentType.teamRole.leadershipNotes.map((item, idx) => (
+                        <li key={idx}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Famous People */}
+        {currentType.famousPeople && (
+          <div className="mb-12">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                <Sparkles className="w-6 h-6 mr-3 text-yellow-500" />
+                代表的な人物例
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {currentType.famousPeople.real && currentType.famousPeople.real.length > 0 && (
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-800 mb-2">実在の人物</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {currentType.famousPeople.real.map((person, idx) => (
+                        <span key={idx} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
+                          {person}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {currentType.famousPeople.fictional && currentType.famousPeople.fictional.length > 0 && (
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-800 mb-2">架空のキャラクター</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {currentType.famousPeople.fictional.map((person, idx) => (
+                        <span key={idx} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
+                          {person}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Call to Action */}
         <div className="text-center mb-16">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
@@ -315,6 +565,49 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
             </Link>
           </div>
         </div>
+
+        {/* Related Blogs */}
+        {relatedBlogs.length > 0 && (
+          <div className="mb-16">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center flex items-center justify-center">
+              <Newspaper className="w-6 h-6 mr-2 text-blue-600" />
+              関連ブログ記事
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedBlogs.map(post => (
+                <Link
+                  key={post.id}
+                  href={`/blog/${post.id}`}
+                  className="bg-white rounded-xl shadow-sm p-6 hover:shadow-lg transition-all flex flex-col h-full"
+                >
+                  <div className="flex items-center justify-between text-xs text-blue-600 font-semibold mb-3">
+                    <span className="uppercase tracking-wider">{upperType}</span>
+                    <span>{formatDate(post.publishDate)}</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3 leading-snug">
+                    {post.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 mb-4">
+                    {post.excerpt.length > 80 ? `${post.excerpt.slice(0, 80)}…` : post.excerpt}
+                  </p>
+                  <div className="mt-auto pt-4 border-t border-gray-100 text-xs text-gray-500 flex items-center justify-between">
+                    <span>読了時間 {post.readTime}分</span>
+                    <span className="flex flex-wrap gap-1 justify-end">
+                      {post.tags.slice(0, 2).map(tag => (
+                        <span
+                          key={tag}
+                          className="px-2 py-0.5 bg-blue-50 text-blue-600 rounded-full"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
