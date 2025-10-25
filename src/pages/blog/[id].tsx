@@ -101,13 +101,11 @@ const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
             </div>
               {/* imamge */}
               {post.image && (
-                <div className="mb-8">
-                  <Image
+                <div className="mb-8 flex justify-center">
+                  <img
                     src={post.image}
                     alt={post.title}
-                    width={600}
-                    height={400}
-                    className="w-full h-auto rounded-lg shadow-md" 
+                    className="w-4/5 h-auto rounded-lg shadow-md" 
                   />
                 </div>
               )}
