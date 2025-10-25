@@ -1,7 +1,6 @@
 import React from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Calendar, Clock, User, Tag, ArrowLeft } from 'lucide-react';
 import { blogPosts, BlogPost } from '../../data/blogs';
 import Seo from '../../components/Seo';
