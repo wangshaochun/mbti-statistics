@@ -2,14 +2,15 @@ import React from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import Link from 'next/link';
 import { Calendar, Clock, User, Tag, ArrowLeft } from 'lucide-react';
-import { blogPosts, BlogPost } from '../../data/blogs';
 import Seo from '../../components/Seo';
 import MarkdownRenderer from '../../components/MarkdownRenderer';
 import seoConfig from '../../config/seo.config';
 
+import type { BlogPost, BlogPostMeta } from '../../lib/blog';
+
 interface BlogPostPageProps {
   post: BlogPost | null;
-  relatedPosts: BlogPost[];
+  relatedPosts: BlogPostMeta[];
 }
 
 const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
@@ -116,13 +117,14 @@ const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
               <h3 className="text-lg font-semibold text-gray-900 mb-4">タグ</h3>
               <div className="flex flex-wrap gap-2">
                 {post.tags.map((tag: string) => (
-                  <span 
+                  <Link
                     key={tag}
+                    href={{ pathname: '/blog', query: { tag } }}
                     className="inline-flex items-center px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm hover:bg-gray-200 transition-colors"
                   >
                     <Tag className="w-3 h-3 mr-1" />
                     {tag}
-                  </span>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -199,7 +201,7 @@ const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
           <section className="mt-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">関連記事</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {relatedPosts.map((relatedPost: BlogPost) => (
+              {relatedPosts.map((relatedPost) => (
                 <article 
                   key={relatedPost.id}
                   className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
@@ -268,9 +270,8 @@ const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
 
 // 获取所有可能的博客ID路径
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = blogPosts.map((post) => ({
-    params: { id: post.id },
-  }));
+  const { getAllBlogIds } = await import('../../lib/blog');
+  const paths = getAllBlogIds().map((id) => ({ params: { id } }));
 
   return {
     paths,
@@ -281,14 +282,18 @@ export const getStaticPaths: GetStaticPaths = async () => {
 // 获取特定博客文章的数据
 export const getStaticProps: GetStaticProps<BlogPostPageProps> = async ({ params }) => {
   const id = params?.id as string;
-  const post = blogPosts.find((p: BlogPost) => p.id === id) || null;
+  const { getBlogById, getAllBlogMetas } = await import('../../lib/blog');
+  let post: BlogPost | null = null;
+  try {
+    post = getBlogById(id);
+  } catch {
+    post = null;
+  }
 
   // 获取相关文章
   const relatedPosts = post
-    ? blogPosts
-        .filter((p: BlogPost) => p.id !== post.id && 
-          p.tags.some((tag: string) => post.tags.includes(tag))
-        )
+    ? getAllBlogMetas()
+        .filter((p) => p.id !== post.id && p.tags.some((tag) => post.tags.includes(tag)))
         .slice(0, 3)
     : [];
 

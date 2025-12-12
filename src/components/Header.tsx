@@ -24,8 +24,8 @@ const Header = () => {
               <Users className="w-6 h-6 text-white" />
             </div>
             <div className="hidden sm:block">
-              <h4 className="text-xl font-bold text-gray-900">MBTI診断ガイド</h4>
-              <p className="text-xs text-gray-500">16タイプ性格分析</p>
+              <h4 className="text-xl font-bold text-gray-900">MBTI相性診断ガイド</h4>
+              <p className="text-xs text-gray-500">16タイプ性格分析・相性</p>
             </div>
           </Link>
 

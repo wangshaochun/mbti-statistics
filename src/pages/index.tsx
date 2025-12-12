@@ -6,7 +6,9 @@ import Seo from '../components/Seo';
 import CompatibilityPreview from '../components/CompatibilityPreview';
 import BlogPreview from '../components/BlogPreview';
 
-const HomePage = () => {
+import type { BlogPostMeta } from '../lib/blog';
+
+const HomePage = ({ latestPosts }: { latestPosts: BlogPostMeta[] }) => {
   const keyFeatures = [
     {
       icon: Brain,
@@ -251,7 +253,7 @@ const HomePage = () => {
       </section>
 
       {/* Blog Preview */}
-      <BlogPreview limit={3} showTitle={true} />
+      <BlogPreview limit={3} showTitle={true} posts={latestPosts} />
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
@@ -282,5 +284,7 @@ export default HomePage;
 
 // 显式导出以确保 Next.js 使用静态生成（即使内容全是静态）
 export async function getStaticProps() {
-  return { props: {} };
+  const { getAllBlogMetas } = await import('../lib/blog');
+  const latestPosts = getAllBlogMetas().slice(0, 6);
+  return { props: { latestPosts } };
 }

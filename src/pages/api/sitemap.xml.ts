@@ -1,7 +1,9 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { blogPosts } from '../../data/blogs';
+import { allTypes } from '../../data/types';
+import { getAllBlogMetas } from '../../lib/blog';
+import seoConfig from '../../config/seo.config';
 
-const SITE_URL = 'https://mbti-aisho.com'; // 请替换为实际域名
+const SITE_URL = seoConfig.siteUrl;
 
 function generateSiteMap() {
   const staticPages = [
@@ -13,6 +15,8 @@ function generateSiteMap() {
     '/statistics',
     '/characters'
   ];
+
+  const typePages = allTypes.map((t) => `/type/${t}`);
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -28,8 +32,19 @@ function generateSiteMap() {
   `;
     })
     .join('')}
-  ${blogPosts
-    .map((post) => {
+  ${typePages
+    .map((page) => {
+      return `
+    <url>
+      <loc>${SITE_URL}${page}</loc>
+      <lastmod>${new Date().toISOString()}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  `;
+    })
+    .join('')}
+  ${getAllBlogMetas().map((post) => {
       return `
     <url>
       <loc>${SITE_URL}/blog/${post.id}</loc>
@@ -38,8 +53,7 @@ function generateSiteMap() {
       <priority>0.7</priority>
     </url>
   `;
-    })
-    .join('')}
+    }).join('')}
 </urlset>
 `;
 }

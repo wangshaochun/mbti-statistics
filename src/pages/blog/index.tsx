@@ -1,16 +1,45 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { Calendar, Clock, User, Tag } from 'lucide-react';
-import { blogPosts, popularTags, BlogPost } from '../../data/blogs';
 import Seo from '../../components/Seo';
+import type { BlogPostMeta } from '../../lib/blog';
 
-const BlogPage = () => {
+export async function getStaticProps() {
+  const { getAllBlogMetas, getPopularTags } = await import('../../lib/blog');
+  const posts = getAllBlogMetas();
+  const popularTags = getPopularTags();
+  return { props: { posts, popularTags } };
+}
+
+const BlogPage = ({ posts, popularTags }: { posts: BlogPostMeta[]; popularTags: string[] }) => {
+  const router = useRouter();
   const [selectedTag, setSelectedTag] = useState('');
 
-  const filteredPosts = blogPosts.filter((post: BlogPost) => {
-    const matchesTag = !selectedTag || post.tags.includes(selectedTag);
-    return matchesTag;
-  });
+  useEffect(() => {
+    if (!router.isReady) return;
+    const tagFromQuery = typeof router.query.tag === 'string' ? router.query.tag : '';
+    setSelectedTag(tagFromQuery);
+  }, [router.isReady, router.query.tag]);
+
+  const updateTag = (nextTag: string) => {
+    setSelectedTag(nextTag);
+    void router.push(
+      {
+        pathname: '/blog',
+        query: nextTag ? { tag: nextTag } : {},
+      },
+      undefined,
+      { shallow: true }
+    );
+  };
+
+  const filteredPosts = posts
+    .filter((post) => {
+      const matchesTag = !selectedTag || post.tags.includes(selectedTag);
+      return matchesTag;
+    })
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('ja-JP', {
@@ -47,7 +76,7 @@ const BlogPage = () => {
             
             <div className="flex flex-wrap gap-3 justify-center">
               <button
-                onClick={() => setSelectedTag('')}
+                onClick={() => updateTag('')}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   !selectedTag
                     ? 'bg-blue-500 text-white shadow-md'
@@ -59,7 +88,7 @@ const BlogPage = () => {
               {popularTags.map((tag: string) => (
                 <button
                   key={tag}
-                  onClick={() => setSelectedTag(selectedTag === tag ? '' : tag)}
+                  onClick={() => updateTag(selectedTag === tag ? '' : tag)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                     selectedTag === tag
                       ? 'bg-blue-500 text-white shadow-md'
@@ -74,7 +103,7 @@ const BlogPage = () => {
 
           {/* 記事一覧 */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredPosts.map((post: BlogPost) => (
+            {filteredPosts.map((post) => (
               <article 
                 key={post.id}
                 className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
@@ -165,7 +194,7 @@ const BlogPage = () => {
                   他のタグを試すか、すべての記事を表示してください。
                 </p>
                 <button
-                  onClick={() => setSelectedTag('')}
+                  onClick={() => updateTag('')}
                   className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   すべての記事を表示

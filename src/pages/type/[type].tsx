@@ -3,9 +3,9 @@ import Seo from '../../components/Seo';
 import Link from 'next/link';
 import { ArrowLeft, Users, Heart, Briefcase, Star, HeartHandshake, AlertTriangle, MessageCircle, Sparkles, Newspaper } from 'lucide-react';
 import { allTypes, typeData, TypeInfo } from '../../data/types';
-import { blogPosts, BlogPost } from '../../data/blogs';
+import type { BlogPostMeta } from '../../lib/blog';
 
-export default function TypeDetailPage({ type, data }: { type: string; data: TypeInfo | null }) {
+export default function TypeDetailPage({ type, data, relatedBlogs }: { type: string; data: TypeInfo | null; relatedBlogs: BlogPostMeta[] }) {
   const upperType = type ? type.toUpperCase() : undefined;
   const currentType = data;
   const formatDate = (dateString: string) =>
@@ -14,13 +14,7 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
       month: 'long',
       day: 'numeric'
     });
-  const relatedBlogs: BlogPost[] = upperType
-    ? blogPosts
-        .filter(post =>
-          post.tags.some(tag => tag.toUpperCase() === upperType)
-        )
-        .slice(0, 6)
-    : [];
+  const safeRelatedBlogs = relatedBlogs ?? [];
 
   if (!currentType) {
     return (
@@ -567,14 +561,14 @@ export default function TypeDetailPage({ type, data }: { type: string; data: Typ
         </div>
 
         {/* Related Blogs */}
-        {relatedBlogs.length > 0 && (
+        {safeRelatedBlogs.length > 0 && (
           <div className="mb-16">
             <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center flex items-center justify-center">
               <Newspaper className="w-6 h-6 mr-2 text-blue-600" />
               関連ブログ記事
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {relatedBlogs.map(post => (
+              {safeRelatedBlogs.map(post => (
                 <Link
                   key={post.id}
                   href={`/blog/${post.id}`}
@@ -621,5 +615,9 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }: { params: { type: string } }) {
   const key = params.type.toUpperCase();
   const data: TypeInfo | null = (typeData as Record<string, TypeInfo>)[key] ?? null;
-  return { props: { type: params.type, data } };
+  const { getAllBlogMetas } = await import('../../lib/blog');
+  const relatedBlogs = getAllBlogMetas()
+    .filter((post) => post.tags.some((tag) => tag.toUpperCase() === key))
+    .slice(0, 6);
+  return { props: { type: params.type, data, relatedBlogs } };
 }

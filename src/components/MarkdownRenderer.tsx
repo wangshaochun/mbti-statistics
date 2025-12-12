@@ -1,10 +1,18 @@
 import React from 'react';
+import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 interface MarkdownRendererProps {
   content: string;
 }
+
+const isInternalLink = (href?: string) => {
+  if (!href) return false;
+  if (href.startsWith('/')) return true;
+  if (href.startsWith('#')) return true;
+  return false;
+};
 
 const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
   return (
@@ -136,14 +144,23 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
           
           // 链接样式
           a: ({children, href}) => (
-            <a 
-              href={href} 
-              className="text-blue-600 hover:text-blue-800 underline transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {children}
-            </a>
+            isInternalLink(href) ? (
+              <Link
+                href={href || '#'}
+                className="text-blue-600 hover:text-blue-800 underline transition-colors"
+              >
+                {children}
+              </Link>
+            ) : (
+              <a
+                href={href}
+                className="text-blue-600 hover:text-blue-800 underline transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {children}
+              </a>
+            )
           ),
           
           // 分隔线样式

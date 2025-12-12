@@ -6,6 +6,14 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap.xml',
+      },
+    ];
+  },
 };
 
 const withMDX = createMDX({

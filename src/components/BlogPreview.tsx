@@ -1,21 +1,22 @@
 import React from 'react';
 import Link from 'next/link';
 import { Calendar, Clock, User, ArrowRight } from 'lucide-react';
-import { blogPosts, BlogPost } from '../data/blogs';
+import type { BlogPostMeta } from '../lib/blog';
 
 interface BlogPreviewProps {
   limit?: number;
   showTitle?: boolean;
+  posts?: BlogPostMeta[];
 }
 
 const BlogPreview: React.FC<BlogPreviewProps> = ({ 
   limit = 3, 
-  showTitle = true 
+  showTitle = true,
+  posts = []
 }) => {
-  const latestPosts = blogPosts
-    .sort((a: BlogPost, b: BlogPost) => 
-      new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
-    )
+  const latestPosts = posts
+    .slice()
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime())
     .slice(0, limit);
 
   const formatDate = (dateString: string) => {
@@ -41,7 +42,7 @@ const BlogPreview: React.FC<BlogPreviewProps> = ({
         )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {latestPosts.map((post: BlogPost) => (
+          {latestPosts.map((post) => (
             <article 
               key={post.id}
               className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow group"

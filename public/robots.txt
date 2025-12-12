@@ -3,6 +3,7 @@ Allow: /
 
 # すべての爬虫類アクセスを許可
 Disallow: /api/
+Allow: /api/sitemap.xml
 Disallow: /_next/
 Disallow: /admin/
 
