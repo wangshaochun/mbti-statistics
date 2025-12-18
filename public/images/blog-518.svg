@@ -1,0 +1,29 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad518" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff9a9e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fecfef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a1c4fd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad518)" />
+  
+  <!-- Character: Split personality (Introvert/Extrovert) -->
+  <g transform="translate(400, 225)">
+    <!-- Left side (Introvert) -->
+    <path d="M0,-100 A100,100 0 0,0 0,100 Z" fill="#4834d4" opacity="0.8" />
+    <!-- Right side (Extrovert) -->
+    <path d="M0,-100 A100,100 0 0,1 0,100 Z" fill="#f0932b" opacity="0.8" />
+    
+    <!-- Face details -->
+    <circle cx="-30" cy="-20" r="5" fill="#fff" />
+    <circle cx="30" cy="-20" r="5" fill="#fff" />
+    <path d="M-40,30 Q0,60 40,30" stroke="#fff" stroke-width="4" fill="none" />
+    
+    <!-- Icons -->
+    <path d="M-150,0 L-130,-20 L-110,0" stroke="#fff" stroke-width="3" fill="none" /> <!-- Book/Quiet -->
+    <circle cx="150" cy="0" r="15" fill="#fff" opacity="0.5" /> <!-- Party/Social -->
+  </g>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#333" text-anchor="middle">Introvert vs Extrovert</text>
+</svg>

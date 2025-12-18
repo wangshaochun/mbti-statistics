@@ -1,0 +1,8 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#fef2f2" />
+  <circle cx="450" cy="250" r="80" fill="#ef4444" opacity="0.2" />
+  <circle cx="750" cy="250" r="80" fill="#3b82f6" opacity="0.2" />
+  <line x1="530" y1="250" x2="670" y2="250" stroke="#94a3b8" stroke-width="4" stroke-dasharray="10,10" />
+  <text x="600" y="480" font-family="Arial" font-size="40" font-weight="bold" fill="#1e293b" text-anchor="middle">なぜ私たちは特定の人を嫌うのか？</text>
+  <text x="600" y="540" font-family="Arial" font-size="24" fill="#64748b" text-anchor="middle">性格タイプは本当に影響するのか</text>
+</svg>

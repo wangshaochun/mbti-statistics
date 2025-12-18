@@ -1,0 +1,11 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f0f9ff" />
+  <g stroke="#0ea5e9" stroke-width="2" fill="none">
+    <rect x="400" y="150" width="200" height="100" />
+    <rect x="600" y="150" width="200" height="100" />
+    <rect x="400" y="250" width="200" height="100" />
+    <rect x="600" y="250" width="200" height="100" />
+  </g>
+  <text x="600" y="480" font-family="Arial" font-size="40" font-weight="bold" fill="#1e293b" text-anchor="middle">MBTIテスト結果の理解方法</text>
+  <text x="600" y="540" font-family="Arial" font-size="24" fill="#64748b" text-anchor="middle">4つの次元の意味を包括的に解説</text>
+</svg>

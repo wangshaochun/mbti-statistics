@@ -1,0 +1,7 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f1f5f9" />
+  <circle cx="600" cy="250" r="120" fill="none" stroke="#94a3b8" stroke-width="10" stroke-dasharray="20,20" />
+  <text x="600" y="290" font-family="Arial" font-size="150" font-weight="bold" fill="#94a3b8" text-anchor="middle">?</text>
+  <text x="600" y="480" font-family="Arial" font-size="40" font-weight="bold" fill="#1e293b" text-anchor="middle">MBTIテスト結果が不明確？</text>
+  <text x="600" y="540" font-family="Arial" font-size="24" fill="#64748b" text-anchor="middle">その背景にある原因と解決策を解説</text>
+</svg>

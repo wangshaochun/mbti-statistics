@@ -1,0 +1,27 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad519" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#84fab0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8fd3f4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad519)" />
+  
+  <!-- Character: Social Introvert in a crowd -->
+  <g transform="translate(400, 225)">
+    <!-- Background silhouettes -->
+    <circle cx="-150" cy="50" r="30" fill="#fff" opacity="0.3" />
+    <circle cx="150" cy="50" r="30" fill="#fff" opacity="0.3" />
+    <circle cx="0" cy="100" r="40" fill="#fff" opacity="0.3" />
+    
+    <!-- Main Character -->
+    <circle cx="0" cy="-50" r="45" fill="#ffdbac" />
+    <path d="M-40,0 Q-40,100 0,100 Q40,100 40,0 Z" fill="#2d3436" />
+    
+    <!-- Thought bubble -->
+    <path d="M60,-100 Q100,-140 140,-100 Q180,-60 140,-20 Q100,20 60,-20 Z" fill="#fff" opacity="0.9" />
+    <text x="100" y="-65" font-family="Arial" font-size="12" fill="#333">Home soon?</text>
+  </g>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2d3436" text-anchor="middle">Social Introvert</text>
+</svg>

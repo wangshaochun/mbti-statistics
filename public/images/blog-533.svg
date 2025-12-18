@@ -1,0 +1,30 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad533" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad533)" />
+  
+  <!-- Character: 8 Functions & MBTI -->
+  <g transform="translate(400, 225)">
+    <!-- Circle of functions -->
+    <circle cx="0" cy="0" r="120" stroke="#fff" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+    
+    <!-- Small circles for functions -->
+    <circle cx="0" cy="-120" r="15" fill="#fff" opacity="0.8" />
+    <circle cx="85" cy="-85" r="15" fill="#fff" opacity="0.8" />
+    <circle cx="120" cy="0" r="15" fill="#fff" opacity="0.8" />
+    <circle cx="85" cy="85" r="15" fill="#fff" opacity="0.8" />
+    <circle cx="0" cy="120" r="15" fill="#fff" opacity="0.8" />
+    <circle cx="-85" cy="85" r="15" fill="#fff" opacity="0.8" />
+    <circle cx="-120" cy="0" r="15" fill="#fff" opacity="0.8" />
+    <circle cx="-85" cy="-85" r="15" fill="#fff" opacity="0.8" />
+    
+    <!-- Character -->
+    <circle cx="0" cy="0" r="50" fill="#ffdbac" />
+  </g>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">8 Functions & MBTI</text>
+</svg>

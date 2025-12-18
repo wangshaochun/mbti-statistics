@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#fff7ed" />
+  <path d="M300 300 Q300 150 450 150 Q600 150 600 300 Q600 450 450 450 Q300 450 300 300" fill="#f97316" opacity="0.2" />
+  <text x="450" y="330" font-family="Arial" font-size="100" font-weight="bold" fill="#f97316" text-anchor="middle">T</text>
+  <path d="M750 180 Q850 100 950 180 Q1050 260 950 380 L850 480 L750 380 Q650 260 750 180" fill="#ef4444" opacity="0.2" />
+  <text x="850" y="330" font-family="Arial" font-size="100" font-weight="bold" fill="#ef4444" text-anchor="middle">F</text>
+  <text x="600" y="520" font-family="Arial" font-size="40" font-weight="bold" fill="#1e293b" text-anchor="middle">MBTIにおける理性と感性</text>
+  <text x="600" y="570" font-family="Arial" font-size="24" fill="#64748b" text-anchor="middle">T型とF型の違いと判別方法</text>
+</svg>

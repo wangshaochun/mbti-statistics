@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f0fdf4" />
+  <rect x="350" y="150" width="150" height="200" fill="#22c55e" opacity="0.2" />
+  <text x="425" y="280" font-family="Arial" font-size="100" font-weight="bold" fill="#22c55e" text-anchor="middle">J</text>
+  <path d="M700 150 L850 250 L700 350 Z" fill="#06b6d4" opacity="0.2" />
+  <text x="775" y="280" font-family="Arial" font-size="100" font-weight="bold" fill="#06b6d4" text-anchor="middle">P</text>
+  <text x="600" y="480" font-family="Arial" font-size="40" font-weight="bold" fill="#1e293b" text-anchor="middle">MBTIにおけるJとP</text>
+  <text x="600" y="540" font-family="Arial" font-size="24" fill="#64748b" text-anchor="middle">判断型と知覚型の違いを理解する</text>
+</svg>

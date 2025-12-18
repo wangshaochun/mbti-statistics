@@ -1,0 +1,15 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#faf5ff" />
+  <g transform="translate(600, 250)">
+    <circle cx="0" cy="-120" r="40" fill="#a855f7" opacity="0.6" />
+    <circle cx="85" cy="-85" r="40" fill="#a855f7" opacity="0.6" />
+    <circle cx="120" cy="0" r="40" fill="#a855f7" opacity="0.6" />
+    <circle cx="85" cy="85" r="40" fill="#a855f7" opacity="0.6" />
+    <circle cx="0" cy="120" r="40" fill="#a855f7" opacity="0.6" />
+    <circle cx="-85" cy="85" r="40" fill="#a855f7" opacity="0.6" />
+    <circle cx="-120" cy="0" r="40" fill="#a855f7" opacity="0.6" />
+    <circle cx="-85" cy="-85" r="40" fill="#a855f7" opacity="0.6" />
+  </g>
+  <text x="600" y="480" font-family="Arial" font-size="40" font-weight="bold" fill="#1e293b" text-anchor="middle">ユングの8つの機能を大公開</text>
+  <text x="600" y="540" font-family="Arial" font-size="24" fill="#64748b" text-anchor="middle">各人格タイプの核心的特徴を簡単に理解</text>
+</svg>

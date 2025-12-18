@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { Calendar, Clock, User, Tag } from 'lucide-react';
+import { Calendar, Clock, User, Tag, ChevronLeft, ChevronRight } from 'lucide-react';
 import Seo from '../../components/Seo';
 import type { BlogPostMeta } from '../../lib/blog';
 
@@ -15,15 +15,19 @@ export async function getStaticProps() {
 const BlogPage = ({ posts, popularTags }: { posts: BlogPostMeta[]; popularTags: string[] }) => {
   const router = useRouter();
   const [selectedTag, setSelectedTag] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const POSTS_PER_PAGE = 30;
 
   useEffect(() => {
     if (!router.isReady) return;
     const tagFromQuery = typeof router.query.tag === 'string' ? router.query.tag : '';
     setSelectedTag(tagFromQuery);
+    setCurrentPage(1);
   }, [router.isReady, router.query.tag]);
 
   const updateTag = (nextTag: string) => {
     setSelectedTag(nextTag);
+    setCurrentPage(1);
     void router.push(
       {
         pathname: '/blog',
@@ -40,6 +44,17 @@ const BlogPage = ({ posts, popularTags }: { posts: BlogPostMeta[]; popularTags: 
       return matchesTag;
     })
     .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
+
+  const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
+  const paginatedPosts = filteredPosts.slice(
+    (currentPage - 1) * POSTS_PER_PAGE,
+    currentPage * POSTS_PER_PAGE
+  );
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('ja-JP', {
@@ -103,20 +118,14 @@ const BlogPage = ({ posts, popularTags }: { posts: BlogPostMeta[]; popularTags: 
 
           {/* 記事一覧 */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredPosts.map((post) => (
+            {paginatedPosts.map((post) => (
               <article 
                 key={post.id}
                 className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
               >
                 {/* 記事画像 */}
                 {post.image && (
-                  <div className="h-40 bg-gradient-to-br from-blue-500 to-purple-600 relative overflow-hidden">
-                    <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
-                      <h3 className="text-white text-lg font-semibold text-center px-4">
-                        {post.title}
-                      </h3>
-                    </div>
-                  </div>
+                  <img src={post.image} alt={post.title} className="max-h-full max-w-full object-contain" />
                 )}
 
                 <div className="p-6">
@@ -181,6 +190,41 @@ const BlogPage = ({ posts, popularTags }: { posts: BlogPostMeta[]; popularTags: 
               </article>
             ))}
           </div>
+
+          {/* Pagination */}
+          {totalPages > 1 && (
+            <div className="flex justify-center items-center space-x-2 mt-12">
+              <button
+                onClick={() => handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+                className="p-2 rounded-lg border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                <button
+                  key={page}
+                  onClick={() => handlePageChange(page)}
+                  className={`w-10 h-10 rounded-lg border ${
+                    currentPage === page
+                      ? 'bg-blue-600 text-white border-blue-600'
+                      : 'border-gray-300 hover:bg-gray-50'
+                  }`}
+                >
+                  {page}
+                </button>
+              ))}
+
+              <button
+                onClick={() => handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className="p-2 rounded-lg border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+            </div>
+          )}
 
           {/* 検索結果なし */}
           {filteredPosts.length === 0 && (

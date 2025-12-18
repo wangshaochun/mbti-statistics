@@ -205,15 +205,7 @@ const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
                 <article 
                   key={relatedPost.id}
                   className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-                >
-                  <div className="h-32 bg-gradient-to-br from-blue-500 to-purple-600 relative overflow-hidden">
-                    <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
-                      <h3 className="text-white text-sm font-semibold text-center px-3 line-clamp-2">
-                        {relatedPost.title}
-                      </h3>
-                    </div>
-                  </div>
-                  
+                >  
                   <div className="p-4">
                     <h3 className="font-bold text-gray-900 mb-2 line-clamp-2 text-sm">
                       <Link 
@@ -294,7 +286,7 @@ export const getStaticProps: GetStaticProps<BlogPostPageProps> = async ({ params
   const relatedPosts = post
     ? getAllBlogMetas()
         .filter((p) => p.id !== post.id && p.tags.some((tag) => post.tags.includes(tag)))
-        .slice(0, 3)
+        .slice(0, 9)
     : [];
 
   return {
