@@ -1,0 +1,15 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad586" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7f8c8d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad586)" />
+  <g transform="translate(400, 225)">
+    <rect x="-80" y="-100" width="160" height="200" fill="#bdc3c7" rx="10" />
+    <path d="M-40,-40 L40,40 M-40,40 L40,-40" stroke="#2c3e50" stroke-width="10" />
+    <circle cx="0" cy="0" r="20" fill="#f1c40f" opacity="0.5" />
+  </g>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">石板パズルと救出作戦の心理戦</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad538" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#84fab0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8fd3f4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad538)" />
+  <g transform="translate(400, 225)">
+    <!-- Ne theme: Brainstorming/Possibilities -->
+    <circle cx="0" cy="-50" r="45" fill="#ffdbac" />
+    <!-- Exploding ideas -->
+    <path d="M0,-100 L-30,-150 M0,-100 L30,-150 M0,-100 L0,-160" stroke="#fff" stroke-width="3" />
+    <circle cx="-40" cy="-160" r="10" fill="#fff" opacity="0.8" />
+    <circle cx="40" cy="-160" r="10" fill="#fff" opacity="0.8" />
+    <rect x="-10" y="-180" width="20" height="20" fill="#fff" opacity="0.8" transform="rotate(45, 0, -170)" />
+    <!-- Character body -->
+    <path d="M-40,0 Q-40,100 0,100 Q40,100 40,0 Z" fill="#6c5ce7" />
+  </g>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2d3436" text-anchor="middle">Ne Function: Strengths  Challenges</text>
+</svg>

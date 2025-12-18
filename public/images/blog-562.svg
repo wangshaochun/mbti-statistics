@@ -1,0 +1,17 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad562" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffeaa7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fdcb6e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad562)" />
+  <g transform="translate(400, 225)">
+    <rect x="-70" y="-40" width="140" height="80" fill="#e17055" rx="5" />
+    <path d="M-70,0 L70,0" stroke="#fff" stroke-width="4" />
+    <circle cx="0" cy="0" r="15" fill="#f1c40f" />
+    <text x="0" y="5" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">$</text>
+    <circle cx="150" cy="0" r="40" fill="#ffdbac" />
+  </g>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2d3436" text-anchor="middle">16タイプの社交パスワード</text>
+</svg>

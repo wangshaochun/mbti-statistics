@@ -7,7 +7,7 @@
   </defs>
   <rect width="800" height="450" fill="url(#grad533)" />
   
-  <!-- Character: 8 Functions & MBTI -->
+  <!-- Character: 8 Functions  MBTI -->
   <g transform="translate(400, 225)">
     <!-- Circle of functions -->
     <circle cx="0" cy="0" r="120" stroke="#fff" stroke-width="2" fill="none" stroke-dasharray="5,5" />

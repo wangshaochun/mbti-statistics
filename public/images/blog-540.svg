@@ -1,0 +1,21 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad540" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fccb90;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d57eeb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad540)" />
+  <g transform="translate(400, 225)">
+    <!-- Inferior function theme: Lifting weights/Growth -->
+    <circle cx="0" cy="-60" r="45" fill="#ffdbac" />
+    <path d="M-40,0 Q-40,100 0,100 Q40,100 40,0 Z" fill="#0984e3" />
+    <!-- Barbell -->
+    <line x1="-120" y1="-20" x2="120" y2="-20" stroke="#333" stroke-width="8" />
+    <rect x="-140" y="-50" width="20" height="60" fill="#333" />
+    <rect x="120" y="-50" width="20" height="60" fill="#333" />
+    <!-- "Inferior" label -->
+    <text x="0" y="140" font-family="Arial" font-size="20" fill="#333" text-anchor="middle" font-weight="bold">Developing Inferior Function</text>
+  </g>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#333" text-anchor="middle">Improving Inferior Functions</text>
+</svg>

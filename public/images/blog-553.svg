@@ -1,0 +1,16 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad553_jp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffeaa7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fdcb6e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad553_jp)" />
+  <g transform="translate(400, 225)">
+    <circle cx="0" cy="-50" r="80" fill="none" stroke="#333" stroke-width="8" />
+    <line x1="0" y1="-50" x2="0" y2="-100" stroke="#333" stroke-width="6" stroke-linecap="round" />
+    <circle cx="-150" cy="50" r="40" fill="#ffdbac" />
+    <text x="150" y="50" font-family="Arial" font-size="40" fill="#333" font-weight="bold">Zzz</text>
+  </g>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2d3436" text-anchor="middle">先延ばし克服ガイド</text>
+</svg>

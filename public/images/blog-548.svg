@@ -1,0 +1,16 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad548_jp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fab1a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff7675;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad548_jp)" />
+  <g transform="translate(400, 225)">
+    <path d="M0,-100 L-60,0 L60,0 Z" fill="#f1c40f" stroke="#333" stroke-width="4" />
+    <text x="0" y="-20" font-family="Arial" font-size="40" fill="#333" text-anchor="middle" font-weight="bold">!</text>
+    <circle cx="-150" cy="50" r="40" fill="#ffdbac" />
+    <circle cx="150" cy="80" r="20" fill="#333" />
+  </g>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2d3436" text-anchor="middle">16タイプの「地雷」を理解する</text>
+</svg>

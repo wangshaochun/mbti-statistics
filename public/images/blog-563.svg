@@ -1,0 +1,15 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad563" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fab1a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e17055;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad563)" />
+  <g transform="translate(400, 225)">
+    <path d="M-100,50 L100,50 L80,-20 L0,-60 L-80,-20 Z" fill="#fff" opacity="0.8" />
+    <rect x="-20" y="10" width="40" height="40" fill="#333" />
+    <circle cx="0" cy="-80" r="30" fill="#f1c40f" />
+  </g>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2d3436" text-anchor="middle">MBTI性格タイプと歴史の王朝</text>
+</svg>
