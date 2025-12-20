@@ -1,0 +1,26 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fdf2f8" rx="20" />
+  
+  <!-- Smartphone -->
+  <g transform="translate(400, 300)">
+    <rect x="-120" y="-200" width="240" height="400" fill="#1e293b" rx="30" />
+    <rect x="-105" y="-160" width="210" height="320" fill="white" rx="10" />
+    <circle cx="0" cy="180" r="15" fill="#334155" />
+    
+    <!-- Chat Bubbles -->
+    <g transform="translate(0, -100)">
+      <rect x="-80" y="0" width="100" height="40" fill="#fbcfe8" rx="15" />
+      <text x="-30" y="28" font-family="Arial" font-weight="bold" font-size="20" fill="#be185d" text-anchor="middle">I'm an E!</text>
+      
+      <rect x="-20" y="60" width="100" height="40" fill="#dcfce7" rx="15" />
+      <text x="30" y="88" font-family="Arial" font-weight="bold" font-size="20" fill="#166534" text-anchor="middle">I'm an I...</text>
+      
+      <rect x="-80" y="120" width="160" height="40" fill="#bae6fd" rx="15" />
+      <text x="0" y="148" font-family="Arial" font-weight="bold" font-size="20" fill="#0369a1" text-anchor="middle">#MBTI Trend</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#be185d" text-anchor="middle">MBTI: Social Media Sensation</text>
+</svg>

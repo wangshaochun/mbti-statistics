@@ -1,0 +1,23 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fffbeb" rx="20" />
+  
+  <!-- Zongzi (Rice Dumplings) -->
+  <g transform="translate(300, 300)">
+    <!-- Savory Zongzi -->
+    <path d="M -80 50 L 0 -80 L 80 50 Z" fill="#166534" stroke="#14532d" stroke-width="4" />
+    <path d="M -40 0 L 40 0" stroke="#fef3c7" stroke-width="2" stroke-dasharray="5,5" />
+    <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="20" fill="#166534" text-anchor="middle">SAVORY (Meat)</text>
+  </g>
+  
+  <g transform="translate(550, 300)">
+    <!-- Sweet Zongzi -->
+    <path d="M -80 50 L 0 -80 L 80 50 Z" fill="#166534" stroke="#14532d" stroke-width="4" />
+    <circle cx="0" cy="-20" r="10" fill="#ef4444" /> <!-- Red Date -->
+    <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="20" fill="#166534" text-anchor="middle">SWEET (Date)</text>
+  </g>
+  
+  <!-- MBTI Battle -->
+  <text x="400" y="100" font-family="Arial" font-weight="bold" font-size="36" fill="#92400e" text-anchor="middle">MBTI Zongzi Battle</text>
+  <text x="400" y="500" font-family="Arial" font-weight="bold" font-size="24" fill="#b45309" text-anchor="middle">Sweet vs Savory: Who Wins?</text>
+</svg>

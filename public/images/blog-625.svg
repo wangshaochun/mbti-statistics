@@ -1,0 +1,21 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fdf4ff" rx="20" />
+  
+  <!-- Self-Discovery Theme -->
+  <g transform="translate(400, 300)">
+    <!-- Magnifying Glass -->
+    <circle cx="0" cy="0" r="120" fill="white" stroke="#a21caf" stroke-width="10" />
+    <line x1="85" y1="85" x2="180" y2="180" stroke="#a21caf" stroke-width="20" stroke-linecap="round" />
+    
+    <!-- MBTI Text inside -->
+    <text x="0" y="20" font-family="Arial" font-weight="bold" font-size="64" fill="#701a75" text-anchor="middle">MBTI</text>
+    
+    <!-- Sparkles -->
+    <circle cx="-150" cy="-150" r="10" fill="#d946ef" />
+    <circle cx="150" cy="-100" r="15" fill="#d946ef" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#4a044e" text-anchor="middle">Discover Your MBTI Type</text>
+</svg>

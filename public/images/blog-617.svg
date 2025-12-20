@@ -1,0 +1,21 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0fdf4" rx="20" />
+  
+  <!-- Mirror/Self-Discovery -->
+  <g transform="translate(400, 300)">
+    <!-- Mirror -->
+    <rect x="-150" y="-200" width="300" height="400" fill="#dcfce7" stroke="#22c55e" stroke-width="8" rx="20" />
+    
+    <!-- Reflection -->
+    <circle cx="0" cy="-50" r="60" fill="#86efac" />
+    <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="64" fill="#166534" text-anchor="middle">INFP</text>
+    
+    <!-- Sparkles -->
+    <path d="M -100 -150 L -80 -130 M -100 -130 L -80 -150" stroke="#22c55e" stroke-width="4" />
+    <path d="M 100 150 L 120 170 M 100 170 L 120 150" stroke="#22c55e" stroke-width="4" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#14532d" text-anchor="middle">MBTI Self-Discovery</text>
+</svg>

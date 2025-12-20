@@ -1,0 +1,58 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bae6fd;stop-opacity:1" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" />
+      <feOffset dx="5" dy="10" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#skyGrad)" rx="20" />
+  
+  <!-- Mythical Beast (Bai Ze inspired) -->
+  <g filter="url(#softShadow)" transform="translate(400, 300)">
+    <!-- Body -->
+    <ellipse cx="0" cy="50" rx="120" ry="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <!-- Head -->
+    <circle cx="0" cy="-60" r="70" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <!-- Horns -->
+    <path d="M -30 -120 Q -50 -180 -80 -160" fill="none" stroke="#fbbf24" stroke-width="8" stroke-linecap="round" />
+    <path d="M 30 -120 Q 50 -180 80 -160" fill="none" stroke="#fbbf24" stroke-width="8" stroke-linecap="round" />
+    <!-- Eyes -->
+    <circle cx="-25" cy="-70" r="8" fill="#1e293b" />
+    <circle cx="25" cy="-70" r="8" fill="#1e293b" />
+    <!-- Blush -->
+    <circle cx="-45" cy="-50" r="10" fill="#fecaca" opacity="0.6" />
+    <circle cx="45" cy="-50" r="10" fill="#fecaca" opacity="0.6" />
+    <!-- Third Eye (Wisdom) -->
+    <ellipse cx="0" cy="-95" rx="10" ry="15" fill="#818cf8" />
+    
+    <!-- MBTI Floating Icons -->
+    <g transform="translate(-180, -100)">
+      <rect width="60" height="40" rx="10" fill="#f472b6" />
+      <text x="30" y="28" font-family="Arial" font-weight="bold" font-size="20" fill="white" text-anchor="middle">INFP</text>
+    </g>
+    <g transform="translate(120, -120)">
+      <rect width="60" height="40" rx="10" fill="#60a5fa" />
+      <text x="30" y="28" font-family="Arial" font-weight="bold" font-size="20" fill="white" text-anchor="middle">INTJ</text>
+    </g>
+    <g transform="translate(150, 50)">
+      <rect width="60" height="40" rx="10" fill="#34d399" />
+      <text x="30" y="28" font-family="Arial" font-weight="bold" font-size="20" fill="white" text-anchor="middle">ENFP</text>
+    </g>
+  </g>
+  
+  <!-- Title Text -->
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="32" fill="#1e293b" text-anchor="middle">MBTI x Mythical Beasts</text>
+</svg>

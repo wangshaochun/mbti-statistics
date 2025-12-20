@@ -1,0 +1,51 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="powerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1e1b4b" rx="20" />
+  
+  <!-- Superpower Aura -->
+  <circle cx="400" cy="300" r="200" fill="url(#powerGrad)" opacity="0.2" filter="url(#glow)" />
+  
+  <!-- Cute Hero (INFP Oasis) -->
+  <g transform="translate(400, 300)">
+    <!-- Shield/Oasis Bubble -->
+    <circle r="120" fill="none" stroke="#38bdf8" stroke-width="4" stroke-dasharray="10,5" opacity="0.6" />
+    <!-- Character -->
+    <circle cy="20" r="50" fill="#fdf2f8" stroke="#f472b6" stroke-width="2" />
+    <path d="M -20 10 Q 0 20 20 10" fill="none" stroke="#f472b6" stroke-width="2" />
+    <circle cx="-15" cy="0" r="5" fill="#1e293b" />
+    <circle cx="15" cy="0" r="5" fill="#1e293b" />
+    <!-- Floating Plant (Oasis symbol) -->
+    <path d="M 0 -40 Q 20 -60 0 -80 Q -20 -60 0 -40" fill="#4ade80" />
+  </g>
+  
+  <!-- Other Power Icons -->
+  <g transform="translate(150, 150)">
+    <circle r="40" fill="#6366f1" opacity="0.8" />
+    <text x="0" y="5" font-family="Arial" font-weight="bold" font-size="12" fill="white" text-anchor="middle">TELEPATHY</text>
+  </g>
+  <g transform="translate(650, 150)">
+    <circle r="40" fill="#f59e0b" opacity="0.8" />
+    <text x="0" y="5" font-family="Arial" font-weight="bold" font-size="12" fill="white" text-anchor="middle">EVOLUTION</text>
+  </g>
+  <g transform="translate(150, 450)">
+    <circle r="40" fill="#ef4444" opacity="0.8" />
+    <text x="0" y="5" font-family="Arial" font-weight="bold" font-size="12" fill="white" text-anchor="middle">GRAVITY</text>
+  </g>
+  <g transform="translate(650, 450)">
+    <circle r="40" fill="#10b981" opacity="0.8" />
+    <text x="0" y="5" font-family="Arial" font-weight="bold" font-size="12" fill="white" text-anchor="middle">RECOVERY</text>
+  </g>
+  
+  <text x="400" y="540" font-family="Arial" font-weight="bold" font-size="32" fill="white" text-anchor="middle">MBTI Survival: Superpowers</text>
+</svg>

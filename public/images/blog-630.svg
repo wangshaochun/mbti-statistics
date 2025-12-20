@@ -1,0 +1,39 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="20" />
+  
+  <!-- Four Temperaments Icons -->
+  <g transform="translate(400, 300)">
+    <!-- NT - Lightbulb -->
+    <g transform="translate(-150, -100)">
+      <circle r="50" fill="#f3e8ff" stroke="#a855f7" stroke-width="4" />
+      <path d="M -15 20 L 15 20 M -10 30 L 10 30" stroke="#6b21a8" stroke-width="4" />
+      <path d="M 0 -20 L 0 10" stroke="#6b21a8" stroke-width="4" />
+      <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="20" fill="#6b21a8" text-anchor="middle">NT</text>
+    </g>
+    
+    <!-- NF - Heart -->
+    <g transform="translate(150, -100)">
+      <circle r="50" fill="#f0fdf4" stroke="#22c55e" stroke-width="4" />
+      <path d="M 0 -15 Q 10 -25 20 -15 Q 30 -5 20 5 L 0 25 L -20 5 Q -30 -5 -20 -15 Q -10 -25 0 -15" fill="#22c55e" />
+      <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="20" fill="#166534" text-anchor="middle">NF</text>
+    </g>
+    
+    <!-- SJ - Shield -->
+    <g transform="translate(-150, 100)">
+      <circle r="50" fill="#eff6ff" stroke="#3b82f6" stroke-width="4" />
+      <path d="M 0 -20 L 20 -10 L 20 10 Q 20 25 0 30 Q -20 25 -20 10 L -20 -10 Z" fill="#3b82f6" />
+      <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="20" fill="#1e40af" text-anchor="middle">SJ</text>
+    </g>
+    
+    <!-- SP - Compass -->
+    <g transform="translate(150, 100)">
+      <circle r="50" fill="#fffbeb" stroke="#eab308" stroke-width="4" />
+      <path d="M 0 -20 L 10 0 L 0 20 L -10 0 Z" fill="#eab308" />
+      <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="20" fill="#854d0e" text-anchor="middle">SP</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#1e293b" text-anchor="middle">The Four MBTI Temperaments</text>
+</svg>

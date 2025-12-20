@@ -1,0 +1,23 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fdf4ff" rx="20" />
+  
+  <!-- Mirror/Reflection -->
+  <g transform="translate(400, 300)">
+    <!-- Mirror Frame -->
+    <ellipse cx="0" cy="0" rx="150" ry="200" fill="#f5d0fe" stroke="#a21caf" stroke-width="8" />
+    <ellipse cx="0" cy="0" rx="130" ry="180" fill="#fae8ff" />
+    
+    <!-- Question Mark -->
+    <text x="0" y="50" font-family="Arial" font-weight="bold" font-size="120" fill="#a21caf" text-anchor="middle">?</text>
+  </g>
+  
+  <!-- Sparkles -->
+  <circle cx="200" cy="150" r="10" fill="#d946ef" />
+  <circle cx="600" cy="450" r="15" fill="#d946ef" />
+  <circle cx="150" cy="400" r="8" fill="#d946ef" />
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#701a75" text-anchor="middle">MBTI Self-Discovery</text>
+  <text x="400" y="550" font-family="Arial" font-weight="bold" font-size="24" fill="#86198f" text-anchor="middle">Who Are You Really?</text>
+</svg>

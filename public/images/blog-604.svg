@@ -1,0 +1,27 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Traditional Background -->
+  <rect width="800" height="600" fill="#fff7ed" rx="20" />
+  
+  <!-- Scroll/Paper -->
+  <rect x="150" y="100" width="500" height="400" fill="#fef3c7" stroke="#92400e" stroke-width="4" rx="10" />
+  
+  <!-- Calligraphy Brush -->
+  <g transform="translate(650, 150) rotate(30)">
+    <rect x="-5" y="0" width="10" height="150" fill="#451a03" />
+    <path d="M -10 150 Q 0 200 10 150 Z" fill="#1e293b" />
+  </g>
+  
+  <!-- Idiom Examples -->
+  <g transform="translate(400, 250)">
+    <text x="0" y="-60" font-family="Serif" font-weight="bold" font-size="48" fill="#92400e" text-anchor="middle">严谨实干</text>
+    <text x="0" y="0" font-family="Serif" font-weight="bold" font-size="48" fill="#92400e" text-anchor="middle">温厚笃实</text>
+    <text x="0" y="60" font-family="Serif" font-weight="bold" font-size="48" fill="#92400e" text-anchor="middle">明察秋毫</text>
+    <text x="0" y="120" font-family="Serif" font-weight="bold" font-size="48" fill="#92400e" text-anchor="middle">知谋纵横</text>
+  </g>
+  
+  <!-- MBTI Label -->
+  <rect x="350" y="50" width="100" height="40" rx="5" fill="#92400e" />
+  <text x="400" y="78" font-family="Arial" font-weight="bold" font-size="20" fill="white" text-anchor="middle">MBTI</text>
+  
+  <text x="400" y="550" font-family="Arial" font-weight="bold" font-size="28" fill="#451a03" text-anchor="middle">16 Types in Four-Character Idioms</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fdf4ff" rx="20" />
+  
+  <!-- Business Card Theme -->
+  <g transform="translate(400, 300)">
+    <!-- Card -->
+    <rect x="-250" y="-150" width="500" height="300" fill="white" stroke="#a21caf" stroke-width="4" rx="10" />
+    
+    <!-- Content -->
+    <circle cx="-150" cy="0" r="60" fill="#f5d0fe" />
+    <rect x="-180" y="-30" width="60" height="10" fill="#a21caf" rx="2" />
+    <rect x="-180" y="0" width="40" height="10" fill="#a21caf" rx="2" />
+    
+    <text x="50" y="-40" font-family="Arial" font-weight="bold" font-size="32" fill="#701a75">NAME: ENFP</text>
+    <text x="50" y="20" font-family="Arial" font-size="24" fill="#a21caf">Role: Campaigner</text>
+    <text x="50" y="70" font-family="Arial" font-size="18" fill="#d946ef">"The New Social Card"</text>
+    
+    <!-- QR Code Placeholder -->
+    <rect x="180" y="80" width="40" height="40" fill="#701a75" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#4a044e" text-anchor="middle">MBTI: Your New Social ID</text>
+</svg>

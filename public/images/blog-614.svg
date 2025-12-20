@@ -1,0 +1,33 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff7ed" rx="20" />
+  
+  <!-- Theory & Practice Icons -->
+  <g transform="translate(400, 250)">
+    <!-- Book (Theory) -->
+    <rect x="-180" y="-50" width="120" height="160" fill="#fb923c" rx="5" />
+    <rect x="-170" y="-40" width="100" height="140" fill="white" rx="2" />
+    <line x1="-160" y1="-20" x2="-80" y2="-20" stroke="#fdba74" stroke-width="4" />
+    <line x1="-160" y1="10" x2="-80" y2="10" stroke="#fdba74" stroke-width="4" />
+    <line x1="-160" y1="40" x2="-80" y2="40" stroke="#fdba74" stroke-width="4" />
+    <text x="-120" y="130" font-family="Arial" font-weight="bold" font-size="16" fill="#9a3412" text-anchor="middle">THEORY</text>
+    
+    <!-- Arrow -->
+    <path d="M -40 30 L 40 30" stroke="#9a3412" stroke-width="8" stroke-linecap="round" />
+    <path d="M 20 10 L 40 30 L 20 50" fill="none" stroke="#9a3412" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Gear (Practice) -->
+    <g transform="translate(120, 30)">
+      <circle r="60" fill="#ea580c" />
+      <circle r="20" fill="#fff7ed" />
+      <rect x="-10" y="-75" width="20" height="150" fill="#ea580c" rx="5" />
+      <rect x="-10" y="-75" width="20" height="150" fill="#ea580c" rx="5" transform="rotate(45)" />
+      <rect x="-10" y="-75" width="20" height="150" fill="#ea580c" rx="5" transform="rotate(90)" />
+      <rect x="-10" y="-75" width="20" height="150" fill="#ea580c" rx="5" transform="rotate(135)" />
+      <text x="0" y="100" font-family="Arial" font-weight="bold" font-size="16" fill="#9a3412" text-anchor="middle">PRACTICE</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="500" font-family="Arial" font-weight="bold" font-size="36" fill="#7c2d12" text-anchor="middle">MBTI: Theory and Practice</text>
+</svg>

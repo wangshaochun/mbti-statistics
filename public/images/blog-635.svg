@@ -1,0 +1,23 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#eff6ff" rx="20" />
+  
+  <!-- Friendship Theme -->
+  <g transform="translate(400, 300)">
+    <!-- Two Friends (Simplified) -->
+    <circle cx="-80" cy="-50" r="60" fill="#bfdbfe" stroke="#3b82f6" stroke-width="4" />
+    <circle cx="80" cy="-50" r="60" fill="#fbcfe8" stroke="#ec4899" stroke-width="4" />
+    
+    <!-- High Five / Connection -->
+    <path d="M -20 -20 Q 0 20 20 -20" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Heart -->
+    <path d="M 0 -100 Q 10 -110 20 -100 Q 30 -90 20 -80 L 0 -60 L -20 -80 Q -30 -90 -20 -100 Q -10 -110 0 -100" fill="#ef4444" />
+    
+    <!-- Labels -->
+    <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="32" fill="#1e40af" text-anchor="middle">FRIENDSHIP</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#1e3a8a" text-anchor="middle">MBTI: Finding Your Best Friend</text>
+</svg>

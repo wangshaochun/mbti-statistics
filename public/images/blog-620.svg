@@ -1,0 +1,29 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f9ff" rx="20" />
+  
+  <!-- Education/Majors Theme -->
+  <g transform="translate(400, 250)">
+    <!-- Graduation Cap -->
+    <path d="M -120 0 L 0 -60 L 120 0 L 0 60 Z" fill="#0ea5e9" />
+    <rect x="-10" y="0" width="20" height="80" fill="#0ea5e9" />
+    <path d="M 120 0 L 120 100" stroke="#f59e0b" stroke-width="6" />
+    
+    <!-- Icons for Majors -->
+    <g transform="translate(-200, 150)">
+      <circle r="40" fill="#bae6fd" stroke="#0284c7" stroke-width="2" />
+      <text x="0" y="10" font-family="Arial" font-weight="bold" font-size="32" fill="#0369a1" text-anchor="middle">∑</text>
+    </g>
+    <g transform="translate(0, 150)">
+      <circle r="40" fill="#bae6fd" stroke="#0284c7" stroke-width="2" />
+      <path d="M -15 -15 L 15 15 M -15 15 L 15 -15" stroke="#0369a1" stroke-width="4" />
+    </g>
+    <g transform="translate(200, 150)">
+      <circle r="40" fill="#bae6fd" stroke="#0284c7" stroke-width="2" />
+      <path d="M -20 0 Q 0 -30 20 0 Q 0 30 -20 0" fill="#0369a1" />
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#0c4a6e" text-anchor="middle">MBTI and College Majors</text>
+</svg>

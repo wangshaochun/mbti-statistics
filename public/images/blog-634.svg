@@ -1,0 +1,20 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0fdf4" rx="20" />
+  
+  <!-- Dimensions Theme -->
+  <g transform="translate(400, 300)">
+    <!-- 3D Cube (Simplified) -->
+    <path d="M -100 -100 L 50 -150 L 150 -50 L 0 0 Z" fill="#dcfce7" stroke="#166534" stroke-width="4" />
+    <path d="M -100 -100 L -100 50 L 0 150 L 0 0 Z" fill="#bbf7d0" stroke="#166534" stroke-width="4" />
+    <path d="M 0 0 L 0 150 L 150 50 L 150 -50 Z" fill="#86efac" stroke="#166534" stroke-width="4" />
+    
+    <!-- Labels on sides -->
+    <text x="-50" y="50" font-family="Arial" font-weight="bold" font-size="24" fill="#14532d" transform="rotate(-45, -50, 50)">E / I</text>
+    <text x="70" y="50" font-family="Arial" font-weight="bold" font-size="24" fill="#14532d" transform="rotate(45, 70, 50)">S / N</text>
+    <text x="20" y="-60" font-family="Arial" font-weight="bold" font-size="24" fill="#14532d">T / F</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#14532d" text-anchor="middle">The 4 Dimensions of MBTI</text>
+</svg>

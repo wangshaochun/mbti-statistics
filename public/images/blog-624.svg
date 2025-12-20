@@ -1,0 +1,27 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f9ff" rx="20" />
+  
+  <!-- Popularity Theme -->
+  <g transform="translate(400, 300)">
+    <!-- Crowd Silhouettes -->
+    <circle cx="-150" cy="50" r="40" fill="#bae6fd" />
+    <rect x="-180" y="90" width="60" height="80" fill="#bae6fd" rx="10" />
+    <text x="-150" y="40" font-family="Arial" font-weight="bold" font-size="16" fill="#0369a1" text-anchor="middle">ENFP</text>
+    
+    <circle cx="0" cy="20" r="50" fill="#7dd3fc" />
+    <rect x="-40" y="70" width="80" height="100" fill="#7dd3fc" rx="10" />
+    <text x="0" y="10" font-family="Arial" font-weight="bold" font-size="20" fill="#0369a1" text-anchor="middle">INTJ</text>
+    
+    <circle cx="150" cy="50" r="40" fill="#bae6fd" />
+    <rect x="120" y="90" width="60" height="80" fill="#bae6fd" rx="10" />
+    <text x="150" y="40" font-family="Arial" font-weight="bold" font-size="16" fill="#0369a1" text-anchor="middle">ISTP</text>
+    
+    <!-- Rising Graph -->
+    <path d="M -250 150 L -100 50 L 50 100 L 250 -100" fill="none" stroke="#0ea5e9" stroke-width="8" stroke-linecap="round" />
+    <circle cx="250" cy="-100" r="15" fill="#0ea5e9" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#0c4a6e" text-anchor="middle">Why is MBTI So Popular?</text>
+</svg>

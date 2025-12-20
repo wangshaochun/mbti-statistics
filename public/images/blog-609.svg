@@ -1,0 +1,25 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#eff6ff" rx="20" />
+  
+  <!-- Relationship Icons -->
+  <g transform="translate(400, 300)">
+    <!-- Two People -->
+    <circle cx="-80" cy="-50" r="60" fill="#bfdbfe" stroke="#3b82f6" stroke-width="4" />
+    <circle cx="80" cy="-50" r="60" fill="#fbcfe8" stroke="#ec4899" stroke-width="4" />
+    
+    <!-- Connection Line -->
+    <path d="M -20 -50 L 20 -50" stroke="#3b82f6" stroke-width="4" stroke-dasharray="10,5" />
+    
+    <!-- Heart in Middle -->
+    <path d="M 0 -60 Q 10 -70 20 -60 Q 30 -50 20 -40 L 0 -20 L -20 -40 Q -30 -50 -20 -60 Q -10 -70 0 -60" fill="#ef4444" />
+    
+    <!-- Labels -->
+    <text x="-80" y="50" font-family="Arial" font-weight="bold" font-size="24" fill="#1e40af" text-anchor="middle">TYPE A</text>
+    <text x="80" y="50" font-family="Arial" font-weight="bold" font-size="24" fill="#9d174d" text-anchor="middle">TYPE B</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="100" font-family="Arial" font-weight="bold" font-size="36" fill="#1e40af" text-anchor="middle">MBTI Relationship Test</text>
+  <text x="400" y="500" font-family="Arial" font-weight="bold" font-size="24" fill="#1d4ed8" text-anchor="middle">Are You Truly Compatible?</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fef2f2" rx="20" />
+  
+  <!-- Weakness Theme -->
+  <g transform="translate(400, 300)">
+    <!-- Shield with Crack -->
+    <path d="M 0 -150 L 120 -100 L 120 50 Q 120 150 0 200 Q -120 150 -120 50 L -120 -100 Z" fill="#fecaca" stroke="#ef4444" stroke-width="8" />
+    <path d="M -20 -50 L 20 0 L -10 50" fill="none" stroke="#b91c1c" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- MBTI Text -->
+    <text x="0" y="30" font-family="Arial" font-weight="bold" font-size="48" fill="#991b1b" text-anchor="middle">WEAKNESS</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="550" font-family="Arial" font-weight="bold" font-size="36" fill="#7f1d1d" text-anchor="middle">16 Types: Potential Weaknesses</text>
+</svg>

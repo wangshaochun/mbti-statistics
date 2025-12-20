@@ -1,0 +1,28 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="20" />
+  
+  <!-- Efficiency/Work Theme -->
+  <g transform="translate(400, 300)">
+    <!-- Clock -->
+    <circle r="150" fill="white" stroke="#64748b" stroke-width="8" />
+    <line x1="0" y1="0" x2="0" y2="-100" stroke="#1e293b" stroke-width="6" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="70" y2="0" stroke="#1e293b" stroke-width="6" stroke-linecap="round" />
+    <circle r="10" fill="#1e293b" />
+    
+    <!-- Gear -->
+    <g transform="translate(120, 120) scale(0.5)">
+      <circle r="60" fill="#94a3b8" />
+      <circle r="20" fill="white" />
+      <rect x="-10" y="-75" width="20" height="150" fill="#94a3b8" rx="5" />
+      <rect x="-10" y="-75" width="20" height="150" fill="#94a3b8" rx="5" transform="rotate(90)" />
+    </g>
+    
+    <!-- MBTI Label -->
+    <rect x="-60" y="170" width="120" height="40" fill="#1e293b" rx="5" />
+    <text x="0" y="198" font-family="Arial" font-weight="bold" font-size="20" fill="white" text-anchor="middle">MBTI</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#0f172a" text-anchor="middle">Boost Work Efficiency with MBTI</text>
+</svg>

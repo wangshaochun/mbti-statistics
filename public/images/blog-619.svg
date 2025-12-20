@@ -1,0 +1,25 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#faf5ff" rx="20" />
+  
+  <!-- Compass/Guide -->
+  <g transform="translate(400, 300)">
+    <circle r="200" fill="none" stroke="#a855f7" stroke-width="8" />
+    <circle r="180" fill="none" stroke="#d8b4fe" stroke-width="2" stroke-dasharray="10,10" />
+    
+    <!-- Compass Needle -->
+    <path d="M 0 -150 L 20 0 L 0 150 L -20 0 Z" fill="#9333ea" />
+    <circle r="10" fill="white" />
+    
+    <!-- Directions -->
+    <text x="0" y="-220" font-family="Arial" font-weight="bold" font-size="24" fill="#6b21a8" text-anchor="middle">E / I</text>
+    <text x="0" y="240" font-family="Arial" font-weight="bold" font-size="24" fill="#6b21a8" text-anchor="middle">S / N</text>
+    <text x="-240" y="10" font-family="Arial" font-weight="bold" font-size="24" fill="#6b21a8" text-anchor="middle">T / F</text>
+    <text x="240" y="10" font-family="Arial" font-weight="bold" font-size="24" fill="#6b21a8" text-anchor="middle">J / P</text>
+    
+    <text x="0" y="10" font-family="Arial" font-weight="bold" font-size="48" fill="#4c1d95" text-anchor="middle">MBTI</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="550" font-family="Arial" font-weight="bold" font-size="36" fill="#581c87" text-anchor="middle">Beginner's Guide to MBTI</text>
+</svg>

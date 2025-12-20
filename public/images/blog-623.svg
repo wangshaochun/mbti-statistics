@@ -1,0 +1,50 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="20" />
+  
+  <!-- 16 Types Grid -->
+  <g transform="translate(100, 100)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="140" height="80" fill="#f3e8ff" rx="10" />
+    <text x="70" y="50" font-family="Arial" font-weight="bold" font-size="20" fill="#6b21a8" text-anchor="middle">INTJ</text>
+    <rect x="150" y="0" width="140" height="80" fill="#f3e8ff" rx="10" />
+    <text x="220" y="50" font-family="Arial" font-weight="bold" font-size="20" fill="#6b21a8" text-anchor="middle">INTP</text>
+    <rect x="300" y="0" width="140" height="80" fill="#f3e8ff" rx="10" />
+    <text x="370" y="50" font-family="Arial" font-weight="bold" font-size="20" fill="#6b21a8" text-anchor="middle">ENTJ</text>
+    <rect x="450" y="0" width="140" height="80" fill="#f3e8ff" rx="10" />
+    <text x="520" y="50" font-family="Arial" font-weight="bold" font-size="20" fill="#6b21a8" text-anchor="middle">ENTP</text>
+    
+    <!-- Row 2 -->
+    <rect x="0" y="90" width="140" height="80" fill="#f0fdf4" rx="10" />
+    <text x="70" y="140" font-family="Arial" font-weight="bold" font-size="20" fill="#166534" text-anchor="middle">INFJ</text>
+    <rect x="150" y="90" width="140" height="80" fill="#f0fdf4" rx="10" />
+    <text x="220" y="140" font-family="Arial" font-weight="bold" font-size="20" fill="#166534" text-anchor="middle">INFP</text>
+    <rect x="300" y="90" width="140" height="80" fill="#f0fdf4" rx="10" />
+    <text x="370" y="140" font-family="Arial" font-weight="bold" font-size="20" fill="#166534" text-anchor="middle">ENFJ</text>
+    <rect x="450" y="90" width="140" height="80" fill="#f0fdf4" rx="10" />
+    <text x="520" y="140" font-family="Arial" font-weight="bold" font-size="20" fill="#166534" text-anchor="middle">ENFP</text>
+    
+    <!-- Row 3 -->
+    <rect x="0" y="180" width="140" height="80" fill="#eff6ff" rx="10" />
+    <text x="70" y="230" font-family="Arial" font-weight="bold" font-size="20" fill="#1e40af" text-anchor="middle">ISTJ</text>
+    <rect x="150" y="180" width="140" height="80" fill="#eff6ff" rx="10" />
+    <text x="220" y="230" font-family="Arial" font-weight="bold" font-size="20" fill="#1e40af" text-anchor="middle">ISFJ</text>
+    <rect x="300" y="180" width="140" height="80" fill="#eff6ff" rx="10" />
+    <text x="370" y="230" font-family="Arial" font-weight="bold" font-size="20" fill="#1e40af" text-anchor="middle">ESTJ</text>
+    <rect x="450" y="180" width="140" height="80" fill="#eff6ff" rx="10" />
+    <text x="520" y="230" font-family="Arial" font-weight="bold" font-size="20" fill="#1e40af" text-anchor="middle">ESFJ</text>
+    
+    <!-- Row 4 -->
+    <rect x="0" y="270" width="140" height="80" fill="#fffbeb" rx="10" />
+    <text x="70" y="320" font-family="Arial" font-weight="bold" font-size="20" fill="#854d0e" text-anchor="middle">ISTP</text>
+    <rect x="150" y="270" width="140" height="80" fill="#fffbeb" rx="10" />
+    <text x="220" y="320" font-family="Arial" font-weight="bold" font-size="20" fill="#854d0e" text-anchor="middle">ISFP</text>
+    <rect x="300" y="270" width="140" height="80" fill="#fffbeb" rx="10" />
+    <text x="370" y="320" font-family="Arial" font-weight="bold" font-size="20" fill="#854d0e" text-anchor="middle">ESTP</text>
+    <rect x="450" y="270" width="140" height="80" fill="#fffbeb" rx="10" />
+    <text x="520" y="320" font-family="Arial" font-weight="bold" font-size="20" fill="#854d0e" text-anchor="middle">ESFP</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#1e293b" text-anchor="middle">MBTI: The 16 Personalities</text>
+</svg>

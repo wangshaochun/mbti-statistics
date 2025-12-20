@@ -1,0 +1,22 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff1f2" rx="20" />
+  
+  <!-- Love Meter -->
+  <g transform="translate(400, 350)">
+    <!-- Gauge -->
+    <path d="M -200 0 A 200 200 0 0 1 200 0" fill="none" stroke="#fda4af" stroke-width="40" />
+    <path d="M -200 0 A 200 200 0 0 1 50 -193" fill="none" stroke="#f43f5e" stroke-width="40" />
+    
+    <!-- Needle -->
+    <line x1="0" y1="0" x2="40" y2="-150" stroke="#1e293b" stroke-width="8" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="15" fill="#1e293b" />
+    
+    <!-- Percentage -->
+    <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="48" fill="#e11d48" text-anchor="middle">85%</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="100" font-family="Arial" font-weight="bold" font-size="36" fill="#9f1239" text-anchor="middle">MBTI Love Compatibility</text>
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="24" fill="#be123c" text-anchor="middle">Find Your Perfect Match</text>
+</svg>

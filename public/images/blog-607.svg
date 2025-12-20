@@ -1,0 +1,26 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#faf5ff" rx="20" />
+  
+  <!-- Ranking Podium -->
+  <g transform="translate(400, 450)">
+    <rect x="-150" y="-100" width="100" height="100" fill="#d8b4fe" /> <!-- 2nd -->
+    <rect x="-50" y="-150" width="100" height="150" fill="#a855f7" /> <!-- 1st -->
+    <rect x="50" y="-80" width="100" height="80" fill="#e9d5ff" /> <!-- 3rd -->
+    
+    <text x="-100" y="-110" font-family="Arial" font-weight="bold" font-size="24" fill="#6b21a8" text-anchor="middle">INTJ</text>
+    <text x="0" y="-160" font-family="Arial" font-weight="bold" font-size="24" fill="#6b21a8" text-anchor="middle">INFJ</text>
+    <text x="100" y="-90" font-family="Arial" font-weight="bold" font-size="24" fill="#6b21a8" text-anchor="middle">ISTP</text>
+    
+    <text x="0" y="-50" font-family="Arial" font-weight="bold" font-size="48" fill="white" text-anchor="middle">1</text>
+    <text x="-100" y="-30" font-family="Arial" font-weight="bold" font-size="36" fill="white" text-anchor="middle">2</text>
+    <text x="100" y="-20" font-family="Arial" font-weight="bold" font-size="36" fill="white" text-anchor="middle">3</text>
+  </g>
+  
+  <!-- Heart/Sparkle Icons -->
+  <path d="M 100 100 Q 120 80 140 100 Q 160 120 140 140 L 120 160 L 100 140 Q 80 120 100 100" fill="#f472b6" />
+  <path d="M 650 150 Q 670 130 690 150 Q 710 170 690 190 L 670 210 L 650 190 Q 630 170 650 150" fill="#f472b6" />
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#6b21a8" text-anchor="middle">MBTI Sexiness Ranking</text>
+</svg>

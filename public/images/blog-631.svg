@@ -1,0 +1,29 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fffbeb" rx="20" />
+  
+  <!-- Food Theme -->
+  <g transform="translate(400, 300)">
+    <!-- Plate -->
+    <circle r="180" fill="white" stroke="#fdba74" stroke-width="4" />
+    <circle r="150" fill="none" stroke="#fed7aa" stroke-width="2" stroke-dasharray="5,5" />
+    
+    <!-- Food Icons -->
+    <g transform="translate(-60, -40)">
+      <!-- Pizza Slice -->
+      <path d="M 0 0 L 80 0 L 40 80 Z" fill="#facc15" stroke="#854d0e" stroke-width="2" />
+      <circle cx="40" cy="20" r="5" fill="#ef4444" />
+      <text x="40" y="100" font-family="Arial" font-weight="bold" font-size="14" fill="#854d0e" text-anchor="middle">ESTP</text>
+    </g>
+    
+    <g transform="translate(40, 20)">
+      <!-- Salad Bowl -->
+      <path d="M -40 0 A 40 40 0 0 0 40 0 Z" fill="#4ade80" stroke="#166534" stroke-width="2" />
+      <circle cx="0" cy="-10" r="5" fill="#ef4444" />
+      <text x="0" y="40" font-family="Arial" font-weight="bold" font-size="14" fill="#166534" text-anchor="middle">INFJ</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#7c2d12" text-anchor="middle">MBTI: Taste of Personalities</text>
+</svg>

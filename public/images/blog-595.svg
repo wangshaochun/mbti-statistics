@@ -1,0 +1,43 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f1f5f9" rx="20" />
+  <rect width="800" height="600" fill="url(#grid)" rx="20" />
+  
+  <!-- Fake Forest (Mechanical Trees) -->
+  <g transform="translate(200, 300)">
+    <rect x="-10" y="0" width="20" height="150" fill="#94a3b8" />
+    <circle cx="0" cy="0" r="60" fill="#22c55e" opacity="0.8" />
+    <!-- Gear detail -->
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#64748b" stroke-width="4" stroke-dasharray="5,5" />
+  </g>
+  
+  <g transform="translate(600, 350)">
+    <rect x="-10" y="0" width="20" height="100" fill="#94a3b8" />
+    <circle cx="0" cy="0" r="50" fill="#16a34a" opacity="0.8" />
+  </g>
+  
+  <!-- Underground City Entrance -->
+  <g transform="translate(400, 450)">
+    <ellipse cx="0" cy="0" rx="150" ry="40" fill="#334155" />
+    <path d="M -100 0 L 100 0 L 80 60 L -80 60 Z" fill="#1e293b" />
+    <text x="0" y="40" font-family="Arial" font-weight="bold" font-size="16" fill="#38bdf8" text-anchor="middle">UNDERGROUND</text>
+  </g>
+  
+  <!-- ISTP & ISTJ Icons -->
+  <g transform="translate(100, 500)">
+    <rect width="80" height="40" rx="5" fill="#fbbf24" />
+    <text x="40" y="28" font-family="Arial" font-weight="bold" font-size="18" fill="#1e293b" text-anchor="middle">ISTP</text>
+  </g>
+  <g transform="translate(620, 500)">
+    <rect width="80" height="40" rx="5" fill="#3b82f6" />
+    <text x="40" y="28" font-family="Arial" font-weight="bold" font-size="18" fill="white" text-anchor="middle">ISTJ</text>
+  </g>
+  
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="32" fill="#1e293b" text-anchor="middle">Infiltration: Fake Forest</text>
+</svg>
