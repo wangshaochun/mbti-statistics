@@ -1,0 +1,13 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fdf2f8" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Family Characters -->
+    <circle cx="-60" cy="0" r="50" fill="#fbcfe8" stroke="#be185d" stroke-width="3" /> <!-- Parent 1 -->
+    <circle cx="60" cy="0" r="50" fill="#f9a8d4" stroke="#be185d" stroke-width="3" /> <!-- Parent 2 -->
+    <circle cx="0" cy="80" r="30" fill="#f472b6" stroke="#be185d" stroke-width="3" /> <!-- Child -->
+    
+    <!-- Heart -->
+    <path d="M 0 -80 Q 10 -90 20 -80 Q 30 -70 20 -60 L 0 -40 L -20 -60 Q -30 -70 -20 -80 Q -10 -90 0 -80" fill="#db2777" />
+  </g>
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#831843" text-anchor="middle">MBTI Family Roles</text>
+</svg>

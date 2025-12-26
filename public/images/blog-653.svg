@@ -1,0 +1,17 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f5f3ff" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Tsinghua Student Character -->
+    <circle cx="0" cy="-50" r="60" fill="#ddd6fe" stroke="#7c3aed" stroke-width="4" />
+    <rect x="-40" y="10" width="80" height="100" fill="#c4b5fd" rx="10" />
+    
+    <!-- Graduation Cap -->
+    <path d="M -70 -110 L 0 -140 L 70 -110 L 0 -80 Z" fill="#4c1d95" />
+    <line x1="70" y1="-110" x2="70" y2="-80" stroke="#4c1d95" stroke-width="4" />
+    
+    <!-- Tsinghua Logo (Simplified) -->
+    <circle cx="0" cy="60" r="20" fill="white" stroke="#7c3aed" stroke-width="2" />
+    <text x="0" y="65" font-family="Arial" font-weight="bold" font-size="10" fill="#7c3aed" text-anchor="middle">THU</text>
+  </g>
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#4c1d95" text-anchor="middle">Tsinghua MBTI Statistics</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fdf2f8" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Rare Female Character -->
+    <circle cx="0" cy="-50" r="60" fill="#fbcfe8" stroke="#be185d" stroke-width="4" />
+    <path d="M -40 10 L 40 10 L 60 110 L -60 110 Z" fill="#f9a8d4" stroke="#be185d" stroke-width="2" /> <!-- Dress -->
+    
+    <!-- Diamond (Rarity) -->
+    <path d="M 80 -100 L 100 -120 L 120 -100 L 100 -80 Z" fill="#db2777" />
+    
+    <text x="0" y="150" font-family="Arial" font-weight="bold" font-size="24" fill="#831843" text-anchor="middle">RARE FEMALE</text>
+  </g>
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#831843" text-anchor="middle">Rarest Female MBTI Types</text>
+</svg>

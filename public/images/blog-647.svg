@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f0f9ff" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Character with Aura -->
+    <circle cx="0" cy="0" r="120" fill="#bae6fd" opacity="0.3" />
+    <circle cx="0" cy="0" r="100" fill="#7dd3fc" opacity="0.5" />
+    
+    <circle cx="0" cy="-30" r="50" fill="#38bdf8" stroke="#0369a1" stroke-width="4" />
+    <rect x="-30" y="20" width="60" height="80" fill="#0ea5e9" rx="10" />
+    
+    <!-- Sparkles -->
+    <path d="M -80 -80 L -70 -70 M -80 -70 L -70 -80" stroke="#0369a1" stroke-width="4" />
+    <path d="M 80 -80 L 90 -70 M 80 -70 L 90 -80" stroke="#0369a1" stroke-width="4" />
+  </g>
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#0c4a6e" text-anchor="middle">Explore Potential Strengths</text>
+</svg>

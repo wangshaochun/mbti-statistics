@@ -1,0 +1,18 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fff1f2" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Character with Shield and Balloon -->
+    <circle cx="0" cy="-50" r="50" fill="#fda4af" stroke="#e11d48" stroke-width="4" />
+    <rect x="-30" y="0" width="60" height="80" fill="#fb7185" rx="10" />
+    
+    <!-- Shield (Weakness) -->
+    <path d="M -100 20 L -60 20 L -80 60 Z" fill="#e11d48" />
+    <text x="-80" y="80" font-family="Arial" font-size="12" fill="#9f1239" text-anchor="middle">WEAKNESS</text>
+    
+    <!-- Balloon (Joy) -->
+    <circle cx="80" cy="-120" r="30" fill="#f43f5e" />
+    <line x1="80" y1="-90" x2="30" y2="-20" stroke="#e11d48" stroke-width="2" />
+    <text x="80" y="-115" font-family="Arial" font-weight="bold" font-size="14" fill="white" text-anchor="middle">JOY</text>
+  </g>
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#881337" text-anchor="middle">Weakness Joy of 16 Types</text>
+</svg>

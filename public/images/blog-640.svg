@@ -1,0 +1,15 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#eff6ff" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Team Characters -->
+    <circle cx="-100" cy="0" r="40" fill="#93c5fd" stroke="#1e40af" stroke-width="3" />
+    <circle cx="0" cy="-50" r="45" fill="#60a5fa" stroke="#1e40af" stroke-width="3" />
+    <circle cx="100" cy="0" r="40" fill="#93c5fd" stroke="#1e40af" stroke-width="3" />
+    
+    <!-- Puzzle Piece -->
+    <path d="M -30 50 L 30 50 L 30 110 L -30 110 Z" fill="#2563eb" />
+    <circle cx="0" cy="50" r="15" fill="#eff6ff" />
+    <text x="0" y="90" font-family="Arial" font-weight="bold" font-size="20" fill="white" text-anchor="middle">TEAM</text>
+  </g>
+  <text x="400" y="80" font-family="Arial" font-weight="bold" font-size="36" fill="#1e3a8a" text-anchor="middle">MBTI Teamwork Ranking</text>
+</svg>

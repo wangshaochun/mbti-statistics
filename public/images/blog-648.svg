@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8fafc" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Scale of Dimensions -->
+    <path d="M -200 100 L 200 100" stroke="#475569" stroke-width="8" stroke-linecap="round" />
+    <path d="M 0 100 L 0 -50" stroke="#475569" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Character Balancing -->
+    <circle cx="0" cy="-100" r="40" fill="#94a3b8" stroke="#1e293b" stroke-width="3" />
+    
+    <!-- Dimension Labels -->
+    <text x="-120" y="80" font-family="Arial" font-weight="bold" font-size="24" fill="#1e293b" text-anchor="middle">E / I</text>
+    <text x="120" y="80" font-family="Arial" font-weight="bold" font-size="24" fill="#1e293b" text-anchor="middle">S / N</text>
+  </g>
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#0f172a" text-anchor="middle">MBTI Dimensions Explained</text>
+</svg>

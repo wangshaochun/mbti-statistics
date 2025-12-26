@@ -1,0 +1,17 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f0fdf4" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Growth Character -->
+    <path d="M -20 150 Q 0 100 20 150" fill="none" stroke="#166534" stroke-width="10" stroke-linecap="round" />
+    <path d="M 0 150 L 0 0" stroke="#166534" stroke-width="8" />
+    <path d="M 0 50 Q 50 20 80 50" fill="#4ade80" stroke="#166534" stroke-width="2" />
+    <path d="M 0 20 Q -50 -10 -80 20" fill="#4ade80" stroke="#166534" stroke-width="2" />
+    
+    <!-- Character Face on Top -->
+    <circle cx="0" cy="-50" r="40" fill="#bbf7d0" stroke="#166534" stroke-width="3" />
+    <circle cx="-15" cy="-60" r="4" fill="#166534" />
+    <circle cx="15" cy="-60" r="4" fill="#166534" />
+    <path d="M -10 -40 Q 0 -30 10 -40" fill="none" stroke="#166534" stroke-width="2" />
+  </g>
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#14532d" text-anchor="middle">Unlock Your Potential</text>
+</svg>

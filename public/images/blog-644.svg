@@ -1,0 +1,19 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f5f3ff" rx="20" />
+  <g transform="translate(400, 300)">
+    <!-- Two Characters Communicating -->
+    <g transform="translate(-100, 0)">
+      <circle r="40" fill="#ddd6fe" stroke="#7c3aed" stroke-width="3" />
+      <path d="M -10 -10 Q 0 0 10 -10" fill="none" stroke="#7c3aed" stroke-width="2" />
+    </g>
+    <g transform="translate(100, 0)">
+      <circle r="40" fill="#c4b5fd" stroke="#7c3aed" stroke-width="3" />
+      <path d="M -10 -10 Q 0 0 10 -10" fill="none" stroke="#7c3aed" stroke-width="2" />
+    </g>
+    
+    <!-- Speech Bubble -->
+    <path d="M -40 -80 Q 0 -120 40 -80 L 20 -60 L -20 -60 Z" fill="white" stroke="#7c3aed" stroke-width="2" />
+    <text x="0" y="-85" font-family="Arial" font-weight="bold" font-size="14" fill="#5b21b6" text-anchor="middle">MBTI</text>
+  </g>
+  <text x="400" y="520" font-family="Arial" font-weight="bold" font-size="36" fill="#4c1d95" text-anchor="middle">Communication Skills</text>
+</svg>
