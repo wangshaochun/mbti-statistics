@@ -1,0 +1,43 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdfbfb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ebedee;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Purple Villains -->
+  <g transform="translate(400, 300)" filter="url(#shadow)">
+    <!-- 4 Purple Characters -->
+    <g transform="translate(-150, 0)">
+      <circle cx="0" cy="0" r="40" fill="#9B59B6" stroke="#333" stroke-width="3"/>
+      <path d="M-15,-10 Q0,-20 15,-10" fill="none" stroke="#fff" stroke-width="3"/>
+      <text x="0" y="60" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">INTJ</text>
+    </g>
+    <g transform="translate(-50, 0)">
+      <circle cx="0" cy="0" r="40" fill="#8E44AD" stroke="#333" stroke-width="3"/>
+      <path d="M-15,-10 L15,-10" fill="none" stroke="#fff" stroke-width="3"/>
+      <text x="0" y="60" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">ENTJ</text>
+    </g>
+    <g transform="translate(50, 0)">
+      <circle cx="0" cy="0" r="40" fill="#9B59B6" stroke="#333" stroke-width="3"/>
+      <path d="M-15,-10 Q0,0 15,-10" fill="none" stroke="#fff" stroke-width="3"/>
+      <text x="0" y="60" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">ENTP</text>
+    </g>
+    <g transform="translate(150, 0)">
+      <circle cx="0" cy="0" r="40" fill="#8E44AD" stroke="#333" stroke-width="3"/>
+      <circle cx="0" cy="-5" r="5" fill="#fff"/>
+      <text x="0" y="60" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">INTP</text>
+    </g>
+    
+    <text x="0" y="120" font-family="Arial" font-size="24" text-anchor="middle" fill="#8E44AD" font-weight="bold">The "Purple" Squad</text>
+  </g>
+  
+  <text x="400" y="80" font-family="Arial" font-size="36" text-anchor="middle" fill="#333" font-weight="bold">Why Are They "Villains"?</text>
+  <text x="400" y="520" font-family="Arial" font-size="20" text-anchor="middle" fill="#666">Rationality vs Emotion</text>
+</svg>

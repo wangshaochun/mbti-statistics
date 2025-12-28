@@ -1,0 +1,27 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdfbfb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ebedee;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Fi (Introverted Feeling) -->
+  <g transform="translate(400, 300)" filter="url(#shadow)">
+    <!-- Character with Heart Inside -->
+    <circle cx="0" cy="-80" r="60" fill="#fff" stroke="#333" stroke-width="3"/>
+    <path d="M-20,-100 Q0,-120 20,-100" fill="none" stroke="#333" stroke-width="3"/>
+    <!-- Heart -->
+    <path d="M0,20 Q-30,-10 0,-40 Q30,-10 0,20" fill="#FF6B6B" stroke="#333" stroke-width="2"/>
+    
+    <text x="0" y="120" font-family="Arial" font-size="28" text-anchor="middle" fill="#333" font-weight="bold">内向的感情 (Fi)</text>
+  </g>
+  
+  <text x="400" y="80" font-family="Arial" font-size="36" text-anchor="middle" fill="#333" font-weight="bold">MBTIにおけるFiの意味</text>
+  <text x="400" y="520" font-family="Arial" font-size="20" text-anchor="middle" fill="#666">Introverted Feeling Function</text>
+</svg>
