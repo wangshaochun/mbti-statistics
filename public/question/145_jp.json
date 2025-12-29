@@ -1,0 +1,2450 @@
+[
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "特定の人と会話を始めたり続けたりするのが難しい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "多くの人と長時間、容易に会話ができる"
+      }
+    ],
+    "questionName": "社交の場で、あなたは通常どのように感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "独特または斬新な表現方法を好む"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "著者が自分の考えを正確に表現しているのを好む"
+      }
+    ],
+    "questionName": "娯楽のための読書をしているとき、あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "感情が理性を上回るようにする"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "理性が感情を上回るようにする"
+      }
+    ],
+    "questionName": "あなたはどちらの方が多いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "想像力豊かな人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "現実的な人"
+      }
+    ],
+    "questionName": "通常、どのようなタイプの人とうまく付き合えますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "自分の感情を自由に表現する"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "内面的な感情を表に出さない"
+      }
+    ],
+    "questionName": "あなたは通常どちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "理解してもらうのに長い時間がかかる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "短時間で理解してもらえる"
+      }
+    ],
+    "questionName": "他人があなたを理解するのに、通常どのくらいの時間が必要だと思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "性格は良いが、言動が一貫しないことが多い"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "言葉は厳しいが、常に論理的である"
+      }
+    ],
+    "questionName": "次のような性格の上司（または教師）の下で働くなら、どちらがいいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "常に新しいアイデアを持っている人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "非常に実務的な人"
+      }
+    ],
+    "questionName": "どのような人に友人になってほしいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "グループ全体の会話に参加する"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "親しい人と一対一で会話する"
+      }
+    ],
+    "questionName": "大勢の人と一緒にいるとき、通常どのようにしたいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "事前に手配ができるので良いと思う"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "束縛されているようで、少し不愉快に感じる"
+      }
+    ],
+    "questionName": "ある時間に何かをすることが事前に決まっているとき、どう感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "たくさん話す方だ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "主に聞き役に回る方だ"
+      }
+    ],
+    "questionName": "パーティーなどの集まりで、あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "少数の人と深い友情を築く"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "多くの異なる人と幅広い（浅い）付き合いをする"
+      }
+    ],
+    "questionName": "あなたは通常どちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "ルーチンは間違いを防ぐための理想的な方法だ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "間違いを犯す方がまだましだ（ルーチンに縛られるよりは）"
+      }
+    ],
+    "questionName": "「ルーチン（決まった手順）」についてどう思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "概念や原則を教える授業"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "事実や数値を教える授業"
+      }
+    ],
+    "questionName": "通常、どのような授業を好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "深く考えずにその場で取り組む"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "計画に従って完了させる"
+      }
+    ],
+    "questionName": "多くのことを行う際、どちらの方法を好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "現実的な人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "創造的な才能がある人"
+      }
+    ],
+    "questionName": "どのように見られたいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "先見の明がある"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "常識がある"
+      }
+    ],
+    "questionName": "人に対する評価として、より高い褒め言葉はどちらだと思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "私がほとんどの事柄に対してどう感じているかを知っている"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "私が特に伝えたいと思ったときだけ、私の感情を理解する"
+      }
+    ],
+    "questionName": "あなたと親しい人は、あなたのことをどう思っていると思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "常に楽しんでいる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "時々退屈に感じる"
+      }
+    ],
+    "questionName": "パーティーなどの集まりで、あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "始める前に細かく計画を立てる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "やりながら必要なことを把握していく"
+      }
+    ],
+    "questionName": "特別な任務を遂行する必要があるとき、どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "ルーチン（決まった手順）"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "絶え間ない変化"
+      }
+    ],
+    "questionName": "どちらの状況に適応するのがより難しいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "社交的な人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "非常に静かで内向的な人"
+      }
+    ],
+    "questionName": "あなたは通常どちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "早めに始めて早めに終わらせ、余裕を持つこと"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "締め切り直前に一気に仕上げること"
+      }
+    ],
+    "questionName": "仕事を完了させる際、どちらに頼りますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "楽しい、あるいは少なくとも気楽だ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "かなりの努力（気力）を必要とする"
+      }
+    ],
+    "questionName": "見知らぬ人に会わなければならないとき、どう感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "予期せぬ事態に対処しているとき"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "細かく練られた計画を実行しているとき"
+      }
+    ],
+    "questionName": "どのような状況で、自分の能力を最大限に発揮できますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "約束や集まりなどを事前に決めておくこと"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "その時になって、面白いと思ったことを自由に行うこと"
+      }
+    ],
+    "questionName": "どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "自分にとって心地よく任務を遂行できる方法だ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "必要であっても、苦痛に感じる"
+      }
+    ],
+    "questionName": "毎日決まったルーチンに従うことについて、どう思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "ある状況における可能性を見出すこと"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "実際の状況に合わせて調整すること"
+      }
+    ],
+    "questionName": "どちらの方が重要だと思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "事実を比較検討すること"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "人々の感情や意見を考慮すること"
+      }
+    ],
+    "questionName": "決断を下す際、どちらの方が重要ですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "何が起こるか様子を見てから、計画を立てる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "早めに計画を立てる"
+      }
+    ],
+    "questionName": "どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "締め切り前に仕事を終わらせることに、本当の満足感を感じる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "締め切り直前のスピード感と効率の良さを楽しむ"
+      }
+    ],
+    "questionName": "あなたはどちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "することと時間を計画しておく"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "行ってから決める"
+      }
+    ],
+    "questionName": "一日中外出するとき、どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "何が起きているかを最後に知る方だ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "全員の状況をよく把握している方だ"
+      }
+    ],
+    "questionName": "友人たちの間で、あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "好ましいと思う"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "気が進まない（嫌だ）"
+      }
+    ],
+    "questionName": "週末にやるべきことをリストアップするという考えについて、どう思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "時間との戦いのような緊迫感を楽しむ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "プレッシャーの下で働かずに済むよう、通常は計画を立てる"
+      }
+    ],
+    "questionName": "日常の仕事において、あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "自分にとって好ましい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "自分を制限するように感じる"
+      }
+    ],
+    "questionName": "スケジュールを守ること"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "時として必要だが、通常は好ましくない"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "ほとんどの場合、助けになり好ましい"
+      }
+    ],
+    "questionName": "計画通りに物事を進めることについて、どう思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "ほとんど誰とでも、好きなだけ気楽に話せる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "特定の人や特定の状況でしか、たくさん話すことはない"
+      }
+    ],
+    "questionName": "あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "締め切り直前に仕事を終わらせることを好む"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "締め切り直前に仕事を終わらせるのは不安だと感じる"
+      }
+    ],
+    "questionName": "あなたはどちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "その日の気分に従って"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "決まった計画に従って"
+      }
+    ],
+    "questionName": "ほとんどの事柄を、どちらの方法で行いたいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "より自発的な（その場の思いつきで動く）人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "より組織的・計画的な人"
+      }
+    ],
+    "questionName": "自分のことをどう思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "社交的な予定を事前に立てておく"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "深く考えず、その場の気分で行う"
+      }
+    ],
+    "questionName": "通常、どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "非常に伝統的で、決して目立とうとしない人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "非常に独特で個性的、目立つかどうかを気にしない人"
+      }
+    ],
+    "questionName": "どのような人をより尊敬しますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "独創性を持つこと"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "慣習（ルーチン）に従うこと"
+      }
+    ],
+    "questionName": "自分のライフスタイルにおいて、どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "すぐに"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "彼らが本当に私を理解した後でなければ分からない"
+      }
+    ],
+    "questionName": "初めて会った人は、あなたが何に興味を持っているかをどのくらい早く知ることができますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "既存の良いやり方を支持すること"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "残っている間違いを分析し、未解決の問題に対処すること"
+      }
+    ],
+    "questionName": "どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "誠実な人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "常に理性的な人"
+      }
+    ],
+    "questionName": "どちらの言葉で呼ばれることが、あなたにとってより高い褒め言葉ですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "一般の人よりも物事に対して情熱的だ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "一般の人よりも物事に対して情熱が低い"
+      }
+    ],
+    "questionName": "自分のことをどう思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "有能である"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "同情心に富んでいる"
+      }
+    ],
+    "questionName": "どちらの特徴が、より高い褒め言葉だと思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "他の人と一緒にいる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "ほとんどの時間を一人で過ごす"
+      }
+    ],
+    "questionName": "あなたは通常どちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "やりながら必要なことを見つけていく"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "最初から必要なタスクをステップごとに分ける"
+      }
+    ],
+    "questionName": "全体的に見て、大きな任務を遂行する際、あなたは通常どちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "意見を言わない"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "反論する"
+      }
+    ],
+    "questionName": "他人が言ったことに同意できないとき、通常どうしますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "一般的に受け入れられている方法で行う"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "自分で新しい方法を編み出す"
+      }
+    ],
+    "questionName": "多くの人がやっていることを行う際、どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "事実を伝える授業"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "理論に関する授業"
+      }
+    ],
+    "questionName": "もしあなたが教師なら、どちらを教えたいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "イベントの運営を手伝うこと"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "他の人が自分の好きなように楽しむのを見守ること"
+      }
+    ],
+    "questionName": "パーティーに参加するとき、何を好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "内向的な人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "非常に明るい（社交的な）人"
+      }
+    ],
+    "questionName": "多くの人はあなたのことを何と言うと思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "人の感情を傷つけるなら、決して使うべきではない"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "非常に効果的な表現方法なので、捨てるべきではない"
+      }
+    ],
+    "questionName": "「皮肉」についてどう思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "エネルギーが湧いてくる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "多くのエネルギーを消耗する"
+      }
+    ],
+    "questionName": "大勢の人の中にいるとき、どう感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "趣味や関心が同じ人とだけ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "ほとんどすべての人と"
+      }
+    ],
+    "questionName": "次のようなタイプの人と、ずっと会話を続けることができますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "頭の回転が速く、才能のある人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "常識豊かな現実的な人"
+      }
+    ],
+    "questionName": "どのような人に、より興味を持ちますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "他人を紹介する"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "他人に自分を紹介してもらう"
+      }
+    ],
+    "questionName": "大勢の人と一緒にいるとき、どちらの方が多いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "流れに任せる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "計画に従って行動する"
+      }
+    ],
+    "questionName": "ほとんどの場合、どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "時間をかけてタスクをリストアップし、進める順番を決める"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "すぐに取り掛かる"
+      }
+    ],
+    "questionName": "一週間後に締め切りがある大きなプロジェクトに取り掛かるとき、あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "理解されやすい人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "理解されにくい人"
+      }
+    ],
+    "questionName": "あなたはどちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "人の感情"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "人の権利"
+      }
+    ],
+    "questionName": "どちらにより注意を向けますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "ほとんどの時間を、その日にやりたいと思ったことに充てる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "その日にやるべきことを事前に把握しておく"
+      }
+    ],
+    "questionName": "旅行の計画を立てるとき、どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "すぐに元の場所に戻す"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "主要な仕事が終わるまで脇に置いておく"
+      }
+    ],
+    "questionName": "特定の道具や設備、参考書などを使い終わった後、通常どうしますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "一人で過ごすこと"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "他の人と一緒に過ごすこと"
+      }
+    ],
+    "questionName": "通常、どちらに多くの時間を費やしますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "論理よりも感情を重視する"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "感情よりも論理を重視する"
+      }
+    ],
+    "questionName": "どちらの傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "物事を先延ばしにする人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "せっかちな人"
+      }
+    ],
+    "questionName": "人々はあなたのことを、より頻繁にどのように表現しますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "自分の好きな人と話そうとする"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "みんなと一緒に過ごす"
+      }
+    ],
+    "questionName": "社交の場で、あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "誰にも秘密を打ち明けないか、せいぜい一人にしか打ち明けない"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "多くの親友がいる"
+      }
+    ],
+    "questionName": "どちらの習慣がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "既知の"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "未知の"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "現実的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "感傷的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "同意"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "議論"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "物事"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "言葉"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "事実を述べる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "概念を理解する"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "調停者"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "鑑定人"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "想像上の"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "現実的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "体系的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "偶然の"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "批判しない"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "批判的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "事実"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "観点"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "想像力豊かな"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "実務的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "同情"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "先見の明"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "生産"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "設計"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "柔和"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "力"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "束縛を嫌う"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "計画的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "エグゼクティブ（高級幹部）"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "学者"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "分析的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "感傷的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "並外れた"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "慣習的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "意志が強い"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "熱心"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "静かな"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "明るい"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "同意"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "懐疑"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "穏やかな"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "厳しい"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "秩序ある"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "気ままな"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "製作"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "創作"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "納得させる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "感動させる"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "公平な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "愛情深い"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "敏感な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "公正な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "寛容な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "確固たる"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "温和"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "厳格"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "建造"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "創造"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "客観的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "情熱的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "意志の強い"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "心の優しい"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "賢明な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "魅力的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "詳細な分析"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "賛同"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "熱心な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "客観的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "現実的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "革新的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "計画的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "無計画な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "実効性を求める"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "理論的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "率直"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "プライバシー重視"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "理論"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "確定"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "社交的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "超然とした"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "利益"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "幸福"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "控えめな"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "おしゃべりな"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "パーティー"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "劇場"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "有能な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "親切な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "静かな"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "友好的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "公正"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "憐れみ"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "同情心に富む"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "論理的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "可能性"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "確実なこと"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "具体的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "抽象的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "分析"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "同情"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "公開"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "プライバシー"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "兆候"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "象徴的意味"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "活発な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "知的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "斬新な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "既知の"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "穏やかな"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "活発な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "熱心な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "静かな"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "和やかな"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "効果的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "機転の利く"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "信頼する"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "許し"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "寛容"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "理論"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "事実"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "断固とした"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "熱心な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "体系的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "自発的な"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "抽象的な"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "根拠のある"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "話すこと"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "書くこと"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "時間厳守"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "気まま"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "競争"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "協力"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "受け入れる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "変える"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "観念"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "現状"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "衝動"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "決定"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "思想"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "感覚"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "対義語選択",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "少数の友人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "多数の友人"
+      }
+    ],
+    "questionName": "あなたをより適切に表す言葉を選んでください"
+  }
+]

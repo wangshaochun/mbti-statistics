@@ -1,0 +1,2450 @@
+[
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "与某些人很难开始交谈和继续交谈"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "很容易与很多人长时间交谈"
+      }
+    ],
+    "questionName": "在社交场合，你通常发现"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "喜爱独特或新颖的表达方法"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "喜爱作者确切地表达自己的思想"
+      }
+    ],
+    "questionName": "在阅读消遣读物时，你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "让自己的情感主导理智"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "让自己的理智主导情感"
+      }
+    ],
+    "questionName": "你是更经常"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "富于想象力的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "现实的人"
+      }
+    ],
+    "questionName": "你通常与哪一种人相处得更好"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "自由地表达自己的感情"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "不流露自己的内在感情"
+      }
+    ],
+    "questionName": "你通常是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "很长时间才能了解我"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "只要很短的时间就能了解我"
+      }
+    ],
+    "questionName": "你认为通常别人需要"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "脾气很好但是经常不一致"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "说话尖刻但逻辑总是很强"
+      }
+    ],
+    "questionName": "你愿意在以下哪一种性格的老板（或老师）手下工作"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "始终会有新的想法的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "十分务实的人"
+      }
+    ],
+    "questionName": "你愿意以下哪一种人成为你的朋友"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "参加集体交谈"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "单独与我熟悉的人交谈"
+      }
+    ],
+    "questionName": "当你与一群人在一起时，你通常愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "能够事前作出相应的安排很好"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "受到的束缚使我感到有点不愉快"
+      }
+    ],
+    "questionName": "当事前安排你将在某个时间做某件事，你会认为"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "说很多的话"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "主要听别人说话"
+      }
+    ],
+    "questionName": "在聚会时，你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "与很少几个人有很深的友谊"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "与很多不同的人有泛泛的友谊"
+      }
+    ],
+    "questionName": "你通常是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "常规是一种预防错误的理想方法"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "还不如犯错误"
+      }
+    ],
+    "questionName": "你认为常规是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "讲授概念和原则的课程"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "讲授事实和数字的课程"
+      }
+    ],
+    "questionName": "你通常偏好以下哪一种课程"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "不假思索地去做"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "按照计划去完成"
+      }
+    ],
+    "questionName": "你在做很多事情时愿意采用以下哪一种方法"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "实际的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "有创造才能的人"
+      }
+    ],
+    "questionName": "你愿意被视为"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "有远见"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "具有常识"
+      }
+    ],
+    "questionName": "以下哪一种对人的评价是更高的赞扬"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "了解我对大多数事情的感受"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "只有在我有特别的愿意需要告诉他们时才会了解我的感受"
+      }
+    ],
+    "questionName": "你认为与你亲近的人"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "始终感到有趣"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "有时感到无聊"
+      }
+    ],
+    "questionName": "在聚会时，你会"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "在开始之前仔细地规划"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "边做边了解需要做的事情"
+      }
+    ],
+    "questionName": "当你需要完成一项特殊的任务时，你是愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "常规"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "不断的变化"
+      }
+    ],
+    "questionName": "你更难适应以下哪一种情况"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "一个合群的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "非常安静和内向的人"
+      }
+    ],
+    "questionName": "你通常是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "尽早开始，以便尽早完成，并有多余的时间"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "赶到最后的时刻快速完成"
+      }
+    ],
+    "questionName": "在完成一项工作时，你是依赖"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "愉快或至少很随意"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "需要作出很大努力"
+      }
+    ],
+    "questionName": "当你必须见陌生人时，你感到"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "在处理意外情况时"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "在执行仔细规划的计划时"
+      }
+    ],
+    "questionName": "你在以下哪一种情况下能够表现出你的最佳能力"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "提前安排约会、聚会等"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "到时候随意做任何有趣的事"
+      }
+    ],
+    "questionName": "你愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "是使我感到自在的完成任务的方法"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "即使在必要时也会使我感到痛苦"
+      }
+    ],
+    "questionName": "你认为每日遵循例行的常规"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "能够看到某种情况中的可能性"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "能够根据实际情况进行调整"
+      }
+    ],
+    "questionName": "你认为以下哪一种情况更重要"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "权衡事实"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "考虑人们的感觉和意见"
+      }
+    ],
+    "questionName": "在作出决定时，以下哪一种做法对你更重要"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "等待观望会发生什么情况，然后再制定计划"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "早早制定计划"
+      }
+    ],
+    "questionName": "你愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "从在截止日期之前完成一项任务中获得真正的满足感"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "享受截止期之前最后一刻所获得的速度和效率"
+      }
+    ],
+    "questionName": "你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "计划好要做的事情和时间"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "去了再说"
+      }
+    ],
+    "questionName": "当你要外出一整天，你愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "最后一个得知正在发生的事情"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "了解有关每个人的很多情况"
+      }
+    ],
+    "questionName": "在你朋友中，你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "受我欢迎"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "使我反感"
+      }
+    ],
+    "questionName": "把周末要完成的任务列出来，这个想法是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "享受争分夺秒的那种紧迫感"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "通常做好工作计划，以免在压力下工作"
+      }
+    ],
+    "questionName": "在你的日常工作中，你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "受到我的欢迎"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "对我产生限制"
+      }
+    ],
+    "questionName": "遵守日程安排"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "有时是有必要的，但通常不受欢迎"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "大多数时间都有帮助和受欢迎"
+      }
+    ],
+    "questionName": "你认为按照计划办事"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "与几乎所有人随意交谈无论多长时间"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "仅对某些人或在某些情况下才有很多的话要说"
+      }
+    ],
+    "questionName": "你能"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "愿意在最后一刻完成任务"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "认为在最后一刻完成任务使我感到不安"
+      }
+    ],
+    "questionName": "你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "按照当日的感觉"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "按照固定的计划"
+      }
+    ],
+    "questionName": "你希望按照以下哪一种方法做大多数的事情"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "更加自发性的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "更加有组织计划性的人"
+      }
+    ],
+    "questionName": "你认为自己是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "提前作出社交安排"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "不假思索随意去做"
+      }
+    ],
+    "questionName": "你通常愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "非常传统化、从不使自己引人注目的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "非常独特和个人化、不会考虑是否引人注目的人"
+      }
+    ],
+    "questionName": "你更崇拜以下哪一种人"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "具有独创性"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "遵循常规"
+      }
+    ],
+    "questionName": "在你的生活方式中，你愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "立即"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "只有在他们真正了解我以后"
+      }
+    ],
+    "questionName": "你遇到的陌生人能够多快了解你感兴趣的事物"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "支持现有的好的做事方法"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "分析依然存在的错误并处理尚未解决的问题"
+      }
+    ],
+    "questionName": "你是愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "真诚的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "一贯理智的人"
+      }
+    ],
+    "questionName": "你认为被称为以下哪一种人对你是一种高度的赞扬"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "比一般人对事物拥有更大的热情"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "比一般人对事物拥有更低的热情"
+      }
+    ],
+    "questionName": "你认为自己"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "有能力的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "富有同情心的"
+      }
+    ],
+    "questionName": "以下哪一种特征是更高的赞扬"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "与其他人在一起"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "大多数时间独处"
+      }
+    ],
+    "questionName": "你通常是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "边做边发现需要做的事"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "从一开始就将所需完成的任务分成不同的步骤"
+      }
+    ],
+    "questionName": "总体而言，在完成一项重大任务时，你通常是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "不发表意见"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "提出争论"
+      }
+    ],
+    "questionName": "当你不同意别人刚刚说的话时，你通常是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "按照普遍接受的方法去做"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "自己发明一种新方法"
+      }
+    ],
+    "questionName": "在从事很多其他人做的事情时，你更愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "讲述事实的课程"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "涉及理论的课程"
+      }
+    ],
+    "questionName": "如果你是老师，你愿意教授"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "帮助组织活动"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "让其他人按照自己的方式取乐"
+      }
+    ],
+    "questionName": "当你参加聚会时，你喜爱"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "内向的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "非常开朗的人"
+      }
+    ],
+    "questionName": "大多数人会说你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "如果会伤害人的感情则永远不应使用"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "非常有效的表达方式，因此不应当放弃"
+      }
+    ],
+    "questionName": "你认为讽刺"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "使我精力更加充沛"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "经常耗费很多精力"
+      }
+    ],
+    "questionName": "你发现在很多人的身边"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "仅与兴趣爱好相同的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "与几乎所有的人"
+      }
+    ],
+    "questionName": "你是否能够与以下类型的人一直交谈"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "思维敏捷、有才气的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "具有很多常识的实际的人"
+      }
+    ],
+    "questionName": "你对以下哪一种人更感兴趣"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "介绍别人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "让别人介绍自己"
+      }
+    ],
+    "questionName": "与一大群人在一起时，你是更经常地"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "顺其自然"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "按照计划行事"
+      }
+    ],
+    "questionName": "在大多数情况下，你是愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "花时间列出需要完成的不同任务以及完成这些任务的顺序"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "立即开始干"
+      }
+    ],
+    "questionName": "当你开始着手一项需在一周后完成的大项目时，你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "容易让人了解"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "很难让人了解"
+      }
+    ],
+    "questionName": "你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "人的感情"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "人的权利"
+      }
+    ],
+    "questionName": "你更注意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "大多数时间做自己当天喜爱做的事"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "事先知道大多数当天我将要做的事情"
+      }
+    ],
+    "questionName": "在规划旅行时，你愿意"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "立即放回原处"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "放在一边直到主要工作完成后"
+      }
+    ],
+    "questionName": "当你用完某个具体的工具、设备、参考书之类的物品后，你通常是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "独处"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "与其他人在一起"
+      }
+    ],
+    "questionName": "你通常花很多时间"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "重视情感超过重视逻辑"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "重视逻辑超过重视情感"
+      }
+    ],
+    "questionName": "你是倾向于"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "拖拉的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "过于急躁的人"
+      }
+    ],
+    "questionName": "人们更经常地将你描述为"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "尽量与某个我喜爱的人交谈"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "与大家一起"
+      }
+    ],
+    "questionName": "在社交场合，你是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "不向任何人倾诉内心的秘密或最多向一个人倾诉内心的秘密"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "有很多知心朋友"
+      }
+    ],
+    "questionName": "你是习惯于"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "已知的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "未知的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "实际的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "多愁善感的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "同意"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "讨论"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "事物"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "言词"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "陈述事实"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "理解概念"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "调解人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "鉴定人"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "想象的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "现实的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "系统性的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "偶然的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "不加批评的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "批评的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "事实"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "观点"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "富于想象的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "讲究实际的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "同情"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "远见"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "生产"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "设计"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "柔和"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "力量"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "不爱拘束的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "有计划性的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "高级主管"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "学者"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "分析性的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "多愁善感的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "不寻常的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "惯常的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "性格坚强"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "热心"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "安静的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "开朗的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "同意"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "怀疑"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "温和的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "严厉的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "有秩序的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "随意的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "制作"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "创作"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "令人信服"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "令人感动"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "公平的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "有爱心的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "敏感的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "公正的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "宽容的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "坚定的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "温和"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "严厉"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "建造"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "创造"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "客观的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "充满热情的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "意志坚强的对应"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "心肠软的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "明智的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "迷人的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "仔细分析"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "赞同"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "热情的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "客观的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "实际的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "创新的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "有计划的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "无计划的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "讲求实效的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "理论性的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "开诚布公"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "注重隐私"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "理论"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "确定"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "好交际的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "超然的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "益处"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "福报"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "含蓄的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "爱说话的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "聚会"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "剧场"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "有能力的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "好心的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "安静的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "爱交友的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "公正"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "怜悯"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "富于同情心的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "合乎逻辑的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "可能性"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "确定无疑的事"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "具体的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "抽象的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "分析"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "同情"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "公开"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "隐私"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "征兆迹象"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "象征意义"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "活跃的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "有智力的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "新颖的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "已知的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "平静的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "活泼的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "热诚的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "安静的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "和蔼的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "有效的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "机智的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "信任的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "原谅"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "容忍"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "理论"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "事实"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "坚决的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "投入的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "系统性的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "自发的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "抽象的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "有根据的"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "说话"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "书写"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "准时"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "随意"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "竞争"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "合作"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "接受"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "改变"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "观念"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "现状"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "冲动"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "决定"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "思想"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "感觉"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "词对题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "很少朋友"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "很多朋友"
+      }
+    ],
+    "questionName": "请选择更合适描述你的词语"
+  }
+]

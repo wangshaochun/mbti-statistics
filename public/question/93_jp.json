@@ -1,0 +1,1583 @@
+[
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "ドラマを見ているとき、とても感情移入しますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "相手が遅れてくると、とても不愉快になります"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "自分もよく遅れるので、全く気にしません"
+      }
+    ],
+    "questionName": "友人と会う約束をしたとき、"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "自分の直接的な観察やこれまでの経験"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "自分の直感"
+      }
+    ],
+    "questionName": "どちらを信じる傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "実業家のロックフェラー"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "アインシュタイン"
+      }
+    ],
+    "questionName": "どちらをより高く評価しますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "現実的で具体的な「今ここ」のこと。例えば、これから行く旅行の話など"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "未来のことや、物事や生活を改善・発明する可能性について。例えば、新しい科学的発明の話など"
+      }
+    ],
+    "questionName": "友人とリラックスして話しているとき、どのような話題を好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "はい、相手が誰であっても仲良くできます"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "全員と友達になる必要はなく、数人の本当の親友がいれば十分です"
+      }
+    ],
+    "questionName": "他人とすぐに友達になれる方ですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "自分は時間通りに来たのに、他の人が遅れてくる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "他の人は時間通りに来たのに、自分だけ遅れる"
+      }
+    ],
+    "questionName": "どちらの状況がより多いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "心の中で冒険を求めていますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "具体的な出来事の背後にある普遍的な原理を見抜くのが得意ですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "はい、綺麗で可愛らしく、華やかなものが好きです"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "いいえ、服はTシャツとジーンズがあれば十分です"
+      }
+    ],
+    "questionName": "装飾やおしゃれは好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "事前に予定を知っておくこと：どこへ行くか、誰が来るか、どのくらい滞在するか"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "事前の計画はあまり立てず、その場の流れに任せること"
+      }
+    ],
+    "questionName": "どちらを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "机やデスクは、いつも整理整頓されていますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "相手の邪魔にならないか少し心配になります"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "自信を持ってリラックスして接します"
+      }
+    ],
+    "questionName": "見知らぬ人に自分から話しかけなければならないとき、あなたは"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "物事に対して論理的で体系的な説明がないと、よく分からず曖昧な感じがします"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "生活や現実を楽しみます。何にでも抽象的な解釈や説明を加えるのは疲れます"
+      }
+    ],
+    "questionName": "どちらの記述がより自分に当てはまりますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "まず論理に従い、その次に自分の気持ちに従います"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "まず自分の気持ちに従い、その次に論理に従います"
+      }
+    ],
+    "questionName": "どのように決断を下す傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "それらは自分にとって重要ではなく、ただ今この瞬間を大切にしたいです"
+      }
+    ],
+    "questionName": "推測、予測、分析することが好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "人生は旅のようなもので、目的地よりも途中の景色やその時の気分が大切です"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "人生には目標を立てて努力することが必要です。目標に集中していると、途中の景色を楽しむ余裕はないものです"
+      }
+    ],
+    "questionName": "どちらの考え方がより自分に合っていますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "言動が衝動的で、あまり冷静な方ではありません"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "はい、口数が少なく、非常に冷静な性格です"
+      }
+    ],
+    "questionName": "周りの友人から、あなたはとても冷静な人だと言われますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "人々が非論理的であるとき"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "人々が感情的なサポートを必要としているとき"
+      }
+    ],
+    "questionName": "どちらに気づきやすい傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "誰かと話したり、娯楽活動に参加したりする方が好きです"
+      }
+    ],
+    "questionName": "一人で行動する方が心地よいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "はい、そうです"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "いいえ、そうではありません"
+      }
+    ],
+    "questionName": "強い感情に影響されやすいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "友人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "自分の考え"
+      }
+    ],
+    "questionName": "どこからエネルギーを得る傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい、そうです"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "いいえ、そうではありません"
+      }
+    ],
+    "questionName": "自分の感情について話すのは難しいと感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "全体的に見て、あなたはコミュニケーションにおいて少し控えめで距離を置くタイプですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "まず自分のスケジュールを確認しなければなりません"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "すぐに荷物をまとめます"
+      }
+    ],
+    "questionName": "時間とお金があるときに、友人が前日に海外旅行に誘ってきたら、あなたはどうしますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "現在の状況に対する現実的な認識"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "起こりうる可能性に対する想像や期待"
+      }
+    ],
+    "questionName": "どのような方法で情報を集める傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "はい、友人が指輪を変えただけでもすぐに気づきます"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "いいえ、相手がどんな服に着替えたか気づかないこともあります"
+      }
+    ],
+    "questionName": "周りの人の変化に敏感ですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "いいえ、賑やかな方が好きです"
+      }
+    ],
+    "questionName": "外界の喧騒から離れている方が好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "時間を計画する習慣はなく、気の向くままに過ごすのが好きです"
+      }
+    ],
+    "questionName": "一分一秒を有意義に使う方法を知っていますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "時間はきっちり守る方ですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "選べるなら、一人で静かに過ごす方がいいです"
+      }
+    ],
+    "questionName": "広い交友関係を持つことを好みますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "とても嬉しく、その明るさに影響されて好感を持ちます"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "愛想よく応じますが、なぜこんなに親切なのか、何か目的があるのではないかと少し疑ってしまいます"
+      }
+    ],
+    "questionName": "パーティーなどで初めて会った人がとても親切に接してくれたとき、どうしますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "「なぜ？」と尋ねたり、おもちゃを分解して仕組みを調べたりすること"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "絵を描いたり、見たものを言葉で表現したりすること"
+      }
+    ],
+    "questionName": "子供の頃、より熱中していたのはどちらですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "パーティーに参加するのが好きです"
+      }
+    ],
+    "questionName": "多くの場合、パーティーに行くよりも家で本を読んでいる方がいいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "はい、そうです"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "いいえ、将来の可能性について推測することの方が多いです"
+      }
+    ],
+    "questionName": "物事を考えるとき、将来の可能性よりも、現在の目的に集中することが多いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "論理, 分析, 批判的思考を用いて問題を解決すること"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "人間関係を活用して問題を解決すること"
+      }
+    ],
+    "questionName": "どちらが得意ですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "頭の回転が速く、機転が利く人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "落ち着いていて、着実な人"
+      }
+    ],
+    "questionName": "どのような人に魅力を感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "問題を解決するとき、新しい方法よりも慣れ親しんだ方法を使いたいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "事前の計画よりも、その瞬間の感覚に基づいて決断することが多いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "人類やその運命についてよく考えますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい、よくそう感じます"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "そのような経験はありません"
+      }
+    ],
+    "questionName": "長時間の社交の後、その場を離れて一人になりたいと感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "臨機応変に、その場で対応します"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "しっかり準備しないと不安です"
+      }
+    ],
+    "questionName": "待ち合わせや面会があるとき、その場で対応するタイプですか、それとも事前にしっかり準備するタイプですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "外見は静かだが、内面は情熱的（または意外な一面がある）と言われる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "明るく活発で、賑やかすぎると言われる"
+      }
+    ],
+    "questionName": "友人からの評価として、どちらが近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "写真"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "哲学的な思索"
+      }
+    ],
+    "questionName": "暇なとき、どのような本を読みたいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "論理的で明快"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "情熱的で感受性が豊か"
+      }
+    ],
+    "questionName": "あなたを知っている人は、あなたをどのように表現する傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "人混みの中では、目立たない場所にいることが多いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "出発直前に慌てて準備し、駅に着く頃には出発間際...のんびり屋なので"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "早めに荷物をまとめ、当日はかなり早く駅に着いて、一番乗りで待っている"
+      }
+    ],
+    "questionName": "遠出の準備をするとき、どちらが自分に近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "抽象的すぎて、必要な行動が非現実的になりがち"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "細部にこだわりすぎて、視野が狭くなりがち"
+      }
+    ],
+    "questionName": "どちらが自分に近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "とても理性的な人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "感情を大切にする人"
+      }
+    ],
+    "questionName": "どちらだと思われやすいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "感情的な相性：相手の感情的なニーズに敏感であること"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "知的な相性：重要な考えを共有し、客観的に議論できること"
+      }
+    ],
+    "questionName": "友人と付き合うとき、何を重視する傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい、一人が自分に合っています"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "いいえ、一人ぼっちにしないでください"
+      }
+    ],
+    "questionName": "一人で行動するのが好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "外見は伝統的だが、内面は開放的で情熱的。自分に挑戦したいと思っている"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "外見は開放的だが、ただ自分らしくいたいだけで、内面は保守的で伝統的"
+      }
+    ],
+    "questionName": "どちらが自分に近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "すぐに親しくなるのに内面は冷めているような関係は理解できず、受け入れられません"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "社交の目的が何であるかによります。目的が有益であれば、気になりません"
+      }
+    ],
+    "questionName": "社交の場で世渡り上手で如才ない人について、どう思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "サプライズが好きで、直前の変更にも適応できる"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "変化を好まず、安定と着実さを求める"
+      }
+    ],
+    "questionName": "どちらが自分に近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "実務的な人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "想像力豊かでインスピレーションを大切にする人"
+      }
+    ],
+    "questionName": "どちらに見られたいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "多くの知り合いと、多くの親しい友人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "少数の親しい友人と、少数の知り合い"
+      }
+    ],
+    "questionName": "どのような人間関係を持つ傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "美しいものを見つけたり体験したりする方が好きです"
+      }
+    ],
+    "questionName": "あなたにとって、問題を解決すること自体が楽しみですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "人と接しない環境にいるとき、生命の喜びを感じます"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "多少騒がしくても、一人ぼっちでいるよりはましです"
+      }
+    ],
+    "questionName": "どちらが自分に近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "いいえ、新しい体験を求めています"
+      }
+    ],
+    "questionName": "伝統的なライフスタイルの方が心地よいと感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "電話が突然鳴るなどの突発的な出来事に対して、真っ先に反応する方ですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "自分がリラックスできるまで、比較的静かに控えめにしています"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "全体的に見て、とてもおしゃべりです"
+      }
+    ],
+    "questionName": "同窓会などでは、通常どのように過ごしますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "多くの場合、つい流されてしまいます"
+      }
+    ],
+    "questionName": "自分の欲求や外部の誘惑をうまくコントロールできますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "相手の立場で考えすぎて、自分の立場が曖昧になることがよくありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "いいえ、どちらかというと感性的です"
+      }
+    ],
+    "questionName": "何事に対しても科学的な態度を持つ傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "感情をあまり表に出しません"
+      }
+    ],
+    "questionName": "自分の感覚や感情を素直に表に出したり、言葉にしたりしやすいですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "時間厳守"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "のんびり、悠々自適"
+      }
+    ],
+    "questionName": "自分により当てはまる言葉を選んでください"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "めったにありません"
+      }
+    ],
+    "questionName": "時々、思いつきで行動することがありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "まず全体像を把握したいタイプ"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "まず細部を把握したいタイプ"
+      }
+    ],
+    "questionName": "多くの場合、あなたはどのようなタイプですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "物事の解決策について、常にもっと良い方法があるはずだと感じます"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "現実の人や物に注目し、空想にふけるのはあまり好きではありません"
+      }
+    ],
+    "questionName": "どちらが自分に近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "何事にも個性を求め、自分の興味のままに行動し、決まった形式を持ちません"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "伝統的で保守的。奇をてらうことは好みません"
+      }
+    ],
+    "questionName": "どちらが自分に近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "いいえ、自由で気ままな方が慣れています"
+      }
+    ],
+    "questionName": "物事を整理整頓すると、嬉しくなりますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "はい、周りの人が気にかけてくれると、やはり気分が良いです"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "いいえ、あまり構わないでほしいです"
+      }
+    ],
+    "questionName": "他人から気にかけられるのが好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "問題解決の結果よりも、その過程や方法を重視しますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "いつも何かに追われるように急いでいますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "多少なりとも気が進まない感じがします"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "特に気後れしません"
+      }
+    ],
+    "questionName": "見知らぬ人に会うとき、通常どのように感じますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "他人を問い詰めたり非難したりすることは少なく、穏やかで寛容でありたいと思っています"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "お人好しにはなりたくありません。他人の間違いに気づいたら、はっきりと指摘します"
+      }
+    ],
+    "questionName": "どちらが自分に近いですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "計画的でリズムのある仕事"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "柔軟性があり、比較的自由な仕事"
+      }
+    ],
+    "questionName": "どちらが好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "選択肢を何度も吟味するよりも、すぐに行動に移す方が好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "新しいアイデアがよく頭に浮かびますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "臨機応変に対応する"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "事前に計画を立てる"
+      }
+    ],
+    "questionName": "多くの場合、どちらの傾向がありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "いいえ、一人で過ごす方が心地よいです"
+      }
+    ],
+    "questionName": "休日はよく大勢の人と交流したり、パーティーに参加したり、買い物に行ったりしますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "自然な流れと柔軟性"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "スケジュールと組織化"
+      }
+    ],
+    "questionName": "あなたが選ぶ生活は、どのようなものに満ちていますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "5人どころか、10人でも問題ありません"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "急に言われると思い出せません！まさか、友達がこんなに少ないなんて..."
+      }
+    ],
+    "questionName": "すぐに5人の友人の名前を言えますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "「少しは静かにできないの？」"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "「自分の世界から少し出てきてくれない？」"
+      }
+    ],
+    "questionName": "親友はあなたに何と言いがちですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "新しいもの探しや、新しい概念を理解することに熱中しますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "一定期間、一つのことに集中して完成させるのが好き"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "複数のことを同時に進めるのが楽しい"
+      }
+    ],
+    "questionName": "あなたはどちらのタイプですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "できるだけ相手の感情を傷つけないようにします。傷つける可能性があるなら、言いません"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "通常、包み隠さず話します。正しいことは正しいので、友人にもはっきり言います"
+      }
+    ],
+    "questionName": "友人の考えに同意できないとき、どうしますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "傷つきはしますが、納得すればすぐに立ち直れます"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "感情に深く沈み込んでしまい、なかなか立ち直れません"
+      }
+    ],
+    "questionName": "感情的に傷ついたり挫折したりしたとき、どうなりますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "はい、そうです"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "いいえ"
+      }
+    ],
+    "questionName": "一人で自由な時間を楽しんだり、静かな家庭環境でリラックスしたりするのが好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "そうは思いません。愛し合っていても、物事には限度があります"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "そう思います。愛はすべての不快なことを忘れさせてくれます"
+      }
+    ],
+    "questionName": "愛さえあれば、何でも許せると思いますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "はい"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "そういうことで泣くことはめったにありません。自分に本当に悲しいことが起きたときだけ泣きます"
+      }
+    ],
+    "questionName": "感動的なテレビや映画のシーンを見て、涙が止まらなくなることがよくありますか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "はい、気楽な人生が好きです"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "挑戦的な人生が好きで、常に高い目標を自分に課しています"
+      }
+    ],
+    "questionName": "のんびりした生活が好きですか？"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "記述式",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "どんなに疲れていても、片付けてから休みます"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "カバンを放り出して、そのままベッドに倒れ込んで寝ます"
+      }
+    ],
+    "questionName": "仕事で疲れて帰宅したとき、どちらが自分に近いですか？"
+  }
+]

@@ -1,0 +1,1583 @@
+[
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "不会"
+      }
+    ],
+    "questionName": "你看肥皂剧的时候会很投入"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "若我所约的人来迟了，我会很不高兴"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "一点儿都不在乎，因为我自己常常迟到"
+      }
+    ],
+    "questionName": "当和朋友约定好见面"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "我直接的观察和现成的经验"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "我的直觉"
+      }
+    ],
+    "questionName": "你倾向相信"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "实业家洛克菲勒"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "爱因斯坦"
+      }
+    ],
+    "questionName": "相比之下，你更欣赏"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "实际的、具体的、关于“此时此地”的事物。例如，我也许会谈论即将要参加的旅程"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "未来，关于改进或发明事物和生活的种种可能性。例如，我也许会谈论一个新的科学发明"
+      }
+    ],
+    "questionName": "当你对一个朋友放松聊天时，你偏向谈论"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "是的，不管对方是谁，我都能和他和睦相处"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "没有必要和所有人都成为朋友，有几个真正的知己就可以"
+      }
+    ],
+    "questionName": "很容易与他人成为朋友"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "我准时出席而其他人都迟到"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "其他人都准时出席而我迟到"
+      }
+    ],
+    "questionName": "哪一项较常见"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "你的内心渴望一次冒险"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "你容易看出具体事件背后的普遍原理"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "是，喜欢漂亮的，可爱的，华丽的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "不，服装嘛，只要有一件T恤，一条牛仔裤就足够了"
+      }
+    ],
+    "questionName": "你喜欢装饰吗"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "事先知道约会的行程：要去哪里、有谁参加、我会在那里多久\n"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "让约会自然地发生，不做太多事先的计划"
+      }
+    ],
+    "questionName": "你偏好"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "你的桌子、办公台，总是整洁而规律"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "有点儿担心别人不愿被打搅"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "感到自信并且轻松"
+      }
+    ],
+    "questionName": "当不得不主动同生人打交道时，你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "如果对于一个东西没有一套合理的系统的解释，我就感觉搞不清楚，一片模糊"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "享受生活和现实，给什么东西都进行抽象和解释，太累了"
+      }
+    ],
+    "questionName": "哪种描述较符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "首先依我的逻辑，然后依我的心意"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "首先依我的心意，然后依我的逻辑"
+      }
+    ],
+    "questionName": "你倾向如此做决定"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "这些对我而言都是浮云，我只想把握好当下"
+      }
+    ],
+    "questionName": "喜欢推测、预测和分析"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "人生就像一场旅行，不必在意目的地，在乎的是沿途的风景和看风景的心情"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "人生需要树立目标并为之奋斗，专注人生目标的人往往无暇欣赏路途美景"
+      }
+    ],
+    "questionName": "哪种意境更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "我说话做事比较冲动，并非一个冷静的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "是，我的性格是孤言寡语，非常冷静"
+      }
+    ],
+    "questionName": "周围的朋友们都说你是很冷静的人"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "当人们不合逻辑时"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "当人们需要情感上的支持时"
+      }
+    ],
+    "questionName": "你倾向比较能够察觉到"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "我更愿意找人聊天、参加娱乐活动"
+      }
+    ],
+    "questionName": "独自行走你会觉得舒服"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "是这样"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "不会"
+      }
+    ],
+    "questionName": "你容易被强烈的情感影响"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "朋友"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "自己的想法"
+      }
+    ],
+    "questionName": "你倾向从何处得到力量"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是这样"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "你发现很难谈论自己的情感"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "总体而言，你是一个在交流时有些保守和有距离感的人"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "必须先检查我的时间表"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "立刻收拾行装"
+      }
+    ],
+    "questionName": "若你有时间和金钱，你的朋友邀请你到国外度假，并且在前一天才通知，你会"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "我对目前状况的实际认知"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "我对有可能发生之事的想象和期望"
+      }
+    ],
+    "questionName": "你倾向通过以下哪种方式收集信息"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "是的，连朋友换个戒指也瞒不了我"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "不，有时候对方换什么衣服我察觉不到"
+      }
+    ],
+    "questionName": "对周围人的变化很敏感"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "不，我喜欢热闹"
+      }
+    ],
+    "questionName": "你更喜欢远离外界的喧嚣"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "不习惯计划时间，比较喜欢随心所欲"
+      }
+    ],
+    "questionName": "你懂得如何把每分每秒都花得有意义"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "你是一个时间观念很强的人"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "如果可以选择的话，我更愿意一个人静静呆着"
+      }
+    ],
+    "questionName": "你乐于拥有广泛的人际圈"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "很高兴，情绪会受到感染，并对其产生好感"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "热情应付，但心存一丝疑虑：对方为什么要这样热情，是否有其他目的"
+      }
+    ],
+    "questionName": "当遇到聚会中第一次见面的人对你很热情时，你会"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "问为什么，或自己动手拆玩具找到其原理"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "绘画和表述，描述和描绘所看到的"
+      }
+    ],
+    "questionName": "小时候，你更热衷于"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "我喜欢参加聚会"
+      }
+    ],
+    "questionName": "大多数时候，你宁可看一本书，也不愿意出去参加聚会"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "是这样"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "不是，我更容易陷入对未来可能性的推测中"
+      }
+    ],
+    "questionName": "当你考虑一件事情时，你很少想到事情可能的发展，而是更多关注目的"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "运用逻辑、分析及批判性思维来解决问题"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "运用人际关系解决问题"
+      }
+    ],
+    "questionName": "你更擅长"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "聪明而反应敏捷的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "稳重而脚踏实地的人"
+      }
+    ],
+    "questionName": "对你更具吸引力的人是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "解决问题的时候，比起用新的方法，你更愿意用熟悉的方法解决"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "比起事前的计划，你的决定大多基于瞬间的感觉"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "不会"
+      }
+    ],
+    "questionName": "你经常考虑人类及其命运问题"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是的，我常有这样的感觉"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "没有这种体会"
+      }
+    ],
+    "questionName": "经过冗长的社交之后，你会想要离开，独处一下"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "随机应变，临场发挥"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "不周密准备我不安心"
+      }
+    ],
+    "questionName": "如你有一个约见，你是习惯临场发挥还是事先周密准备"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "外表平静，大家都说我闷骚"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "开朗活泼，大家都说我太聒噪了"
+      }
+    ],
+    "questionName": "哪种更接近朋友对你的评价"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "摄影"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "哲学思辨"
+      }
+    ],
+    "questionName": "闲暇时候，你更愿意看哪方面的书"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "逻辑和明确"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "热情而敏感"
+      }
+    ],
+    "questionName": "认识你的人倾向形容你为"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "你更习惯于站在人群中不显眼的位置"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "临行前才匆匆忙忙收拾，赶到车站车已经差不多要出发了......谁叫我是个慢性子呢"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "早早收拾好行李，第二天提前很早就去到车站，发现我是第一个来候车的人"
+      }
+    ],
+    "questionName": "准备搭车远行时，哪种更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "过于抽象，因此在必要的后续行动上不切实际"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "沉浸于细节，导致视野不开阔"
+      }
+    ],
+    "questionName": "哪种更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "很理性的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "重感情的人"
+      }
+    ],
+    "questionName": "你更容易被认为是一个"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "情感上的相容性:对对方情感上的需求很敏感"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "智慧上的相容性:沟通重要的想法;客观地讨论和辩论事情"
+      }
+    ],
+    "questionName": "与朋友交往时，你倾向于看重"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是的，孤独适合我"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "不，不要让我孤苦伶仃一个人"
+      }
+    ],
+    "questionName": "你喜欢一个人行动"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "表面传统，其实内心是开放而热烈的，渴望挑战自己"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "表面很开放，但只是想做自己，内心其实是保守而传统的"
+      }
+    ],
+    "questionName": "哪种更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "不理解，也无法接受人们快速地相熟热络，而又骨底淡薄"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "看应酬的目的是什么，只要目的是有益的，这些也都无所谓了"
+      }
+    ],
+    "questionName": "对于应酬中逢场作戏、聪明圆融的人，你的看法是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "喜欢惊喜并适应最后的变化"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "不喜欢变化，追求稳定与踏实"
+      }
+    ],
+    "questionName": "哪种更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "S",
+        "answerName": "务实的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "N",
+        "answerName": "有想象力、有灵感的人"
+      }
+    ],
+    "questionName": "你更愿意被看作是"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "很多认识的人和很亲密的朋友"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "一些很亲密的朋友和一些认识的人"
+      }
+    ],
+    "questionName": "你倾向拥有"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "我更喜欢发现和体验美好的东西"
+      }
+    ],
+    "questionName": "对你而言，解决问题本身就是一种乐趣"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "在不与人接触的场合，我充满了生命的愉悦"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "哪怕喧嚣嘈杂一点，也比一个人孤伶伶呆着强"
+      }
+    ],
+    "questionName": "下面哪个更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "不是，我渴望新的体验"
+      }
+    ],
+    "questionName": "传统的生活方式让你觉得更自在"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "不会"
+      }
+    ],
+    "questionName": "电话铃声突然响起或类似这样的突发性事件，你习惯最先做出回应"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "较安静并保留，直到我觉得舒服"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "整体来说很健谈"
+      }
+    ],
+    "questionName": "在同学聚会中，你通常"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "更多时候我会不由自主"
+      }
+    ],
+    "questionName": "你能够很好的控制自己的欲望和外部诱惑"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "不会"
+      }
+    ],
+    "questionName": "你常会站在对方角度去思考而模糊了自己的立场"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "不是，我比较感性"
+      }
+    ],
+    "questionName": "你倾向于凡事都持科学的态度"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "不易流露感情"
+      }
+    ],
+    "questionName": "你时常容易流露和说出你的感觉和感情"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "准时"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "闲适、悠然"
+      }
+    ],
+    "questionName": "选择较符合你的词"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "极少会这样"
+      }
+    ],
+    "questionName": "你有时候会心血来潮做一件事情"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "喜欢先纵观全局"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "喜欢先掌握细节"
+      }
+    ],
+    "questionName": "大多数时候，你是这种人"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "我常觉得一些事情的解决，总觉得有更好的办法"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "关注实实在在的人和物，不太喜欢浮想联翩"
+      }
+    ],
+    "questionName": "哪种更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "凡事追求个性，完全凭自己的兴趣，没有固定的程式"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "传统而保守，不喜欢标新立异"
+      }
+    ],
+    "questionName": "哪种更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "不，我习惯自由自在和随意"
+      }
+    ],
+    "questionName": "把事物收拾得有条理，你就会感到高兴"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "是的，感觉旁边人在关心我的话，心情当然好咯"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "不，不要过分在意我"
+      }
+    ],
+    "questionName": "喜欢受到他人的关心"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "相对解决问题的结果，你更注重解决的过程和方法"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "你常常会急急忙忙赶一件事"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "多少有些不情愿"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "不感到难为情"
+      }
+    ],
+    "questionName": "当要去见陌生人时，你通常"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "我很少质询和指责他人，更愿意做一个随和与包容的人"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "我不想充当老好人，发现他人犯错就会直言不讳指出来"
+      }
+    ],
+    "questionName": "哪种更符合你"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "有部署、有节奏的工作"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "有灵活性、较为松散的工作"
+      }
+    ],
+    "questionName": "你喜欢"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "不会"
+      }
+    ],
+    "questionName": "你喜欢立刻行动而不习惯对各种选择进行反复斟酌"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "脑海里常冒出一些新点子"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "随机应变"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "事先计划"
+      }
+    ],
+    "questionName": "大多数时候，你倾向于"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "不，我独自呆着比较舒服"
+      }
+    ],
+    "questionName": "业余时间里你常与一群人积极交往，参加聚会、一起购物"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "自然发生和弹性"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "日程表和组织"
+      }
+    ],
+    "questionName": "你选择的生活充满着"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "不要说是5个，让我说出10个人也没问题呀"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "突然让我叫出5个人的名字，想不起来呀!天啊，难道我朋友这么少吗"
+      }
+    ],
+    "questionName": "马上能叫出五个朋友的名字"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "E",
+        "answerName": "你难道不可以安静一会儿吗？"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "I",
+        "answerName": "可以请你从你的世界中出来一下吗？"
+      }
+    ],
+    "questionName": "好朋友倾向对你说"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "N",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "S",
+        "answerName": "不会"
+      }
+    ],
+    "questionName": "热衷于猎奇和掌握新概念"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "喜欢在一段时间里专心于一件事情直到完成"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "享受同时进行好几件事情"
+      }
+    ],
+    "questionName": "你是此类型的人"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "我尽可能地避免伤害对方的感情；若是会对对方造成伤害的话，我就不会说"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "我通常毫无保留地说话，并且对朋友直言不讳，因为对的就是对的"
+      }
+    ],
+    "questionName": "当你不同意朋友的想法时"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "虽然我觉得受伤，但一旦想通，就会很快从阴影中走出来"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "我通常让自己的情绪深陷其中，很难走出来"
+      }
+    ],
+    "questionName": "当受到情感上的伤害或挫折时"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "I",
+        "answerName": "是这样"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "E",
+        "answerName": "不是"
+      }
+    ],
+    "questionName": "你喜欢一个人独自享受空闲时光，或者在安静的家庭环境中放松"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "T",
+        "answerName": "不认同，就算相爱，凡事都是有分寸的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "F",
+        "answerName": "认同，爱情能冲淡一切不快"
+      }
+    ],
+    "questionName": "只要有爱，什么都可以原谅"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "F",
+        "answerName": "是的"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "T",
+        "answerName": "我很少因为这样的事情哭，只有在特别伤心的事发生在自己身上时才会哭"
+      }
+    ],
+    "questionName": "你常看到感人的电视或电影情景看到泪流不止"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "P",
+        "answerName": "是的，我喜欢轻轻松松的人生"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "J",
+        "answerName": "我喜欢有挑战的人生，不断给自己更高的目标"
+      }
+    ],
+    "questionName": "喜欢清闲的生活"
+  },
+  {
+    "questionDescription": "",
+    "questionAttribute": "描述题",
+    "options": [
+      {
+        "answerCode": "A",
+        "characterType": "J",
+        "answerName": "再累也收拾整齐了再休息"
+      },
+      {
+        "answerCode": "B",
+        "characterType": "P",
+        "answerName": "扔下包倒床就睡"
+      }
+    ],
+    "questionName": "疲惫地下班回家时，哪种描述更像你"
+  }
+]
