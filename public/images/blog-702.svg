@@ -1,0 +1,42 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fff9f0"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#d35400">MBTI最強の人格とは？</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#e67e22">環境と目的によって異なる「強さ」の定義</text>
+
+  <!-- Strength Types -->
+  <g transform="translate(50, 130)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#e74c3c" stroke-width="2"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#c0392b">リーダーシップの強さ</text>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="15" fill="#333">ENTJ / ESTJ</text>
+    <text x="20" y="95" font-family="Arial, sans-serif" font-size="13" fill="#666">• 目標達成への強い意志</text>
+    <text x="20" y="115" font-family="Arial, sans-serif" font-size="13" fill="#666">• 組織を動かす決断力</text>
+  </g>
+
+  <g transform="translate(410, 130)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3498db" stroke-width="2"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2980b9">戦略・分析の強さ</text>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="15" fill="#333">INTJ / INTP</text>
+    <text x="20" y="95" font-family="Arial, sans-serif" font-size="13" fill="#666">• 複雑なシステムの理解</text>
+    <text x="20" y="115" font-family="Arial, sans-serif" font-size="13" fill="#666">• 長期的なビジョンの構築</text>
+  </g>
+
+  <g transform="translate(50, 290)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#2ecc71" stroke-width="2"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">対人・共感の強さ</text>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="15" fill="#333">ENFJ / INFJ</text>
+    <text x="20" y="95" font-family="Arial, sans-serif" font-size="13" fill="#666">• 他者の心を動かす影響力</text>
+    <text x="20" y="115" font-family="Arial, sans-serif" font-size="13" fill="#666">• チームの結束を高める力</text>
+  </g>
+
+  <g transform="translate(410, 290)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#f1c40f" stroke-width="2"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f39c12">適応・実行の強さ</text>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="15" fill="#333">ESTP / ISTP</text>
+    <text x="20" y="95" font-family="Arial, sans-serif" font-size="13" fill="#666">• 危機的状況での即応力</text>
+    <text x="20" y="115" font-family="Arial, sans-serif" font-size="13" fill="#666">• 実践的な問題解決能力</text>
+  </g>
+
+  <circle cx="400" cy="250" r="30" fill="#fff" stroke="#d35400" stroke-width="2"/>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#d35400">★</text>
+</svg>

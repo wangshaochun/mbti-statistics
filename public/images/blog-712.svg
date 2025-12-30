@@ -1,0 +1,32 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#eff6ff"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e40af">MBTIにおける T (思考型) の意味</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#3b82f6">論理と客観性を重視する意思決定スタイル</text>
+
+  <!-- T-Type Characteristics -->
+  <rect x="50" y="130" width="700" height="300" rx="10" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  
+  <g transform="translate(80, 170)">
+    <circle cx="20" cy="20" r="15" fill="#dbeafe"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af">1</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">論理的分析</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">感情よりも事実とデータに基づいて判断します。</text>
+  </g>
+
+  <g transform="translate(80, 240)">
+    <circle cx="20" cy="20" r="15" fill="#dbeafe"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af">2</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">客観的な公平性</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">誰に対しても一貫したルールを適用することを好みます。</text>
+  </g>
+
+  <g transform="translate(80, 310)">
+    <circle cx="20" cy="20" r="15" fill="#dbeafe"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af">3</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">効率と結果の重視</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">最短ルートで目標を達成するための最適解を求めます。</text>
+  </g>
+
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1e40af">主なタイプ: INTJ, INTP, ENTJ, ENTP, ISTJ, ISTP, ESTJ, ESTP</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fffbeb"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#92400e">MBTIにおける P (知覚型) の意味</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#d97706">柔軟性と即興性を重視するライフスタイル</text>
+
+  <!-- P-Type Characteristics -->
+  <rect x="50" y="130" width="700" height="300" rx="10" fill="#fff" stroke="#fbbf24" stroke-width="2"/>
+  
+  <g transform="translate(80, 170)">
+    <circle cx="20" cy="20" r="15" fill="#fef3c7"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">1</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">柔軟で適応力が高い</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">状況の変化に合わせて計画を変更し、即興で対応することを好みます。</text>
+  </g>
+
+  <g transform="translate(80, 240)">
+    <circle cx="20" cy="20" r="15" fill="#fef3c7"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">2</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">選択肢をオープンに保つ</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">早すぎる決断を避け、新しい情報や可能性を最後まで探り続けます。</text>
+  </g>
+
+  <g transform="translate(80, 310)">
+    <circle cx="20" cy="20" r="15" fill="#fef3c7"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">3</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">自発性と自由</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">厳格なルールよりも、自分のペースで自由に行動できる環境を好みます。</text>
+  </g>
+
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#92400e">主なタイプ: XXXP (INTP, INFP, ISTP, ISFP, ENTP, ENFP, ESTP, ESFP)</text>
+</svg>

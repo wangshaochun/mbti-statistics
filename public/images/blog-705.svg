@@ -1,0 +1,30 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f9f9f9"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">判断型 (J) vs 知覚型 (P)</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">外部世界への対処スタイルの違い</text>
+
+  <!-- J Type -->
+  <rect x="50" y="130" width="340" height="300" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#0d47a1">Judging (判断型)</text>
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1565c0">「構造と秩序」</text>
+  <line x1="100" y1="220" x2="340" y2="220" stroke="#bbdefb" stroke-width="2"/>
+  <text x="80" y="255" font-family="Arial, sans-serif" font-size="15" fill="#333">• 計画を立てて実行する</text>
+  <text x="80" y="285" font-family="Arial, sans-serif" font-size="15" fill="#333">• 早く結論を出したい</text>
+  <text x="80" y="315" font-family="Arial, sans-serif" font-size="15" fill="#333">• 締切を守る、時間厳守</text>
+  <text x="80" y="345" font-family="Arial, sans-serif" font-size="15" fill="#333">• 整理整頓された環境を好む</text>
+  <text x="80" y="375" font-family="Arial, sans-serif" font-size="15" fill="#333">• 予測可能性を重視</text>
+
+  <!-- P Type -->
+  <rect x="410" y="130" width="340" height="300" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="580" y="170" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#e65100">Perceiving (知覚型)</text>
+  <text x="580" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#ef6c00">「柔軟性と可能性」</text>
+  <line x1="460" y1="220" x2="700" y2="220" stroke="#ffe0b2" stroke-width="2"/>
+  <text x="440" y="255" font-family="Arial, sans-serif" font-size="15" fill="#333">• 臨機応変に対応する</text>
+  <text x="440" y="285" font-family="Arial, sans-serif" font-size="15" fill="#333">• 選択肢を広げておきたい</text>
+  <text x="440" y="315" font-family="Arial, sans-serif" font-size="15" fill="#333">• 締切間際に集中力を発揮</text>
+  <text x="440" y="345" font-family="Arial, sans-serif" font-size="15" fill="#333">• 変化に富んだ環境を好む</text>
+  <text x="440" y="375" font-family="Arial, sans-serif" font-size="15" fill="#333">• 自発性と即興性を重視</text>
+
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">どちらが良い悪いではなく、スタイルの違いです</text>
+</svg>

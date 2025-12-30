@@ -1,0 +1,37 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f5f3ff"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#5b21b6">MBTI 紫のタイプ (分析家) の特徴</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#8b5cf6">知性、戦略、そして論理的探求を愛する人々</text>
+
+  <!-- Purple Group Types -->
+  <g transform="translate(100, 140)">
+    <rect width="280" height="120" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="140" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#5b21b6">INTJ / INTP</text>
+    <text x="140" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">独創的な思考家</text>
+    <text x="140" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">複雑なシステムの理解と改善</text>
+  </g>
+
+  <g transform="translate(420, 140)">
+    <rect width="280" height="120" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="140" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#5b21b6">ENTJ / ENTP</text>
+    <text x="140" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">大胆なリーダーと発明家</text>
+    <text x="140" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">効率の追求と新しいアイデアの創出</text>
+  </g>
+
+  <!-- Common Traits -->
+  <rect x="100" y="280" width="600" height="150" rx="10" fill="#fff" stroke="#8b5cf6" stroke-dasharray="5 5"/>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#5b21b6">共通する強み</text>
+  
+  <circle cx="150" cy="360" r="5" fill="#8b5cf6"/>
+  <text x="165" y="365" font-family="Arial, sans-serif" font-size="15" fill="#333">高い論理的思考能力</text>
+  
+  <circle cx="150" cy="390" r="5" fill="#8b5cf6"/>
+  <text x="165" y="395" font-family="Arial, sans-serif" font-size="15" fill="#333">客観的で公平な判断</text>
+  
+  <circle cx="450" cy="360" r="5" fill="#8b5cf6"/>
+  <text x="465" y="365" font-family="Arial, sans-serif" font-size="15" fill="#333">知的好奇心と学習意欲</text>
+  
+  <circle cx="450" cy="390" r="5" fill="#8b5cf6"/>
+  <text x="465" y="395" font-family="Arial, sans-serif" font-size="15" fill="#333">戦略的な問題解決能力</text>
+</svg>

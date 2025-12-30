@@ -1,0 +1,37 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fffbeb"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#92400e">MBTI 黄色のタイプ (探検家) の特徴</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#d97706">自由、刺激、そして今この瞬間を生きる人々</text>
+
+  <!-- Yellow Group Types -->
+  <g transform="translate(100, 140)">
+    <rect width="280" height="120" rx="10" fill="#fff" stroke="#fbbf24" stroke-width="2"/>
+    <text x="140" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#92400e">ISTP / ISFP</text>
+    <text x="140" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">器用な実務家と芸術家</text>
+    <text x="140" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">五感を通じた体験とスキルの追求</text>
+  </g>
+
+  <g transform="translate(420, 140)">
+    <rect width="280" height="120" rx="10" fill="#fff" stroke="#fbbf24" stroke-width="2"/>
+    <text x="140" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#92400e">ESTP / ESFP</text>
+    <text x="140" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">エネルギッシュな行動家</text>
+    <text x="140" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">周囲を巻き込む魅力と即興性</text>
+  </g>
+
+  <!-- Common Traits -->
+  <rect x="100" y="280" width="600" height="150" rx="10" fill="#fff" stroke="#fbbf24" stroke-dasharray="5 5"/>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#92400e">共通する強み</text>
+  
+  <circle cx="150" cy="360" r="5" fill="#fbbf24"/>
+  <text x="165" y="365" font-family="Arial, sans-serif" font-size="15" fill="#333">優れた状況適応能力</text>
+  
+  <circle cx="150" cy="390" r="5" fill="#fbbf24"/>
+  <text x="165" y="395" font-family="Arial, sans-serif" font-size="15" fill="#333">実践的で具体的な解決策</text>
+  
+  <circle cx="450" cy="360" r="5" fill="#fbbf24"/>
+  <text x="465" y="365" font-family="Arial, sans-serif" font-size="15" fill="#333">好奇心旺盛で行動的</text>
+  
+  <circle cx="450" cy="390" r="5" fill="#fbbf24"/>
+  <text x="465" y="395" font-family="Arial, sans-serif" font-size="15" fill="#333">今を楽しむポジティブな姿勢</text>
+</svg>

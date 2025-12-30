@@ -1,0 +1,34 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f8f9fa"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">MBTI各タイプの「地雷」と10の禁忌</text>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">関係を壊さないためのコミュニケーションガイド</text>
+
+  <rect x="50" y="120" width="340" height="150" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="70" y="145" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d47a1">論理・効率重視 (T型)</text>
+  <text x="70" y="175" font-family="Arial, sans-serif" font-size="14" fill="#333">1. 感情論での押し切り</text>
+  <text x="70" y="200" font-family="Arial, sans-serif" font-size="14" fill="#333">2. 無能さや非効率の露呈</text>
+  <text x="70" y="225" font-family="Arial, sans-serif" font-size="14" fill="#333">3. 根拠のないルールへの強制</text>
+
+  <rect x="410" y="120" width="340" height="150" rx="10" fill="#fce4ec" stroke="#f06292" stroke-width="2"/>
+  <text x="430" y="145" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#880e4f">感情・調和重視 (F型)</text>
+  <text x="430" y="175" font-family="Arial, sans-serif" font-size="14" fill="#333">4. 存在や努力の全否定</text>
+  <text x="430" y="200" font-family="Arial, sans-serif" font-size="14" fill="#333">5. 冷淡で批判的な正論</text>
+  <text x="430" y="225" font-family="Arial, sans-serif" font-size="14" fill="#333">6. 大切にしている価値観の軽視</text>
+
+  <rect x="50" y="290" width="700" height="150" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="70" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e65100">行動・計画スタイル (J/P型)</text>
+  
+  <line x1="400" y1="330" x2="400" y2="420" stroke="#ffb74d" stroke-dasharray="4"/>
+  
+  <text x="70" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">[P型: 自由重視]</text>
+  <text x="70" y="370" font-family="Arial, sans-serif" font-size="14" fill="#333">7. 過剰なマイクロマネジメント</text>
+  <text x="70" y="395" font-family="Arial, sans-serif" font-size="14" fill="#333">8. 選択肢を奪う断定的な態度</text>
+  
+  <text x="430" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">[J型: 規律重視]</text>
+  <text x="430" y="370" font-family="Arial, sans-serif" font-size="14" fill="#333">9. 無責任な計画のドタキャン</text>
+  <text x="430" y="395" font-family="Arial, sans-serif" font-size="14" fill="#333">10. 曖昧で決断を避ける態度</text>
+
+  <circle cx="400" cy="245" r="25" fill="#ff5252" />
+  <text x="400" y="255" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="white">!</text>
+</svg>

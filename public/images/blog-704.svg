@@ -1,0 +1,28 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f4f7f6"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#2c3e50">MBTI vs ホランド職業興味理論</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#7f8c8d">自己理解とキャリア選択のための2つの視点</text>
+
+  <!-- MBTI Box -->
+  <rect x="50" y="130" width="340" height="280" rx="10" fill="#fff" stroke="#3498db" stroke-width="2"/>
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2980b9">MBTI</text>
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#34495e">「どのように (How)」</text>
+  <line x1="100" y1="220" x2="340" y2="220" stroke="#ecf0f1" stroke-width="2"/>
+  <text x="80" y="250" font-family="Arial, sans-serif" font-size="14" fill="#333">• 性格特性と認知様式</text>
+  <text x="80" y="280" font-family="Arial, sans-serif" font-size="14" fill="#333">• 16種類のタイプ分類</text>
+  <text x="80" y="310" font-family="Arial, sans-serif" font-size="14" fill="#333">• 意思決定やエネルギーの方向</text>
+  <text x="80" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333">• チームビルディングに最適</text>
+
+  <!-- Holland Box -->
+  <rect x="410" y="130" width="340" height="280" rx="10" fill="#fff" stroke="#e67e22" stroke-width="2"/>
+  <text x="580" y="170" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#d35400">ホランド (RIASEC)</text>
+  <text x="580" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#34495e">「何に (What)」</text>
+  <line x1="460" y1="220" x2="700" y2="220" stroke="#ecf0f1" stroke-width="2"/>
+  <text x="440" y="250" font-family="Arial, sans-serif" font-size="14" fill="#333">• 職業興味と環境の適合</text>
+  <text x="440" y="280" font-family="Arial, sans-serif" font-size="14" fill="#333">• 6種類の興味タイプ</text>
+  <text x="440" y="310" font-family="Arial, sans-serif" font-size="14" fill="#333">• 好きな活動や仕事内容</text>
+  <text x="440" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333">• キャリアプランニングに最適</text>
+
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">両者を組み合わせることで、より深い自己分析が可能に</text>
+</svg>

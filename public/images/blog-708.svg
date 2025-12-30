@@ -1,0 +1,28 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fff7ed"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#431407">MBTIにおける「人に好かれようとする性格」</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#9a3412">ピープルプリーザー（People Pleaser）の特徴と克服</text>
+
+  <!-- Characteristics -->
+  <rect x="50" y="130" width="340" height="280" rx="10" fill="#fff" stroke="#fb923c" stroke-width="2"/>
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ea580c">よくある特徴</text>
+  <line x1="100" y1="190" x2="340" y2="190" stroke="#ffedd5" stroke-width="2"/>
+  <text x="80" y="225" font-family="Arial, sans-serif" font-size="15" fill="#333">• 「NO」と言えない</text>
+  <text x="80" y="255" font-family="Arial, sans-serif" font-size="15" fill="#333">• 他人の期待に応えようと無理をする</text>
+  <text x="80" y="285" font-family="Arial, sans-serif" font-size="15" fill="#333">• 自分の感情を後回しにする</text>
+  <text x="80" y="315" font-family="Arial, sans-serif" font-size="15" fill="#333">• 嫌われることを極端に恐れる</text>
+  <text x="80" y="345" font-family="Arial, sans-serif" font-size="15" fill="#333">• 典型的タイプ: ISFJ, ESFJ, ENFJ</text>
+
+  <!-- Solutions -->
+  <rect x="410" y="130" width="340" height="280" rx="10" fill="#fff" stroke="#22c55e" stroke-width="2"/>
+  <text x="580" y="170" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#16a34a">自分を守るためのステップ</text>
+  <line x1="460" y1="190" x2="700" y2="190" stroke="#dcfce7" stroke-width="2"/>
+  <text x="440" y="225" font-family="Arial, sans-serif" font-size="15" fill="#333">• 自分の境界線（バウンダリ）を知る</text>
+  <text x="440" y="255" font-family="Arial, sans-serif" font-size="15" fill="#333">• 小さなことから断る練習をする</text>
+  <text x="440" y="285" font-family="Arial, sans-serif" font-size="15" fill="#333">• 「自分を大切にする」ことを優先する</text>
+  <text x="440" y="315" font-family="Arial, sans-serif" font-size="15" fill="#333">• 他人の感情は他人の責任だと割り切る</text>
+  <text x="440" y="345" font-family="Arial, sans-serif" font-size="15" fill="#333">• 自分の価値を他人の評価に委ねない</text>
+
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">あなたはあなたのままで価値があります</text>
+</svg>

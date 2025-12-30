@@ -1,0 +1,37 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f0f4f8"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2c3e50">MBTI 16種類の性格タイプ紹介</text>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#546e7a">4つのグループとそれぞれの特徴</text>
+
+  <!-- Analysts -->
+  <rect x="40" y="110" width="350" height="160" rx="10" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="60" y="140" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#7b1fa2">分析家 (Analysts)</text>
+  <text x="60" y="170" font-family="Arial, sans-serif" font-size="14" fill="#4a148c">INTJ / INTP / ENTJ / ENTP</text>
+  <text x="60" y="200" font-family="Arial, sans-serif" font-size="13" fill="#333">• 合理性と知識を重視• 複雑な問題の解決が得意</text>
+  <text x="60" y="240" font-family="Arial, sans-serif" font-size="13" fill="#333">• 戦略的思考と革新性</text>
+
+  <!-- Diplomats -->
+  <rect x="410" y="110" width="350" height="160" rx="10" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="430" y="140" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2e7d32">外交官 (Diplomats)</text>
+  <text x="430" y="170" font-family="Arial, sans-serif" font-size="14" fill="#1b5e20">INFJ / INFP / ENFJ / ENFP</text>
+  <text x="430" y="200" font-family="Arial, sans-serif" font-size="13" fill="#333">• 共感と調和を重視</text>
+  <text x="430" y="220" font-family="Arial, sans-serif" font-size="13" fill="#333">• 他者の成長を促すのが得意</text>
+  <text x="430" y="240" font-family="Arial, sans-serif" font-size="13" fill="#333">• 理想主義と深い洞察</text>
+
+  <!-- Sentinels -->
+  <rect x="40" y="290" width="350" height="160" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="60" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1565c0">番人 (Sentinels)</text>
+  <text x="60" y="350" font-family="Arial, sans-serif" font-size="14" fill="#0d47a1">ISTJ / ISFJ / ESTJ / ESFJ</text>
+  <text x="60" y="380" font-family="Arial, sans-serif" font-size="13" fill="#333">• 実用性と秩序を重視</text>
+  <text x="60" y="400" font-family="Arial, sans-serif" font-size="13" fill="#333">• 責任感が強く、着実な実行</text>
+  <text x="60" y="420" font-family="Arial, sans-serif" font-size="13" fill="#333">• 伝統と安定を守る</text>
+
+  <!-- Explorers -->
+  <rect x="410" y="290" width="350" height="160" rx="10" fill="#fffde7" stroke="#fbc02d" stroke-width="2"/>
+  <text x="430" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f57f17">探検家 (Explorers)</text>
+  <text x="430" y="350" font-family="Arial, sans-serif" font-size="14" fill="#e65100">ISTP / ISFP / ESTP / ESFP</text>
+  <text x="430" y="380" font-family="Arial, sans-serif" font-size="13" fill="#333">• 柔軟性と即興性を重視</text>
+  <text x="430" y="400" font-family="Arial, sans-serif" font-size="13" fill="#333">• 道具の扱いや表現が得意</text>
+  <text x="430" y="420" font-family="Arial, sans-serif" font-size="13" fill="#333">• 今この瞬間を楽しむ</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f8fafc"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#0f172a">MBTIとキャリア選択</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#64748b">自分に合った仕事を見つけるためのヒント</text>
+
+  <!-- Career Categories -->
+  <g transform="translate(50, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#5b21b6">分析家 (NT型)</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">戦略、技術、研究、経営</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">論理的な課題解決が求められる分野</text>
+  </g>
+
+  <g transform="translate(410, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#22c55e" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#166534">外交官 (NF型)</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">教育、カウンセリング、芸術、福祉</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">人との繋がりや理想を追求する分野</text>
+  </g>
+
+  <g transform="translate(50, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">番人 (SJ型)</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">公務員、医療、事務、管理</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">秩序と正確さが求められる安定した分野</text>
+  </g>
+
+  <g transform="translate(410, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#fbbf24" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#92400e">探検家 (SP型)</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">技術職、スポーツ、営業、エンタメ</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">即興性と実践的なスキルが活きる分野</text>
+  </g>
+</svg>

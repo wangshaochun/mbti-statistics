@@ -1,0 +1,22 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f1f5f9"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b">MBTIを履歴書にどう記載するか</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#475569">自己PRを強化するための戦略的活用法</text>
+
+  <!-- Resume Mockup -->
+  <rect x="100" y="130" width="600" height="300" rx="5" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <rect x="120" y="150" width="150" height="20" rx="2" fill="#e2e8f0"/>
+  <rect x="120" y="180" width="400" height="10" rx="2" fill="#f1f5f9"/>
+  <rect x="120" y="200" width="350" height="10" rx="2" fill="#f1f5f9"/>
+  
+  <!-- MBTI Section -->
+  <rect x="120" y="240" width="560" height="160" rx="5" fill="#f8fafc" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4"/>
+  <text x="140" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2563eb">【自己PR / 強み】</text>
+  <text x="140" y="300" font-family="Arial, sans-serif" font-size="15" fill="#333">私のMBTIタイプは「ENTJ（指揮官型）」です。</text>
+  <text x="140" y="330" font-family="Arial, sans-serif" font-size="14" fill="#475569">・論理的な分析に基づいた迅速な意思決定が得意です。</text>
+  <text x="140" y="355" font-family="Arial, sans-serif" font-size="14" fill="#475569">・チームの目標達成に向けて、戦略的な計画を立案・実行できます。</text>
+  <text x="140" y="380" font-family="Arial, sans-serif" font-size="14" fill="#475569">・効率性を追求し、プロジェクトを成功に導くリーダーシップを発揮します。</text>
+
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ef4444">※単にタイプ名を書くのではなく、具体的な強みと結びつけるのがコツ！</text>
+</svg>

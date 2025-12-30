@@ -1,0 +1,35 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f0fdfa"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#0f172a">MBTIのアルファベットの意味</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#334155">4つの指標が表す性格の傾向</text>
+
+  <!-- 4 Dimensions -->
+  <g transform="translate(50, 130)">
+    <rect width="340" height="130" rx="10" fill="#fff" stroke="#0d9488" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#0f766e">E (外向) vs I (内向)</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">エネルギーの方向</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">社交的・活動的 vs 内省的・静か</text>
+  </g>
+
+  <g transform="translate(410, 130)">
+    <rect width="340" height="130" rx="10" fill="#fff" stroke="#0d9488" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#0f766e">S (感覚) vs N (直観)</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">情報の取り入れ方</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">現実的・具体的 vs 概念的・抽象적</text>
+  </g>
+
+  <g transform="translate(50, 280)">
+    <rect width="340" height="130" rx="10" fill="#fff" stroke="#0d9488" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#0f766e">T (思考) vs F (感情)</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">判断の基準</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">論理的・客観的 vs 共感的・主観的</text>
+  </g>
+
+  <g transform="translate(410, 280)">
+    <rect width="340" height="130" rx="10" fill="#fff" stroke="#0d9488" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#0f766e">J (判断) vs P (知覚)</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">外部への接し方</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">計画的・決断的 vs 柔軟的・開放的</text>
+  </g>
+</svg>

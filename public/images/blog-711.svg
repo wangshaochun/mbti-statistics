@@ -1,0 +1,29 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fffbeb"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#92400e">MBTIイエローグループ (探検家)</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#b45309">自由と刺激を求める SPタイプの特徴</text>
+
+  <!-- Types Grid -->
+  <g transform="translate(50, 130)">
+    <rect width="340" height="130" rx="10" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#d97706">ISTP / ESTP</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">「実践的な問題解決者」</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">道具の扱いやスリルを好む行動派</text>
+  </g>
+
+  <g transform="translate(410, 130)">
+    <rect width="340" height="130" rx="10" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#d97706">ISFP / ESFP</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">「感性豊かな表現者」</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666">芸術的センスと今を楽しむ社交性</text>
+  </g>
+
+  <!-- Core Traits -->
+  <rect x="50" y="280" width="700" height="150" rx="10" fill="#fef3c7" stroke="#fbbf24" stroke-width="1"/>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#92400e">イエローグループの共通点</text>
+  <text x="100" y="355" font-family="Arial, sans-serif" font-size="14" fill="#333">• 優れた適応力と柔軟性</text>
+  <text x="100" y="385" font-family="Arial, sans-serif" font-size="14" fill="#333">• 「今、ここ」を大切にする</text>
+  <text x="450" y="355" font-family="Arial, sans-serif" font-size="14" fill="#333">• 実践的な経験から学ぶ</text>
+  <text x="450" y="385" font-family="Arial, sans-serif" font-size="14" fill="#333">• 束縛を嫌い、自由を愛する</text>
+</svg>

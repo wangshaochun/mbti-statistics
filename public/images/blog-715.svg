@@ -1,0 +1,37 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#eff6ff"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e40af">MBTI 青のタイプ (番人) の特徴</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#3b82f6">秩序、責任、そして安定を支える人々</text>
+
+  <!-- Blue Group Types -->
+  <g transform="translate(100, 140)">
+    <rect width="280" height="120" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="140" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e40af">ISTJ / ISFJ</text>
+    <text x="140" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">献身的な守護者</text>
+    <text x="140" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">正確さと細部へのこだわり</text>
+  </g>
+
+  <g transform="translate(420, 140)">
+    <rect width="280" height="120" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="140" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e40af">ESTJ / ESFJ</text>
+    <text x="140" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">有能な管理者</text>
+    <text x="140" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">組織化とコミュニティの維持</text>
+  </g>
+
+  <!-- Common Traits -->
+  <rect x="100" y="280" width="600" height="150" rx="10" fill="#fff" stroke="#3b82f6" stroke-dasharray="5 5"/>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">共通する強み</text>
+  
+  <circle cx="150" cy="360" r="5" fill="#3b82f6"/>
+  <text x="165" y="365" font-family="Arial, sans-serif" font-size="15" fill="#333">強い責任感と誠実さ</text>
+  
+  <circle cx="150" cy="390" r="5" fill="#3b82f6"/>
+  <text x="165" y="395" font-family="Arial, sans-serif" font-size="15" fill="#333">伝統と秩序の尊重</text>
+  
+  <circle cx="450" cy="360" r="5" fill="#3b82f6"/>
+  <text x="465" y="365" font-family="Arial, sans-serif" font-size="15" fill="#333">実用的で現実的なアプローチ</text>
+  
+  <circle cx="450" cy="390" r="5" fill="#3b82f6"/>
+  <text x="465" y="395" font-family="Arial, sans-serif" font-size="15" fill="#333">計画性と着実な実行力</text>
+</svg>

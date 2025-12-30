@@ -1,0 +1,27 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f8f9fa"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">MBTI16タイプの容姿ランキング</text>
+  <text x="400" y="95" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">各タイプが持つ独特の気質と魅力の分析</text>
+
+  <!-- Ranking Boxes -->
+  <rect x="50" y="140" width="220" height="280" rx="10" fill="#fff" stroke="#ffd700" stroke-width="3"/>
+  <text x="160" y="175" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#b8860b">1位: 華やかな魅力</text>
+  <text x="160" y="220" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">ESFP / ENFP</text>
+  <text x="160" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">周囲を明るくする</text>
+  <text x="160" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">圧倒的な存在感</text>
+
+  <rect x="290" y="140" width="220" height="280" rx="10" fill="#fff" stroke="#c0c0c0" stroke-width="3"/>
+  <text x="400" y="175" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#708090">2位: 知的な美しさ</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">INTJ / INFJ</text>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">ミステリアスな雰囲気</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">洗練されたオーラ</text>
+
+  <rect x="530" y="140" width="220" height="280" rx="10" fill="#fff" stroke="#cd7f32" stroke-width="3"/>
+  <text x="640" y="175" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#8b4513">3位: 清潔感と信頼</text>
+  <text x="640" y="220" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">ISFJ / ESFJ</text>
+  <text x="640" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">親しみやすい笑顔</text>
+  <text x="640" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">整った身だしなみ</text>
+
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#999">※ランキングは一般的な傾向に基づくエンターテインメントです</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fff1f2"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#9f1239">MBTIにおける F (感情型) の意味</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#e11d48">価値観と人間関係を重視する意思決定スタイル</text>
+
+  <!-- F-Type Characteristics -->
+  <rect x="50" y="130" width="700" height="300" rx="10" fill="#fff" stroke="#f43f5e" stroke-width="2"/>
+  
+  <g transform="translate(80, 170)">
+    <circle cx="20" cy="20" r="15" fill="#ffe4e6"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#9f1239">1</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">価値観に基づく判断</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">自分や他者の大切な価値観を基準に物事を決めます。</text>
+  </g>
+
+  <g transform="translate(80, 240)">
+    <circle cx="20" cy="20" r="15" fill="#ffe4e6"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#9f1239">2</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">調和と共感</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">周囲の人々との良好な関係や、心の平和を大切にします。</text>
+  </g>
+
+  <g transform="translate(80, 310)">
+    <circle cx="20" cy="20" r="15" fill="#ffe4e6"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#9f1239">3</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">状況への配慮</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666">画一的なルールよりも、個別の事情や感情を考慮します。</text>
+  </g>
+
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#9f1239">主なタイプ: INFJ, INFP, ENFJ, ENFP, ISFJ, ISFP, ESFJ, ESFP</text>
+</svg>

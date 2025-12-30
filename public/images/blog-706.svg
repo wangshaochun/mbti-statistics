@@ -1,0 +1,28 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fdf2f8"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">Fe (外向的感情) vs Fi (内向的感情)</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">感情処理の2つの異なるアプローチ</text>
+
+  <!-- Fe Box -->
+  <rect x="50" y="130" width="340" height="300" rx="10" fill="#fff" stroke="#ec4899" stroke-width="2"/>
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#be185d">Fe (Extraverted Feeling)</text>
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">「客観的な調和」</text>
+  <line x1="100" y1="220" x2="340" y2="220" stroke="#fbcfe8" stroke-width="2"/>
+  <text x="80" y="255" font-family="Arial, sans-serif" font-size="15" fill="#333">• 周囲の感情や雰囲気に敏感</text>
+  <text x="80" y="285" font-family="Arial, sans-serif" font-size="15" fill="#333">• 社会的な規範や調和を重視</text>
+  <text x="80" y="315" font-family="Arial, sans-serif" font-size="15" fill="#333">• 他者のニーズを優先する傾向</text>
+  <text x="80" y="345" font-family="Arial, sans-serif" font-size="15" fill="#333">• 感情を外に出して共有する</text>
+  <text x="80" y="375" font-family="Arial, sans-serif" font-size="15" fill="#333">• 典型的タイプ: ENFJ, ESFJ</text>
+
+  <!-- Fi Box -->
+  <rect x="410" y="130" width="340" height="300" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="580" y="170" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#6d28d9">Fi (Introverted Feeling)</text>
+  <text x="580" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">「主観的な価値」</text>
+  <line x1="460" y1="220" x2="700" y2="220" stroke="#ddd6fe" stroke-width="2"/>
+  <text x="440" y="255" font-family="Arial, sans-serif" font-size="15" fill="#333">• 自身の内なる価値観に忠実</text>
+  <text x="440" y="285" font-family="Arial, sans-serif" font-size="15" fill="#333">• 自己の感情の真実性を重視</text>
+  <text x="440" y="315" font-family="Arial, sans-serif" font-size="15" fill="#333">• 独自の道徳基準を持つ</text>
+  <text x="440" y="345" font-family="Arial, sans-serif" font-size="15" fill="#333">• 感情を内に秘め、深く味わう</text>
+  <text x="440" y="375" font-family="Arial, sans-serif" font-size="15" fill="#333">• 典型的タイプ: INFP, ISFP</text>
+</svg>

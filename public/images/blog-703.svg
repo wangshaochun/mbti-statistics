@@ -1,0 +1,33 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fdfcf0"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#444">MBTI性格類型理論の4つの次元</text>
+  
+  <!-- Dimension 1 -->
+  <rect x="50" y="100" width="340" height="80" rx="10" fill="#fff" stroke="#3498db" stroke-width="2"/>
+  <text x="70" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2980b9">エネルギー：E vs I</text>
+  <text x="70" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">外向型（社交的） vs 内向型（内省的）</text>
+
+  <!-- Dimension 2 -->
+  <rect x="410" y="100" width="340" height="80" rx="10" fill="#fff" stroke="#2ecc71" stroke-width="2"/>
+  <text x="430" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">情報収集：S vs N</text>
+  <text x="430" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">感覚型（現実的） vs 直観型（概念的）</text>
+
+  <!-- Dimension 3 -->
+  <rect x="50" y="200" width="340" height="80" rx="10" fill="#fff" stroke="#e74c3c" stroke-width="2"/>
+  <text x="70" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">意思決定：T vs F</text>
+  <text x="70" y="260" font-family="Arial, sans-serif" font-size="14" fill="#333">思考型（論理的） vs 感情型（価値観重視）</text>
+
+  <!-- Dimension 4 -->
+  <rect x="410" y="200" width="340" height="80" rx="10" fill="#fff" stroke="#f1c40f" stroke-width="2"/>
+  <text x="430" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f39c12">ライフスタイル：J vs P</text>
+  <text x="430" y="260" font-family="Arial, sans-serif" font-size="14" fill="#333">判断型（計画的） vs 知覚型（柔軟性）</text>
+
+  <!-- Practical Value -->
+  <rect x="50" y="310" width="700" height="140" rx="10" fill="#f0f7ff" stroke="#3498db" stroke-width="1"/>
+  <text x="400" y="340" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">MBTI理論の実用的価値</text>
+  <text x="100" y="380" font-family="Arial, sans-serif" font-size="14" fill="#333">• キャリア開発：適性の発見</text>
+  <text x="100" y="410" font-family="Arial, sans-serif" font-size="14" fill="#333">• チームビルディング：相互理解</text>
+  <text x="450" y="380" font-family="Arial, sans-serif" font-size="14" fill="#333">• 人間関係：コミュニケーション改善</text>
+  <text x="450" y="410" font-family="Arial, sans-serif" font-size="14" fill="#333">• 自己成長：強みと弱みの把握</text>
+</svg>
