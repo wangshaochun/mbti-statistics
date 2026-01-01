@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d9e2ec;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="3" dy="3" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="3" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad)" />
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#243b53" />
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="bold">ESTJ 伝統主義者の組織力</text>
+
+  <!-- Main Content Boxes -->
+  <!-- Box 1: Strengths -->
+  <rect x="50" y="110" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="50" y="110" width="340" height="40" rx="10" fill="#486581" />
+  <text x="220" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">核心的な強み</text>
+  <text x="220" y="180" font-family="Arial, sans-serif" font-size="14" fill="#334e68" text-anchor="middle">・卓越した組織力と効率性</text>
+  <text x="220" y="205" font-family="Arial, sans-serif" font-size="14" fill="#334e68" text-anchor="middle">・強い責任感と誠実さ</text>
+
+  <!-- Box 2: Challenges -->
+  <rect x="410" y="110" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="410" y="110" width="340" height="40" rx="10" fill="#486581" />
+  <text x="580" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">直面する課題</text>
+  <text x="580" y="180" font-family="Arial, sans-serif" font-size="14" fill="#334e68" text-anchor="middle">・白黒思考と頑固さ</text>
+  <text x="580" y="205" font-family="Arial, sans-serif" font-size="14" fill="#334e68" text-anchor="middle">・感情の軽視と仕事中毒</text>
+
+  <!-- Box 3: Growth -->
+  <rect x="50" y="270" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="50" y="270" width="340" height="40" rx="10" fill="#486581" />
+  <text x="220" y="295" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">成長のヒント</text>
+  <text x="220" y="340" font-family="Arial, sans-serif" font-size="14" fill="#334e68" text-anchor="middle">感情を「データ」として認識し</text>
+  <text x="220" y="365" font-family="Arial, sans-serif" font-size="14" fill="#334e68" text-anchor="middle">意思決定に組み込む練習を</text>
+
+  <!-- Box 4: Balance -->
+  <rect x="410" y="270" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="410" y="270" width="340" height="40" rx="10" fill="#486581" />
+  <text x="580" y="295" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">成功の鍵</text>
+  <text x="580" y="340" font-family="Arial, sans-serif" font-size="14" fill="#334e68" text-anchor="middle">効率性と人間性のバランスを保ち</text>
+  <text x="580" y="365" font-family="Arial, sans-serif" font-size="14" fill="#334e68" text-anchor="middle">柔軟なリーダーシップを養う</text>
+
+  <!-- MBTI Type Tag -->
+  <rect x="700" y="390" width="80" height="40" rx="20" fill="#243b53" />
+  <text x="740" y="415" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">ESTJ</text>
+</svg>

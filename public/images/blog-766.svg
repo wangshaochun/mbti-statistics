@@ -1,0 +1,51 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fffbeb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef3c7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <dropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Header -->
+  <rect x="40" y="30" width="720" height="80" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#f08c00" text-anchor="middle">ISTP：実践的知性と「沈黙の実行者」</text>
+  
+  <!-- 4 Summary Boxes -->
+  <!-- Strengths -->
+  <rect x="40" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#f08c00">知性の強み</text>
+  <text x="60" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 状況的・実践的知能の高さ</text>
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 身体運動的・空間的知能</text>
+  <text x="60" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• プレッシャー下での冷静な判断</text>
+  
+  <!-- Misunderstandings -->
+  <rect x="410" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e53e3e">誤解の理由</text>
+  <text x="430" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 学術的評価基準とのミスマッチ</text>
+  <text x="430" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 議論より実践を好むスタイル</text>
+  <text x="430" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 控えめで感情表現が少ない</text>
+  
+  <!-- Reality -->
+  <rect x="40" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3182ce">ISTPの真実</text>
+  <text x="60" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 効率的な問題解決の天才</text>
+  <text x="60" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 技術・工学分野での非凡な才能</text>
+  <text x="60" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 独立した創造的思考者</text>
+  
+  <!-- Success -->
+  <rect x="410" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#d69e2e">活躍の鍵</text>
+  <text x="430" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 実際の問題解決場面での貢献</text>
+  <text x="430" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 専門スキルの磨き上げ</text>
+  <text x="430" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 独自の解決策を形にする力</text>
+  
+  <!-- Type Tag -->
+  <rect x="650" y="40" width="100" height="40" rx="20" fill="#f08c00"/>
+  <text x="700" y="67" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">ISTP</text>
+</svg>

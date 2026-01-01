@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dcfce7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dbeafe;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" rx="20" fill="url(#grad)"/>
+  
+  <!-- Header -->
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#166534">INFP 男性 × ISTJ 女性</text>
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="20" fill="#1e40af">理想と現実が織りなす補完関係</text>
+  
+  <!-- Summary Grid -->
+  <g transform="translate(40, 140)">
+    <rect width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">性格の対比</text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">理想主義のINFPと現実主義のISTJ</text>
+    
+    <rect x="380" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="400" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">思考スタイルの違い</text>
+    <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">感情と直感 vs 論理と事実の意思決定</text>
+    
+    <rect y="130" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">ライフスタイル</text>
+    <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">柔軟な自己実現と安定した秩序の共存</text>
+    
+    <rect x="380" y="130" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="400" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">相互学習の機会</text>
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">理想を現実に変え、生活に彩りを添える</text>
+  </g>
+  
+  <!-- Type Tags -->
+  <rect x="540" y="40" width="100" height="30" rx="15" fill="#22c55e"/>
+  <text x="590" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">INFP</text>
+  
+  <rect x="650" y="40" width="100" height="30" rx="15" fill="#3b82f6"/>
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ISTJ</text>
+</svg>

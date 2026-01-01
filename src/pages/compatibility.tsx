@@ -97,17 +97,17 @@ const CompatibilityOverview = () => {
   };
 
   const contexts = [
-    { key: 'love' as const, label: '恋愛関係', icon: Heart, color: 'bg-rose-500' },
-    { key: 'friendship' as const, label: '友人関係', icon: Users, color: 'bg-blue-500' },
-    { key: 'work' as const, label: '職場関係', icon: Briefcase, color: 'bg-green-500' }
+    { key: 'love' as const, label: '恋愛関係', icon: Heart, color: 'bg-[#FF8A80] border-[#D32F2F] shadow-[#D32F2F]' },
+    { key: 'friendship' as const, label: '友人関係', icon: Users, color: 'bg-[#4FC3F7] border-[#0288D1] shadow-[#0288D1]' },
+    { key: 'work' as const, label: '職場関係', icon: Briefcase, color: 'bg-[#AED581] border-[#689F38] shadow-[#689F38]' }
   ];
 
   type Level = 'excellent' | 'good' | 'challenging';
   const getCompatibilityColor = (level: Level): string => {
     switch (level) {
-      case 'excellent': return 'bg-green-100 border-green-300 text-green-800';
-      case 'good': return 'bg-blue-100 border-blue-300 text-blue-800';
-      case 'challenging': return 'bg-red-100 border-red-300 text-red-800';
+      case 'excellent': return 'bg-[#E8F5E9] border-2 border-[#81C784] text-[#2E7D32] shadow-[0_4px_0_#81C784]';
+      case 'good': return 'bg-[#E3F2FD] border-2 border-[#64B5F6] text-[#1565C0] shadow-[0_4px_0_#64B5F6]';
+      case 'challenging': return 'bg-[#FFF3E0] border-2 border-[#FFB74D] text-[#EF6C00] shadow-[0_4px_0_#FFB74D]';
     }
   };
 
@@ -174,15 +174,15 @@ const CompatibilityOverview = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white py-12">
+    <div className="min-h-screen bg-[#F0F7F4] py-12 font-sans">
       <Seo title="MBTI 相性診断・分析 - 恋愛・友人・職場の相性" description="MBTIタイプ別の相性マトリクスを恋愛・友情・職場ごとに分析。相性の良い組み合わせや改善のコツを紹介します。" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6 drop-shadow-sm tracking-tight">
             MBTI相性診断・分析
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-medium">
             16タイプの性格別相性を恋愛・友情・仕事の観点から詳しく分析。
             <br className="hidden sm:block" />
             理想のパートナーや良好な人間関係を築くヒントを見つけましょう。
@@ -191,21 +191,22 @@ const CompatibilityOverview = () => {
 
         {/* Context Selection */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">関係性を選択</h2>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">関係性を選択</h2>
+          <div className="flex flex-col sm:flex-row justify-center gap-6">
             {contexts.map((context) => {
               const Icon = context.icon;
+              const isSelected = selectedContext === context.key;
               return (
                 <button
                   key={context.key}
                   onClick={() => setSelectedContext(context.key)}
-                  className={`flex items-center space-x-3 px-6 py-4 rounded-xl font-semibold transition-all ${
-                    selectedContext === context.key
-                      ? `${context.color} text-white shadow-lg`
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  }`}
+                  className={`flex items-center space-x-3 px-8 py-5 rounded-2xl font-bold text-lg transition-all transform border-2 ${
+                    isSelected
+                      ? `${context.color} text-white shadow-[0_6px_0_rgba(0,0,0,0.2)] translate-y-[-4px]`
+                      : 'bg-white text-gray-600 border-gray-200 shadow-[0_6px_0_#E5E7EB] hover:bg-gray-50'
+                  } active:shadow-none active:translate-y-[2px]`}
                 >
-                  <Icon className="w-5 h-5" />
+                  <Icon className={`w-6 h-6 ${isSelected ? 'text-white' : 'text-gray-400'}`} />
                   <span>{context.label}</span>
                 </button>
               );
@@ -215,23 +216,23 @@ const CompatibilityOverview = () => {
 
         {/* Compatibility Matrix Sample */}
         <div id="compatibility-matrix" className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
             {contexts.find(c => c.key === selectedContext)?.label}での相性マトリックス
           </h2>
           
           {/* Type Selector */}
-          <div className="mb-8">
-            <h3 className="text-lg font-semibold text-gray-700 mb-4 text-center">MBTIタイプを選択してください</h3>
-            <div className="grid grid-cols-4 md:grid-cols-8 gap-2 max-w-4xl mx-auto">
+          <div className="mb-10">
+            <h3 className="text-lg font-bold text-gray-700 mb-6 text-center">MBTIタイプを選択してください</h3>
+            <div className="grid grid-cols-4 md:grid-cols-8 gap-3 max-w-4xl mx-auto">
               {allTypes.map((type) => (
                 <button
                   key={type}
                   onClick={() => setSelectedType(type)}
-                  className={`px-3 py-2 rounded-lg font-bold text-sm transition-all ${
+                  className={`px-2 py-3 rounded-xl font-bold text-sm transition-all border-2 ${
                     selectedType === type
-                      ? 'bg-gradient-to-br from-blue-500 to-purple-600 text-white shadow-lg scale-105'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
-                  }`}
+                      ? 'bg-[#FFD54F] border-[#FFA000] text-gray-900 shadow-[0_4px_0_#FFA000] translate-y-[-2px]'
+                      : 'bg-white border-gray-200 text-gray-600 shadow-[0_4px_0_#E5E7EB] hover:bg-gray-50'
+                  } active:shadow-none active:translate-y-[2px]`}
                 >
                   {type}
                 </button>
@@ -239,16 +240,16 @@ const CompatibilityOverview = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-lg p-6">
+          <div className="bg-white rounded-3xl shadow-[0_8px_30px_rgba(0,0,0,0.04)] border-2 border-white p-8">
             <div className="max-w-4xl mx-auto">
               {/* Selected Type Compatibility */}
-              <div className="mb-6">
-                <div className="flex items-center justify-center mb-6">
-                  <div className="w-20 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white font-bold text-lg mr-4">
+              <div className="mb-8">
+                <div className="flex flex-col md:flex-row items-center justify-center mb-8 gap-4">
+                  <div className="w-24 h-16 bg-[#4DB6AC] rounded-2xl flex items-center justify-center text-white font-bold text-2xl shadow-[0_4px_0_#00897B] border-2 border-[#00897B]">
                     {selectedType}
                   </div>
-                  <div className="text-center">
-                    <h3 className="text-xl font-semibold text-gray-900">
+                  <div className="text-center md:text-left">
+                    <h3 className="text-2xl font-bold text-gray-800">
                       {selectedType}タイプの{selectedContext === 'love' ? '恋愛パートナー' : selectedContext === 'friendship' ? '友人関係' : '職場での関係'}相性
                     </h3>
                   </div>
@@ -256,8 +257,8 @@ const CompatibilityOverview = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {Object.entries(compatibilityMatrix[selectedContext][selectedType as keyof typeof compatibilityMatrix.love]).map(([level, types]) => (
-                    <div key={level} className={`p-4 rounded-lg border-2 ${getCompatibilityColor(level as Level)}`}>
-                      <h4 className="font-semibold mb-3 text-center">
+                    <div key={level} className={`p-6 rounded-2xl ${getCompatibilityColor(level as Level)} transition-transform hover:scale-[1.02]`}>
+                      <h4 className="font-bold mb-4 text-center text-lg">
                         {level === 'excellent' ? '★★★ 抜群の相性' : 
                          level === 'good' ? '★★☆ 良好な相性' : '★☆☆ 要注意の相性'}
                       </h4>
@@ -266,7 +267,7 @@ const CompatibilityOverview = () => {
                           <Link
                             key={compatibleType}
                             href={`/type/${compatibleType.toLowerCase()}`}
-                            className="px-3 py-1 bg-white bg-opacity-70 rounded-md text-sm font-medium hover:bg-opacity-90 transition-all"
+                            className="px-4 py-2 bg-white/60 rounded-lg text-sm font-bold hover:bg-white/90 transition-all shadow-sm"
                           >
                             {compatibleType}
                           </Link>
@@ -282,17 +283,17 @@ const CompatibilityOverview = () => {
 
         {/* Compatibility Tips */}
         <div id="compatibility-tips" className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
             {contexts.find(c => c.key === selectedContext)?.label}での関係改善のコツ
           </h2>
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-[#E0F2F1] rounded-3xl p-8 border-2 border-[#B2DFDB] shadow-[0_8px_0_#B2DFDB]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {compatibilityTips[selectedContext].map((tip, index) => (
-                <div key={index} className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+                <div key={index} className="flex items-start space-x-4 bg-white/50 p-4 rounded-xl">
+                  <div className="w-10 h-10 bg-[#26A69A] rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-md">
                     {index + 1}
                   </div>
-                  <p className="text-gray-700">{tip}</p>
+                  <p className="text-gray-700 font-medium text-lg leading-relaxed">{tip}</p>
                 </div>
               ))}
             </div>
@@ -300,73 +301,73 @@ const CompatibilityOverview = () => {
         </div>
 
         {/* Compatibility Analyses (日本語) */}
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">{contexts.find(c => c.key === selectedContext)?.label}の次元解析</h2>
-          <div className="bg-white rounded-2xl shadow-sm p-6">
-            <p className="text-gray-700 whitespace-pre-line">{compatibilityAnalyses[selectedContext]}</p>
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">{contexts.find(c => c.key === selectedContext)?.label}の次元解析</h2>
+          <div className="bg-white rounded-3xl shadow-[0_8px_30px_rgba(0,0,0,0.04)] border-2 border-gray-100 p-8">
+            <p className="text-gray-700 whitespace-pre-line leading-loose font-medium">{compatibilityAnalyses[selectedContext]}</p>
           </div>
         </div>
  
 
         {/* Popular Compatibility Insights */}
         <div id="popular-pairs" className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">人気の相性パターン</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">人気の相性パターン</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {popularPairs.map((pair, index) => {
               const Icon = pair.icon;
               return (
                 <div 
                   key={index} 
-                  className="bg-white rounded-xl shadow-md overflow-hidden transform transition-all hover:-translate-y-1 hover:shadow-xl"
+                  className="bg-white rounded-3xl shadow-[0_8px_0_rgba(0,0,0,0.05)] border-2 border-gray-100 overflow-hidden transform transition-all hover:-translate-y-2 hover:shadow-[0_12px_0_rgba(0,0,0,0.05)]"
                 >
-                  <div className={`w-full h-3 bg-gradient-to-r ${pair.gradient}`}></div>
-                  <div className="p-6">
-                    <div className="flex items-center mb-4">
-                      <div className={`w-12 h-12 rounded-full flex items-center justify-center text-white mr-3 bg-gradient-to-br ${pair.gradient}`}>
-                        <Icon className="w-6 h-6" />
+                  <div className={`w-full h-4 bg-gradient-to-r ${pair.gradient}`}></div>
+                  <div className="p-8">
+                    <div className="flex items-center mb-6">
+                      <div className={`w-14 h-14 rounded-2xl flex items-center justify-center text-white mr-4 bg-gradient-to-br ${pair.gradient} shadow-md`}>
+                        <Icon className="w-7 h-7" />
                       </div>
                       <div>
-                        <div className="text-lg font-bold text-blue-600">{pair.types}</div>
-                        <h3 className="text-md font-semibold text-gray-900">{pair.title}</h3>
+                        <div className="text-xl font-bold text-gray-800">{pair.types}</div>
+                        <h3 className="text-sm font-bold text-gray-500">{pair.title}</h3>
                       </div>
                     </div>
                     
-                    <p className="text-gray-600 text-sm mb-4">{pair.summary}</p>
+                    <p className="text-gray-600 text-sm mb-6 font-medium leading-relaxed">{pair.summary}</p>
                     
-                    <div className="mt-4 space-y-4 border-t pt-4">
-                      <div>
-                        <div className="flex items-center">
-                          <Heart className="w-5 h-5 text-rose-500 mr-2" />
-                          <span className="font-semibold text-sm text-gray-700">恋愛関係:</span>
+                    <div className="mt-6 space-y-4 border-t border-gray-100 pt-6">
+                      <div className="bg-rose-50 p-3 rounded-xl">
+                        <div className="flex items-center mb-1">
+                          <Heart className="w-4 h-4 text-rose-500 mr-2" />
+                          <span className="font-bold text-xs text-rose-700">恋愛</span>
                         </div>
-                        <p className="text-sm text-gray-600 ml-7">{pair.details.love}</p>
+                        <p className="text-xs text-gray-600">{pair.details.love}</p>
                       </div>
                       
-                      <div>
-                        <div className="flex items-center">
-                          <Users className="w-5 h-5 text-blue-500 mr-2" />
-                          <span className="font-semibold text-sm text-gray-700">友人関係:</span>
+                      <div className="bg-blue-50 p-3 rounded-xl">
+                        <div className="flex items-center mb-1">
+                          <Users className="w-4 h-4 text-blue-500 mr-2" />
+                          <span className="font-bold text-xs text-blue-700">友人</span>
                         </div>
-                        <p className="text-sm text-gray-600 ml-7">{pair.details.friendship}</p>
+                        <p className="text-xs text-gray-600">{pair.details.friendship}</p>
                       </div>
                       
-                      <div>
-                        <div className="flex items-center">
-                          <Briefcase className="w-5 h-5 text-green-500 mr-2" />
-                          <span className="font-semibold text-sm text-gray-700">職場関係:</span>
+                      <div className="bg-green-50 p-3 rounded-xl">
+                        <div className="flex items-center mb-1">
+                          <Briefcase className="w-4 h-4 text-green-500 mr-2" />
+                          <span className="font-bold text-xs text-green-700">職場</span>
                         </div>
-                        <p className="text-sm text-gray-600 ml-7">{pair.details.work}</p>
+                        <p className="text-xs text-gray-600">{pair.details.work}</p>
                       </div>
                     </div>
                     
-                    <div className="mt-4 text-right">
+                    <div className="mt-6 text-center">
                       {(() => {
                         const firstType = pair.types.split('×')[0].trim().toLowerCase();
                         return (
                           <Link 
                             href={`/type/${firstType}`} 
-                            className="inline-block px-4 py-2 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 rounded-md text-sm hover:brightness-95"
+                            className="inline-block w-full px-4 py-3 bg-gray-100 text-gray-700 rounded-xl text-sm font-bold hover:bg-gray-200 transition-colors"
                           >
                             詳細ページへ
                           </Link>
@@ -380,7 +381,7 @@ const CompatibilityOverview = () => {
           </div>
           
           <div className="text-center">
-            <Link href="/types" className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 font-medium rounded-lg hover:from-blue-200 hover:to-purple-200 transition-colors">
+            <Link href="/types" className="inline-flex items-center px-8 py-4 bg-[#7E57C2] text-white font-bold rounded-2xl shadow-[0_6px_0_#5E35B1] hover:bg-[#673AB7] active:shadow-none active:translate-y-[6px] transition-all border-2 border-[#5E35B1]">
               すべての相性パターンを見る
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -390,17 +391,17 @@ const CompatibilityOverview = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center">
-          <div className="bg-gradient-to-r from-rose-500 to-pink-600 rounded-2xl p-8 text-white">
-            <Heart className="w-16 h-12 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-4">あなたの理想の相性を見つけましょう</h3>
-            <p className="text-pink-100 mb-6 max-w-2xl mx-auto">
+        <div className="text-center pb-12">
+          <div className="bg-[#FF8A80] rounded-3xl p-10 text-white shadow-[0_10px_0_#D32F2F] border-2 border-[#D32F2F] max-w-4xl mx-auto transform rotate-1 hover:rotate-0 transition-transform">
+            <Heart className="w-20 h-20 mx-auto mb-6 text-white drop-shadow-md" />
+            <h3 className="text-3xl font-bold mb-6 drop-shadow-sm">あなたの理想の相性を見つけましょう</h3>
+            <p className="text-white mb-8 max-w-2xl mx-auto text-lg font-medium opacity-90">
               詳細な診断で、恋愛・友情・仕事における理想のパートナーを発見し、
               より良い人間関係を築いていきましょう。
             </p>
             <a
               href="/diagnostics"
-              className="inline-block px-8 py-3 bg-white text-rose-600 font-semibold rounded-lg hover:bg-gray-50 transition-colors"
+              className="inline-block px-10 py-4 bg-white text-[#D32F2F] font-bold rounded-2xl shadow-[0_6px_0_rgba(0,0,0,0.1)] hover:bg-gray-50 active:shadow-none active:translate-y-[6px] transition-all text-lg"
             >
               今すぐ相性診断
             </a>

@@ -1,0 +1,35 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#eff6ff"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e40af">ISFJ（守護者）の成長アドバイス</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#3b82f6">限界を突破し、潜在能力を解き放つために</text>
+
+  <!-- ISFJ Growth Points -->
+  <g transform="translate(50, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">自己表現とニーズの伝達</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">他人のために自分を抑圧せず、</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">自分の意見や感情を明確に伝える。</text>
+  </g>
+
+  <g transform="translate(410, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">コンフォートゾーンの脱却</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">異なるタイプの人々と交流し、</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">新しいスキルや未知の分野に挑戦する。</text>
+  </g>
+
+  <g transform="translate(50, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">責任の再定義</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">「自分を成長させる責任」を</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">他者への責任と同等に大切にする。</text>
+  </g>
+
+  <g transform="translate(410, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">不確実性の受容</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">完璧さへの要求を緩め、</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">変化や未知の状況を柔軟に受け入れる。</text>
+  </g>
+</svg>

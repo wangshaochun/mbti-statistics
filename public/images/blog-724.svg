@@ -1,0 +1,35 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f5f3ff"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#5b21b6">ENTPの可能性を最大限に引き出す5つの助言</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#8b5cf6">革新性と効率性を両立させる実践的アプローチ</text>
+
+  <!-- ENTP Advice Points -->
+  <g transform="translate(50, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#5b21b6">持続性とルールの活用</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">計画を立て、最後までやり遂げる。</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">ルールを「成果への助け」と捉える。</text>
+  </g>
+
+  <g transform="translate(410, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#5b21b6">徹底した調査と分析</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">盲目的な着手を避け、事前準備を行う。</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">可能性だけでなく「実現確率」を考慮。</text>
+  </g>
+
+  <g transform="translate(50, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#5b21b6">細部への注意</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">大局観を保ちつつ、細部にも時間を割く。</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">「小さなこと」が全体の質を向上させる。</text>
+  </g>
+
+  <g transform="translate(410, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#5b21b6">戦略的好奇心と共創</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">興味を特定の分野に収束させる。</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">弱点を補う仲間と「共創の場」を作る。</text>
+  </g>
+</svg>

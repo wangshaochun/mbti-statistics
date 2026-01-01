@@ -1,0 +1,51 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdfcfb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2d1c3;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <dropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Header -->
+  <rect x="40" y="30" width="720" height="80" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#243b53" text-anchor="middle">ENFP：なぜ「ハッピードッグ」なのか</text>
+  
+  <!-- 4 Summary Boxes -->
+  <!-- Traits -->
+  <rect x="40" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#243b53">外向性と楽観主義</text>
+  <text x="60" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 社交的で周囲に喜びをもたらす</text>
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 常に物事の前向きな側面を見る</text>
+  <text x="60" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 尽きることのない情熱とエネルギー</text>
+  
+  <!-- Emotions -->
+  <rect x="410" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#243b53">深い感情と共感力</text>
+  <text x="430" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 他者の感情を鋭く察知する</text>
+  <text x="430" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 真摯で深い人間関係を重視</text>
+  <text x="430" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 温かく思いやりのあるサポート</text>
+  
+  <!-- Challenges -->
+  <rect x="40" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e53e3e">課題と限界</text>
+  <text x="60" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 過度な理想主義による失望</text>
+  <text x="60" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 衝動的で計画が変わりやすい</text>
+  <text x="60" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 現実的な詳細を見落とす傾向</text>
+  
+  <!-- Growth -->
+  <rect x="410" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3182ce">自己成長の道</text>
+  <text x="430" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 絶え間ない自己反省と調整</text>
+  <text x="430" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 理性的で冷静な判断力の育成</text>
+  <text x="430" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 自身の独特な魅力を受け入れる</text>
+  
+  <!-- Type Tag -->
+  <rect x="650" y="40" width="100" height="40" rx="20" fill="#243b53"/>
+  <text x="700" y="67" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">ENFP</text>
+</svg>

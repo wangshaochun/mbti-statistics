@@ -1,0 +1,51 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fffbeb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0fff4;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <dropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Header -->
+  <rect x="40" y="30" width="720" height="80" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1e293b" text-anchor="middle">ISFP &amp; ENFJ：「救済ペア」の絆</text>
+  
+  <!-- 4 Summary Boxes -->
+  <!-- ISFP -->
+  <rect x="40" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#f08c00">ISFP (冒険家)</text>
+  <text x="60" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 内なる安息の地と美的感受性</text>
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 「あるがまま」の受容を提供</text>
+  <text x="60" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• ENFJを過剰な責任から解放</text>
+  
+  <!-- ENFJ -->
+  <rect x="410" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2b8a3e">ENFJ (主人公)</text>
+  <text x="430" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 外への架け橋と社会的関与</text>
+  <text x="430" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• ISFPに勇気と動機づけを提供</text>
+  <text x="430" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• ISFPを孤立感から救済</text>
+  
+  <!-- Salvation -->
+  <rect x="40" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e53e3e">「救済」のプロセス</text>
+  <text x="60" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 互いの「盲点」を自然に癒やす</text>
+  <text x="60" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 感情的な完全性への導き</text>
+  <text x="60" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 無条件の愛情と深い信頼</text>
+  
+  <!-- Growth -->
+  <rect x="410" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3182ce">相互成長</text>
+  <text x="430" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 理想と現実の絶妙な融合</text>
+  <text x="430" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 精神的な安らぎと自己実現</text>
+  <text x="430" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 共に高め合うダイナミックな関係</text>
+  
+  <!-- Type Tag -->
+  <rect x="630" y="40" width="120" height="40" rx="20" fill="#2b8a3e"/>
+  <text x="690" y="67" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">ISFP/ENFJ</text>
+</svg>

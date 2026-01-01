@@ -1,0 +1,53 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dcfce7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <dropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Header -->
+  <rect x="40" y="30" width="720" height="80" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#166534" text-anchor="middle">ISTP vs ISTJ：職人と検査官の違い</text>
+  
+  <!-- 4 Summary Boxes -->
+  <!-- ISTP -->
+  <rect x="40" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#15803d">ISTP：職人型</text>
+  <text x="60" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 柔軟で適応性が高い（Ti-Se）</text>
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 独立した作業と実用性を重視</text>
+  <text x="60" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 原理と現在の状況に基づく解決</text>
+  
+  <!-- ISTJ -->
+  <rect x="410" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#15803d">ISTJ：検査官型</text>
+  <text x="430" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 構造的で計画を重視（Si-Te）</text>
+  <text x="430" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 強い責任感と伝統を重んじる</text>
+  <text x="430" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 経験と計画に基づく堅実な管理</text>
+  
+  <!-- Thinking & Action -->
+  <rect x="40" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e293b">思考と行動の習慣</text>
+  <text x="60" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• ISTP: 柔軟性・即時行動を好む</text>
+  <text x="60" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• ISTJ: 構造性・長期計画を好む</text>
+  <text x="60" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 束縛を嫌う vs 秩序を求める</text>
+  
+  <!-- Decision Making -->
+  <rect x="410" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e293b">意思決定のプロセス</text>
+  <text x="430" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• ISTP: 実際の経験と直感に依存</text>
+  <text x="430" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• ISTJ: データと分析に基づく理性</text>
+  <text x="430" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 「まずやってみる」 vs 「慎重な準備」</text>
+  
+  <!-- Type Tags -->
+  <rect x="580" y="40" width="80" height="40" rx="20" fill="#15803d"/>
+  <text x="620" y="67" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">ISTP</text>
+  <rect x="670" y="40" width="80" height="40" rx="20" fill="#166534"/>
+  <text x="710" y="67" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">ISTJ</text>
+</svg>

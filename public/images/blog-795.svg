@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbf7d0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" rx="20" fill="url(#grad)"/>
+  
+  <!-- Header -->
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#166534">ENFJ-A 人格分析</text>
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="20" fill="#15803d">人々を鼓舞する「主人公」の資質</text>
+  
+  <!-- Summary Grid -->
+  <g transform="translate(40, 140)">
+    <rect width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">卓越したリーダーシップ</text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">チームを激励し、共通の目標へと導く</text>
+    
+    <rect x="380" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="400" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">高い共感力とEQ</text>
+    <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">他人の感情を鋭く察知し、深く寄り添う</text>
+    
+    <rect y="130" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">効率的な仕事スタイル</text>
+    <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">明確な目標設定と計画的な実行力を持つ</text>
+    
+    <rect x="380" y="130" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="400" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">課題と自己改善</text>
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">自己犠牲を避け、健全な境界線を築く</text>
+  </g>
+  
+  <!-- Type Tag -->
+  <rect x="620" y="40" width="140" height="40" rx="20" fill="#166534"/>
+  <text x="690" y="67" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">ENFJ-A</text>
+</svg>

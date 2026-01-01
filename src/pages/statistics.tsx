@@ -1,7 +1,7 @@
 // (file defines Statistics component below)
 import { useState } from 'react';
 import Link from 'next/link';
-import { BarChart3, Users, TrendingUp, Globe, Target, Award } from 'lucide-react';
+import { BarChart3, Users, TrendingUp, Globe, Target, Award,Sparkles } from 'lucide-react';
 import Seo from '../components/Seo';
 
 const Statistics = () => {
@@ -105,15 +105,15 @@ const Statistics = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white py-12">
+    <div className="min-h-screen bg-[#F0F7F4] py-12 font-sans">
       <Seo title="MBTI 統計データ - タイプ分布" description="日本人および世界のMBTIタイプ分布や職業別の傾向を示す統計データ。タイプ別比率やインサイトをビジュアルで確認できます。" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6 tracking-tight">
             MBTI統計・割合データ
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-medium">
             日本人と世界のMBTI分布の違い、職業別の傾向など、
             <br className="hidden sm:block" />
             詳細な統計データで性格タイプの実態を理解しましょう。
@@ -122,24 +122,25 @@ const Statistics = () => {
 
         {/* View Selection */}
         <div className="mb-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {viewOptions.map((option) => {
               const Icon = option.icon;
+              const isSelected = selectedView === option.key;
               return (
                 <button
                   key={option.key}
                   onClick={() => setSelectedView(option.key)}
-                  className={`p-6 rounded-2xl border-2 transition-all text-left ${
-                    selectedView === option.key
-                      ? 'border-blue-500 bg-blue-50 shadow-lg'
-                      : 'border-gray-200 hover:border-blue-300 hover:bg-gray-50'
+                  className={`p-6 rounded-3xl border-2 transition-all text-left group ${
+                    isSelected
+                      ? 'bg-[#E1F5FE] border-[#4FC3F7] shadow-[0_4px_0_#0288D1] translate-y-[2px]'
+                      : 'bg-white border-gray-200 shadow-[0_4px_0_#E0E0E0] hover:-translate-y-1 active:translate-y-[2px] active:shadow-none'
                   }`}
                 >
-                  <Icon className={`w-8 h-8 mb-3 ${selectedView === option.key ? 'text-blue-600' : 'text-gray-400'}`} />
-                  <h3 className={`text-lg font-semibold mb-2 ${selectedView === option.key ? 'text-blue-900' : 'text-gray-900'}`}>
+                  <Icon className={`w-8 h-8 mb-3 ${isSelected ? 'text-[#039BE5]' : 'text-gray-400 group-hover:text-[#4FC3F7] transition-colors'}`} />
+                  <h3 className={`text-lg font-bold mb-2 ${isSelected ? 'text-[#0277BD]' : 'text-gray-700'}`}>
                     {option.label}
                   </h3>
-                  <p className="text-sm text-gray-600">{option.description}</p>
+                  <p className={`text-sm font-medium ${isSelected ? 'text-[#0288D1]' : 'text-gray-500'}`}>{option.description}</p>
                 </button>
               );
             })}
@@ -150,22 +151,25 @@ const Statistics = () => {
         {selectedView === 'career' ? (
           /* Career Statistics */
           <div id="career-stats" className="mb-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">職業別MBTI分析</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center flex items-center justify-center">
+              <Target className="w-6 h-6 mr-2 text-[#FF8A80]" />
+              職業別MBTI分析
+            </h2>
             <div className="space-y-6">
               {careerStats.map((item, index) => (
-                <div key={index} className="bg-white rounded-2xl shadow-lg p-6">
+                <div key={index} className="bg-white rounded-3xl shadow-[0_8px_0_rgba(0,0,0,0.05)] border-2 border-gray-100 p-8 hover:border-[#4FC3F7] transition-colors duration-300">
                   <div className="mb-4">
-                    <h3 className="text-xl font-semibold text-gray-900">{item.career}</h3>
+                    <h3 className="text-xl font-bold text-gray-800">{item.career}</h3>
                   </div>
-                  <div className="flex flex-wrap gap-2 mb-3">
-                    <div className="text-sm text-gray-600 mr-3">高い傾向があるタイプ:</div>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <div className="text-sm font-bold text-gray-500 mr-3 flex items-center">高い傾向があるタイプ:</div>
                     {item.types.map((type) => (
-                      <span key={type} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-lg text-sm font-medium">
+                      <span key={type} className="px-3 py-1 bg-[#E1F5FE] text-[#0277BD] rounded-lg text-sm font-bold border-2 border-[#B3E5FC]">
                         {type}
                       </span>
                     ))}
                   </div>
-                  <p className="text-sm text-gray-700">{item.reason}</p>
+                  <p className="text-gray-600 leading-relaxed font-medium">{item.reason}</p>
                 </div>
               ))}
             </div>
@@ -173,30 +177,31 @@ const Statistics = () => {
         ) : (
           /* Type Distribution */
           <div id="distribution-chart" className="mb-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+            <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center flex items-center justify-center">
+              <BarChart3 className="w-6 h-6 mr-2 text-[#4FC3F7]" />
               {selectedView === 'japan' ? 'MBTI分布' : '世界のMBTI分布'}
             </h2>
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <div className="space-y-4">
+            <div className="bg-white rounded-3xl shadow-[0_8px_0_rgba(0,0,0,0.05)] border-2 border-gray-100 p-8 md:p-10">
+              <div className="space-y-6">
                 {getCurrentStats().map((stat, index) => (
-                  <div key={index} className="flex items-center space-x-4">
-                    <div className="w-8 text-sm font-medium text-gray-600">#{index + 1}</div>
+                  <div key={index} className="flex items-center space-x-4 group">
+                    <div className="w-8 text-sm font-bold text-gray-400">#{index + 1}</div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center justify-between mb-2">
                         <div>
                           <Link 
                             href={`/type/${stat.type.toLowerCase()}`}
-                            className="text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors"
+                            className="text-lg font-bold text-gray-800 hover:text-[#4FC3F7] transition-colors"
                           >
                             {stat.type}
                           </Link>
-                          <span className="text-sm text-gray-500 ml-2">{stat.name}</span>
+                          <span className="text-sm font-medium text-gray-500 ml-2">{stat.name}</span>
                         </div>
-                        <div className="text-xl font-bold text-gray-900">{stat.percentage}%</div>
+                        <div className="text-xl font-black text-gray-800">{stat.percentage}%</div>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-3">
+                      <div className="w-full bg-gray-100 rounded-full h-4 border-2 border-gray-100 overflow-hidden">
                         <div 
-                          className={`${stat.color} h-3 rounded-full transition-all duration-500`}
+                          className={`${stat.color} h-full rounded-full transition-all duration-1000 ease-out shadow-[0_2px_0_rgba(0,0,0,0.1)]`}
                           style={{ width: `${(stat.percentage / Math.max(...getCurrentStats().map(s => s.percentage))) * 100}%` }}
                         ></div>
                       </div>
@@ -210,13 +215,16 @@ const Statistics = () => {
 
         {/* Key Insights (data-driven) */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">統計から見る特徴</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center flex items-center justify-center">
+            <Sparkles className="w-6 h-6 mr-2 text-[#FFD54F]" />
+            統計から見る特徴
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Most common in current view */}
-            <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6">
-              <TrendingUp className="w-10 h-10 text-green-600 mb-4" />
-              <h3 className="text-lg font-semibold text-green-800 mb-2">最多タイプ</h3>
-              <p className="text-green-700 text-sm">
+            <div className="bg-[#E8F5E9] rounded-3xl p-6 border-2 border-[#A5D6A7] shadow-[0_6px_0_#A5D6A7] hover:-translate-y-1 transition-transform duration-300">
+              <TrendingUp className="w-10 h-10 text-[#43A047] mb-4" />
+              <h3 className="text-lg font-bold text-[#2E7D32] mb-2">最多タイプ</h3>
+              <p className="text-[#388E3C] text-sm font-medium">
                 {(() => {
                   const stats = getCurrentStats();
                   const top = stats.reduce((a, b) => (a.percentage > b.percentage ? a : b), stats[0]);
@@ -226,10 +234,10 @@ const Statistics = () => {
             </div>
 
             {/* Japan vs Global highlight */}
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6">
-              <BarChart3 className="w-10 h-10 text-blue-600 mb-4" />
-              <h3 className="text-lg font-semibold text-blue-800 mb-2">日・世界の差</h3>
-              <p className="text-blue-700 text-sm">
+            <div className="bg-[#E1F5FE] rounded-3xl p-6 border-2 border-[#81D4FA] shadow-[0_6px_0_#81D4FA] hover:-translate-y-1 transition-transform duration-300">
+              <BarChart3 className="w-10 h-10 text-[#039BE5] mb-4" />
+              <h3 className="text-lg font-bold text-[#0277BD] mb-2">日・世界の差</h3>
+              <p className="text-[#0288D1] text-sm font-medium">
                 {(() => {
                   const jp = japaneseStats.find(s => s.type === 'ENFP');
                   const gl = globalStats.find(s => s.type === 'ENFP');
@@ -242,10 +250,10 @@ const Statistics = () => {
             </div>
 
             {/* Rare types */}
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6">
-              <Award className="w-10 h-10 text-purple-600 mb-4" />
-              <h3 className="text-lg font-semibold text-purple-800 mb-2">希少タイプ</h3>
-              <p className="text-purple-700 text-sm">
+            <div className="bg-[#F3E5F5] rounded-3xl p-6 border-2 border-[#CE93D8] shadow-[0_6px_0_#CE93D8] hover:-translate-y-1 transition-transform duration-300">
+              <Award className="w-10 h-10 text-[#8E24AA] mb-4" />
+              <h3 className="text-lg font-bold text-[#7B1FA2] mb-2">希少タイプ</h3>
+              <p className="text-[#8E24AA] text-sm font-medium">
                 {(() => {
                   // show types with percentage < 4 in japaneseStats
                   const rares = japaneseStats.filter(s => s.percentage < 4).map(s => s.type);
@@ -256,10 +264,10 @@ const Statistics = () => {
             </div>
 
             {/* Career insight */}
-            <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-6">
-              <Target className="w-10 h-10 text-orange-600 mb-4" />
-              <h3 className="text-lg font-semibold text-orange-800 mb-2">職業との関連</h3>
-              <p className="text-orange-700 text-sm">
+            <div className="bg-[#FFF3E0] rounded-3xl p-6 border-2 border-[#FFCC80] shadow-[0_6px_0_#FFCC80] hover:-translate-y-1 transition-transform duration-300">
+              <Target className="w-10 h-10 text-[#FB8C00] mb-4" />
+              <h3 className="text-lg font-bold text-[#EF6C00] mb-2">職業との関連</h3>
+              <p className="text-[#F57C00] text-sm font-medium">
                 {(() => {
                   const topCareer = careerStats[0];
                   return `${topCareer.career}には${topCareer.types.slice(0,2).join('、')}が多く見られる傾向があります。`;
@@ -271,33 +279,39 @@ const Statistics = () => {
 
         {/* Detailed Analysis */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">詳細分析</h2>
-          <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">詳細分析</h2>
+          <div className="bg-white rounded-3xl shadow-[0_8px_0_rgba(0,0,0,0.05)] border-2 border-gray-100 p-8 md:p-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">性格傾向</h3>
-                <div className="space-y-3">
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-700">外向性 (E) vs 内向性 (I)</span>
-                    <span className="font-semibold">52% : 48%</span>
+                <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                  <div className="w-2 h-8 bg-[#4FC3F7] rounded-full mr-3"></div>
+                  性格傾向
+                </h3>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center p-4 bg-[#F0F7F4] rounded-2xl border-2 border-gray-100">
+                    <span className="text-gray-700 font-bold">外向性 (E) vs 内向性 (I)</span>
+                    <span className="font-black text-[#4FC3F7]">52% : 48%</span>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-700">直観 (N) vs 感覚 (S)</span>
-                    <span className="font-semibold">65% : 35%</span>
+                  <div className="flex justify-between items-center p-4 bg-[#F0F7F4] rounded-2xl border-2 border-gray-100">
+                    <span className="text-gray-700 font-bold">直観 (N) vs 感覚 (S)</span>
+                    <span className="font-black text-[#FF8A80]">65% : 35%</span>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-700">感情 (F) vs 思考 (T)</span>
-                    <span className="font-semibold">71% : 29%</span>
+                  <div className="flex justify-between items-center p-4 bg-[#F0F7F4] rounded-2xl border-2 border-gray-100">
+                    <span className="text-gray-700 font-bold">感情 (F) vs 思考 (T)</span>
+                    <span className="font-black text-[#AED581]">71% : 29%</span>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-700">知覚 (P) vs 判断 (J)</span>
-                    <span className="font-semibold">68% : 32%</span>
+                  <div className="flex justify-between items-center p-4 bg-[#F0F7F4] rounded-2xl border-2 border-gray-100">
+                    <span className="text-gray-700 font-bold">知覚 (P) vs 判断 (J)</span>
+                    <span className="font-black text-[#FFD54F]">68% : 32%</span>
                   </div>
                 </div>
               </div>
               
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">カテゴリー別分布</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                  <div className="w-2 h-8 bg-[#FF8A80] rounded-full mr-3"></div>
+                  カテゴリー別分布
+                </h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
                     <span className="text-gray-700">外交官 (NF)</span>

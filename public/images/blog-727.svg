@@ -1,0 +1,35 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#fffbeb"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#92400e">ISTPの成長戦略：長期的な視点を持つ</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#d97706">日和見主義を避け、潜在能力を最大化する</text>
+
+  <!-- ISTP Growth Points -->
+  <g transform="translate(50, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#fbbf24" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#92400e">長期的な計画の立案</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">「今ここ」の延長線上に</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">具体的な目標とステップを設定する。</text>
+  </g>
+
+  <g transform="translate(410, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#fbbf24" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#92400e">日和見主義の回避</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">短期的な利益だけでなく、</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">長期的なビジョンとの合致を確認する。</text>
+  </g>
+
+  <g transform="translate(50, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#fbbf24" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#92400e">定期的な自己内省</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">タスク完了後に立ち止まり、</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">経験からの学びを深める習慣を作る。</text>
+  </g>
+
+  <g transform="translate(410, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#fbbf24" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#92400e">価値体系の構築</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">自分の「行動原理」を言語化し、</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">判断のフィルターとして活用する。</text>
+  </g>
+</svg>

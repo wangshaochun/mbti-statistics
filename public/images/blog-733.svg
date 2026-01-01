@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e7f5ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0ebff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="3" dy="3" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="3" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad)" />
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#1971c2" />
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="bold">ESFJ 成長のための5つの助言</text>
+
+  <!-- Main Content Boxes -->
+  <!-- Box 1: Criticism -->
+  <rect x="50" y="110" width="220" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="50" y="110" width="220" height="40" rx="10" fill="#339af0" />
+  <text x="160" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">1. 批判の受容</text>
+  <text x="160" y="180" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">客観的な意見を</text>
+  <text x="160" y="205" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">成長の糧にする</text>
+
+  <!-- Box 2: Self-care -->
+  <rect x="290" y="110" width="220" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="290" y="110" width="220" height="40" rx="10" fill="#339af0" />
+  <text x="400" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">2. セルフケア</text>
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">他者だけでなく</text>
+  <text x="400" y="205" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">自分も大切にする</text>
+
+  <!-- Box 3: Decisions -->
+  <rect x="530" y="110" width="220" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="530" y="110" width="220" height="40" rx="10" fill="#339af0" />
+  <text x="640" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">3. 独立した決定</text>
+  <text x="640" y="180" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">周囲の顔色を伺わず</text>
+  <text x="640" y="205" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">自分の意志で決める</text>
+
+  <!-- Box 4: Change -->
+  <rect x="170" y="270" width="220" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="170" y="270" width="220" height="40" rx="10" fill="#339af0" />
+  <text x="280" y="295" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">4. 変化の受容</text>
+  <text x="280" y="340" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">現状に固執せず</text>
+  <text x="280" y="365" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">新しい環境に馴染む</text>
+
+  <!-- Box 5: Analysis -->
+  <rect x="410" y="270" width="220" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="410" y="270" width="220" height="40" rx="10" fill="#339af0" />
+  <text x="520" y="295" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">5. 客観的分析</text>
+  <text x="520" y="340" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">感情に流されず</text>
+  <text x="520" y="365" font-family="Arial, sans-serif" font-size="14" fill="#0b7285" text-anchor="middle">論理的に判断する</text>
+
+  <!-- MBTI Type Tag -->
+  <rect x="700" y="390" width="80" height="40" rx="20" fill="#1971c2" />
+  <text x="740" y="415" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">ESFJ</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#eff6ff"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e40af">ISTJ（物流師）の成長ガイド</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#3b82f6">伝統を活かしつつ、柔軟性と自己表現を高める</text>
+
+  <!-- ISTJ Growth Points -->
+  <g transform="translate(50, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">イノベーションと柔軟性</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">既存の手順に疑問を持ち、</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">状況に応じたルールの調整を学ぶ。</text>
+  </g>
+
+  <g transform="translate(410, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">感情の解放と表現</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">自分の感情を「重要なデータ」と捉え、</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">周囲に伝えることで人間関係を深める。</text>
+  </g>
+
+  <g transform="translate(50, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">リラックスと余白</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">計画にない「空白の時間」を作り、</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">自然体で過ごすことで創造性を養う。</text>
+  </g>
+
+  <g transform="translate(410, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">自己投資の重要性</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">趣味や休息を「責任」の一部と考え、</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">長期的なパフォーマンスを維持する。</text>
+  </g>
+</svg>

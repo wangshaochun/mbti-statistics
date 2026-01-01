@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2dd4bf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#818cf8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" rx="20" fill="url(#grad)"/>
+  
+  <!-- Header -->
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#134e4a">ISFJ から INTP へ</text>
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="20" fill="#1e1b4b">守護者から思考者への変容と成長</text>
+  
+  <!-- Summary Grid -->
+  <g transform="translate(40, 140)">
+    <rect width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#134e4a">性格特性の比較</text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="14" fill="#115e59">温かな守護者と独立した思考者の対比</text>
+    
+    <rect x="380" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="400" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#134e4a">変容の可能性</text>
+    <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" fill="#115e59">認知機能のバランスがシフトするプロセス</text>
+    
+    <rect y="130" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#134e4a">挑戦と機会</text>
+    <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#115e59">感情と論理の衝突を乗り越え、分析力を磨く</text>
+    
+    <rect x="380" y="130" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="400" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#134e4a">成長への道</text>
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="14" fill="#115e59">抽象思考と論理的決定を練習し、視野を広げる</text>
+  </g>
+  
+  <!-- Type Tags -->
+  <rect x="540" y="40" width="100" height="30" rx="15" fill="#0d9488"/>
+  <text x="590" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ISFJ</text>
+  
+  <rect x="650" y="40" width="100" height="30" rx="15" fill="#6366f1"/>
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">INTP</text>
+</svg>

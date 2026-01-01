@@ -1,0 +1,51 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <dropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Header -->
+  <rect x="40" y="30" width="720" height="80" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#243b53" text-anchor="middle">ESTJ男性：強気なリーダーの素顔</text>
+  
+  <!-- 4 Summary Boxes -->
+  <!-- Strengths -->
+  <rect x="40" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#243b53">頼れる強み</text>
+  <text x="60" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 圧倒的な責任感と決断力</text>
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 優れた組織力と実行力</text>
+  <text x="60" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 効率的で秩序ある管理能力</text>
+  
+  <!-- Challenges -->
+  <rect x="410" y="130" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e53e3e">「恐ろしさ」の正体</text>
+  <text x="430" y="195" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 強い支配欲とプレッシャー</text>
+  <text x="430" y="220" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• ルールへの過度なこだわり</text>
+  <text x="430" y="245" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 率直すぎて共感に欠ける表現</text>
+  
+  <!-- Growth -->
+  <rect x="40" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3182ce">成長のヒント</text>
+  <text x="60" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 柔軟性と包容力の獲得</text>
+  <text x="60" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 他者の感情への配慮を学ぶ</text>
+  <text x="60" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 完璧主義の緩和とリラックス</text>
+  
+  <!-- Success -->
+  <rect x="410" y="280" width="350" height="130" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="430" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#d69e2e">目指すべき姿</text>
+  <text x="430" y="345" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 信頼される社会の柱</text>
+  <text x="430" y="370" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 温かみのあるリーダーシップ</text>
+  <text x="430" y="395" font-family="Arial, sans-serif" font-size="16" fill="#4a5568">• 秩序と調和を両立させる存在</text>
+  
+  <!-- Type Tag -->
+  <rect x="650" y="40" width="100" height="40" rx="20" fill="#243b53"/>
+  <text x="700" y="67" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">ESTJ</text>
+</svg>

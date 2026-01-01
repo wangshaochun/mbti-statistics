@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dcfce7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" rx="20" fill="url(#grad)"/>
+  
+  <!-- Header -->
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#166534">INFP とメンタルヘルス</text>
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="20" fill="#15803d">理想と現実の間で揺れ動く心</text>
+  
+  <!-- Summary Grid -->
+  <g transform="translate(40, 140)">
+    <rect width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">感情の深さと感受性</text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">豊かな内面世界と高い共感力を持つ</text>
+    
+    <rect x="380" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="400" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">理想と現実の衝突</text>
+    <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">高い期待が失望や自己不信を生む原因に</text>
+    
+    <rect y="130" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">内向的な特性</text>
+    <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">悩みを一人で抱え込み、内面化しやすい</text>
+    
+    <rect x="380" y="130" width="340" height="100" rx="15" fill="white" filter="url(#shadow)"/>
+    <text x="400" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#166534">リスクを減らす方法</text>
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="14" fill="#3f6212">社会的サポートと現実的な目標設定が鍵</text>
+  </g>
+  
+  <!-- Type Tag -->
+  <rect x="620" y="40" width="140" height="40" rx="20" fill="#166534"/>
+  <text x="690" y="67" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">INFP</text>
+</svg>

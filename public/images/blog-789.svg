@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4c1d95;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" rx="20" fill="url(#grad)"/>
+  
+  <!-- Header -->
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#f8fafc">ISTJ × ENFP 「オーロラ組」</text>
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="20" fill="#cbd5e1">対極の性格が織りなす神秘的な調和</text>
+  
+  <!-- Summary Grid -->
+  <g transform="translate(40, 140)">
+    <rect width="340" height="100" rx="15" fill="rgba(255,255,255,0.1)" filter="url(#shadow)"/>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#99f6e4">性格の対比</text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="14" fill="#f1f5f9">現実的なISTJと創造的なENFPの出会い</text>
+    
+    <rect x="380" width="340" height="100" rx="15" fill="rgba(255,255,255,0.1)" filter="url(#shadow)"/>
+    <text x="400" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#99f6e4">補完し合う力</text>
+    <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" fill="#f1f5f9">安定と変化、秩序と革新が絶妙に融合</text>
+    
+    <rect y="130" width="340" height="100" rx="15" fill="rgba(255,255,255,0.1)" filter="url(#shadow)"/>
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#99f6e4">相互吸引の魅力</text>
+    <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#f1f5f9">違いが引き寄せ合い、オーロラのような美しさを生む</text>
+    
+    <rect x="380" y="130" width="340" height="100" rx="15" fill="rgba(255,255,255,0.1)" filter="url(#shadow)"/>
+    <text x="400" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#99f6e4">課題と成長</text>
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="14" fill="#f1f5f9">尊重と理解が、より深い絆を築く鍵となる</text>
+  </g>
+  
+  <!-- Type Tags -->
+  <rect x="540" y="40" width="100" height="30" rx="15" fill="#3b82f6"/>
+  <text x="590" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ISTJ</text>
+  
+  <rect x="650" y="40" width="100" height="30" rx="15" fill="#22c55e"/>
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ENFP</text>
+</svg>

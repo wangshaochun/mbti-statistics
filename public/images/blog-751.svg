@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ebfbee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d3f9d8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="3" dy="3" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="3" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad)" />
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#2b8a3e" />
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="bold">ENFP 魅力的なキャンペーンの秘密</text>
+
+  <!-- Main Content Boxes -->
+  <!-- Box 1: Communication -->
+  <rect x="50" y="110" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="50" y="110" width="340" height="40" rx="10" fill="#40c057" />
+  <text x="220" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">コミュニケーションの達人</text>
+  <text x="220" y="180" font-family="Arial, sans-serif" font-size="14" fill="#2b8a3e" text-anchor="middle">・知的好奇心に基づいた幅広い話題</text>
+  <text x="220" y="205" font-family="Arial, sans-serif" font-size="14" fill="#2b8a3e" text-anchor="middle">・平凡な日常に深い意味を与える</text>
+
+  <!-- Box 2: Humor -->
+  <rect x="410" y="110" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="410" y="110" width="340" height="40" rx="10" fill="#40c057" />
+  <text x="580" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">抜群のユーモアセンス</text>
+  <text x="580" y="180" font-family="Arial, sans-serif" font-size="14" fill="#2b8a3e" text-anchor="middle">・独自の洞察を交えた笑いの提供</text>
+  <text x="580" y="205" font-family="Arial, sans-serif" font-size="14" fill="#2b8a3e" text-anchor="middle">・周囲を明るくする感染力のある笑顔</text>
+
+  <!-- Box 3: Passion -->
+  <rect x="50" y="270" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="50" y="270" width="340" height="40" rx="10" fill="#40c057" />
+  <text x="220" y="295" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">情熱と創造力</text>
+  <text x="220" y="340" font-family="Arial, sans-serif" font-size="14" fill="#2b8a3e" text-anchor="middle">・好きなことへの圧倒的な熱量</text>
+  <text x="220" y="365" font-family="Arial, sans-serif" font-size="14" fill="#2b8a3e" text-anchor="middle">・自由奔放でカラフルな想像力</text>
+
+  <!-- Box 4: Why Loved -->
+  <rect x="410" y="270" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="410" y="270" width="340" height="40" rx="10" fill="#40c057" />
+  <text x="580" y="295" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">愛される理由</text>
+  <text x="580" y="340" font-family="Arial, sans-serif" font-size="14" fill="#2b8a3e" text-anchor="middle">他者の可能性を信じ、励ます力</text>
+  <text x="580" y="365" font-family="Arial, sans-serif" font-size="14" fill="#2b8a3e" text-anchor="middle">世界に色彩をもたらす「面白い魂」</text>
+
+  <!-- MBTI Type Tag -->
+  <rect x="700" y="390" width="80" height="40" rx="20" fill="#2b8a3e" />
+  <text x="740" y="415" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">ENFP</text>
+</svg>

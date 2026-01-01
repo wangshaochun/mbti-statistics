@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#581c87;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" rx="20" fill="url(#grad)"/>
+  
+  <!-- Header -->
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#f8fafc">ISTJ から INTJ へ</text>
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="20" fill="#cbd5e1">実践者から戦略家への心理的変容</text>
+  
+  <!-- Summary Grid -->
+  <g transform="translate(40, 140)">
+    <rect width="340" height="100" rx="15" fill="rgba(255,255,255,0.1)" filter="url(#shadow)"/>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#93c5fd">性格特性の比較</text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="14" fill="#f1f5f9">現実的な検査官と未来志向の戦略家の対比</text>
+    
+    <rect x="380" width="340" height="100" rx="15" fill="rgba(255,255,255,0.1)" filter="url(#shadow)"/>
+    <text x="400" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#93c5fd">認知機能の発達</text>
+    <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" fill="#f1f5f9">内面的直観(Ni)を意識的に鍛え、活用する</text>
+    
+    <rect y="130" width="340" height="100" rx="15" fill="rgba(255,255,255,0.1)" filter="url(#shadow)"/>
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#93c5fd">変容のステップ</text>
+    <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#f1f5f9">細部から大局へ、過去から未来へと視点を移す</text>
+    
+    <rect x="380" y="130" width="340" height="100" rx="15" fill="rgba(255,255,255,0.1)" filter="url(#shadow)"/>
+    <text x="400" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#93c5fd">統合された成長</text>
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="14" fill="#f1f5f9">実務的基盤を保ちつつ、戦略的視野を獲得する</text>
+  </g>
+  
+  <!-- Type Tags -->
+  <rect x="540" y="40" width="100" height="30" rx="15" fill="#3b82f6"/>
+  <text x="590" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ISTJ</text>
+  
+  <rect x="650" y="40" width="100" height="30" rx="15" fill="#a855f7"/>
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">INTJ</text>
+</svg>

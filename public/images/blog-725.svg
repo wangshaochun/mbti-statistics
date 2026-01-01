@@ -1,0 +1,35 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="15" fill="#f0fdf4"/>
+  
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#166534">ENFP性格発展ガイド</text>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#22c55e">コミュニケーション、マネジメント、自己向上のスキル</text>
+
+  <!-- ENFP Growth Points -->
+  <g transform="translate(50, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#22c55e" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#166534">事実の率直な受容</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">他者の動機を過度に解釈せず、</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">目の前の事実に誠実に向き合う。</text>
+  </g>
+
+  <g transform="translate(410, 140)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#22c55e" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#166534">ペースのコントロール</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">他者に耳を傾けることを学び、</text>
+    <text x="170" y="95" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">バランスの取れた交流を心がける。</text>
+  </g>
+
+  <g transform="translate(50, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#22c55e" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#166534">持続的な実行力</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">退屈なタスクからも逃げず、</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">各段階を確実に完遂させる。</text>
+  </g>
+
+  <g transform="translate(410, 300)">
+    <rect width="340" height="140" rx="10" fill="#fff" stroke="#22c55e" stroke-width="2"/>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#166534">インスピレーションの具現化</text>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">ビジョンを具体的なステップに落とし込み、</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#444">人々を導く実行者へと進化する。</text>
+  </g>
+</svg>

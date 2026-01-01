@@ -20,8 +20,8 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform">
-              <Users className="w-6 h-6 text-white" />
+            <div className="w-12 h-12 bg-[#4FC3F7] border-2 border-gray-900 rounded-xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex items-center justify-center group-hover:-translate-y-1 transition-transform">
+              <Users className="w-7 h-7 text-gray-900" />
             </div>
             <div className="hidden sm:block">
               <h4 className="text-xl font-bold text-gray-900">MBTI相性診断ガイド</h4>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff9db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3bf;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="3" dy="3" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="3" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad)" />
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#f08c00" />
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="bold">ESTP エネルギッシュな冒険者の知性</text>
+
+  <!-- Main Content Boxes -->
+  <!-- Box 1: Strengths -->
+  <rect x="50" y="110" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="50" y="110" width="340" height="40" rx="10" fill="#fab005" />
+  <text x="220" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">核心的な強み</text>
+  <text x="220" y="180" font-family="Arial, sans-serif" font-size="14" fill="#5c940d" text-anchor="middle">・圧倒的な行動力と即興対応力</text>
+  <text x="220" y="205" font-family="Arial, sans-serif" font-size="14" fill="#5c940d" text-anchor="middle">・鋭い観察力と実用的な問題解決</text>
+
+  <!-- Box 2: Challenges -->
+  <rect x="410" y="110" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="410" y="110" width="340" height="40" rx="10" fill="#fab005" />
+  <text x="580" y="135" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">直面する課題</text>
+  <text x="580" y="180" font-family="Arial, sans-serif" font-size="14" fill="#5c940d" text-anchor="middle">・忍耐力の不足と衝動的行動</text>
+  <text x="580" y="205" font-family="Arial, sans-serif" font-size="14" fill="#5c940d" text-anchor="middle">・長期計画や深い内省の苦手意識</text>
+
+  <!-- Box 3: Growth -->
+  <rect x="50" y="270" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="50" y="270" width="340" height="40" rx="10" fill="#fab005" />
+  <text x="220" y="295" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">成長のヒント</text>
+  <text x="220" y="340" font-family="Arial, sans-serif" font-size="14" fill="#5c940d" text-anchor="middle">「今、この瞬間」だけでなく</text>
+  <text x="220" y="365" font-family="Arial, sans-serif" font-size="14" fill="#5c940d" text-anchor="middle">「長期的な影響」を考慮する</text>
+
+  <!-- Box 4: Environment -->
+  <rect x="410" y="270" width="340" height="140" rx="10" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="410" y="270" width="340" height="40" rx="10" fill="#fab005" />
+  <text x="580" y="295" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">成功の鍵</text>
+  <text x="580" y="340" font-family="Arial, sans-serif" font-size="14" fill="#5c940d" text-anchor="middle">変化と刺激に満ちた環境で</text>
+  <text x="580" y="365" font-family="Arial, sans-serif" font-size="14" fill="#5c940d" text-anchor="middle">「現場のリーダー」として真価を発揮</text>
+
+  <!-- MBTI Type Tag -->
+  <rect x="700" y="390" width="80" height="40" rx="20" fill="#f08c00" />
+  <text x="740" y="415" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">ESTP</text>
+</svg>
