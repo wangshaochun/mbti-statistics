@@ -14,6 +14,11 @@ export type TypeInfo = {
   compatibility?: { excellent: string[]; good: string[]; challenging: string[] };
   careers?: string[];
   unsuitableCareers?: string[];
+  /** 职业选择的理由说明 */
+  careerReasons?: {
+    why?: string; // 为什么适合这些职业
+    strengths?: string[]; // 在职业中的优势
+  };
   loveTendencies?: {
     approach?: string;
     strengths: string[];
@@ -42,6 +47,12 @@ export type TypeInfo = {
     real?: string[];
     fictional?: string[];
   };
+  /** 最佳配对关系展示 */
+  pairHighlights?: Array<{
+    partner: string; // 配对类型
+    title: string; // 配对标题
+    description: string; // 配对描述
+  }>;
   /** 日本国内推定割合（%） */
   jpPercentage?: number;
   /** 世界推定割合（%） */
@@ -75,6 +86,22 @@ export const typeData: Record<string, TypeInfo> = {
     compatibility: { excellent: ['ENFP', 'INTJ', 'ENTP'], good: ['ISFP', 'INFJ', 'ISFJ', 'ISTJ', 'INFP', 'ENFP'], challenging: ['ESTJ', 'ESTP', 'ISTP', 'ESFP'] },
     careers: ['教師', 'セールスマネージャー', 'コーチ', 'マネージャー', '政治家', 'ジャーナリスト', '人事コンサルタント', '広報・PR', 'カウンセラー', '社会福祉士', 'イベント企画', 'トレーナー', 'HRマネージャー', '営業マネージャー', 'ソーシャルワーカー', '大学講師', 'NPOスタッフ', '放送局アナウンサー', '公共サービス'],
     unsuitableCareers: ['孤独な作業環境', '人との関わりが極端に少ない仕事', '高度な分析的・技術的な単独作業', '長期間の孤独な研究職', 'データ分析中心の仕事', '精密機器の組み立て', '工場ライン作業', '会計・経理（単調業務）', '在宅での完全独立作業', '夜間勤務の独り業務'],
+    careerReasons: {
+      why: 'ENFJは優れた対人スキルとカリスマ性を活かし、人を導き成長を支援する役割で真価を発揮します。',
+      strengths: ['人の可能性を見抜き育成できる', 'チームの士気を高め目標達成を促す', '複雑な人間関係を調整し調和を生む']
+    },
+    pairHighlights: [
+      {
+        partner: 'INFP',
+        title: 'ENFJ × INFP — 理想を共有する心の同盟',
+        description: 'ENFJの行動力とINFPの深い価値観が共鳴し、互いの理想を実現するパートナーシップを形成します。恋愛では感情的な深さと献身性が結びつき、友人・職場では創造性と実行力が補完し合います。ペース調整と現実的な目標設定が鍵となります。'
+      },
+      {
+        partner: 'INTJ',
+        title: 'ENFJ × INTJ — ビジョンと戦略の融合',
+        description: 'ENFJの人を動かす力とINTJの戦略的思考が組み合わさり、大きな目標を実現できる組み合わせです。恋愛では互いの独立性を尊重しながら成長し、職場では長期計画と実行を高次元で統合できます。感情と論理のバランスが重要です。'
+      }
+    ],
     loveTendencies: {
       approach: '相手の感情に寄り添いながら関係全体をデザインする情熱的なサポーター。',
       strengths: ['パートナーの夢を応援し実現を手助けする', '豊かな表情とスキンシップで愛情を伝える', '記念日やサプライズを大切にする'],
@@ -129,6 +156,22 @@ export const typeData: Record<string, TypeInfo> = {
     growthTips: ['80%で出す練習をする', 'フィードバックを早期に取り入れる', '感情的配慮の言語化を意識する'],
     compatibility: { excellent: ['ENFP', 'ENTP', 'INFJ'], good: ['INTP', 'ENTJ', 'ISTJ', 'INFP'], challenging: ['ESFP', 'ESFJ', 'ESTP', 'ISFP'] },
     careers: ['戦略コンサルタント', 'システムアーキテクト', '研究開発', 'プロダクトマネージャー', 'データサイエンティスト', '技術顧問'],
+    careerReasons: {
+      why: 'INTJは戦略的思考と体系的アプローチで複雑な問題を解決し、長期的な価値を創造する分野で力を発揮します。',
+      strengths: ['全体像を把握し最適な解決策を設計できる', '論理的思考で効率を最大化する', '独立して高度な課題に取り組める']
+    },
+    pairHighlights: [
+      {
+        partner: 'ENTP',
+        title: 'INTJ × ENTP — 火花散る知的な挑戦',
+        description: '知的な刺激と戦略的思考で惹かれ合う組み合わせ。友人や職場では圧倒的な相互補完を見せますが、恋愛では結論志向の違いが摩擦を生むことがあるため、議論を楽しむだけで終わらせない合意形成が重要です。'
+      },
+      {
+        partner: 'ENFP',
+        title: 'INTJ × ENFP — 論理と情熱の完璧な融合',
+        description: 'INTJの戦略性とENFPの創造性が組み合わさり、革新的なプロジェクトを生み出します。恋愛では互いの違いを刺激として楽しみ、職場では計画と柔軟性のバランスを実現します。お互いのペースを尊重することが鍵です。'
+      }
+    ],
     loveTendencies: {
       approach: '知的刺激と長期的なビジョン共有を重視し、慎重に関係を築く戦略的ロマンチスト。',
       strengths: ['未来像や人生計画を明確に提示できる', 'パートナーの目標達成を仕組み化して支援する', '誠実で一途なコミットメントを持つ'],
@@ -335,6 +378,22 @@ export const typeData: Record<string, TypeInfo> = {
     compatibility: { excellent: ['INFJ', 'INTJ', 'ENFJ'], good: ['INFP', 'ENTP', 'ISFP', 'ENTJ', 'ISTP'], challenging: ['ISTJ', 'ESTJ', 'ISFJ', 'ESFJ'] },
     careers: ['クリエイティブディレクター', 'スタートアップ企画', 'コンテンツプランナー', 'ブランドマーケ', 'HR開発', 'イベントプロデューサー', '営業', '広報・PR', 'コンサルタント', '教師', 'カウンセラー', 'コピーライター', 'ジャーナリスト', 'アクティビスト', 'メディア関連', '放送作家', 'YouTuber', 'ブロガー'],
     unsuitableCareers: ['経理・会計', 'データ入力オペレーター', '一般事務・総務', '会計士', '財務アナリスト', '監査', '法官（裁判官）', '航空機パイロット', '品質管理検査員', '研究職', '実験室技師', '工場ライン作業員', '定型業務・マニュアル通りの仕事', '孤独な作業環境', '緻密さが求められる仕事'],
+    careerReasons: {
+      why: 'ENFPは創造性と対人スキルを活かし、人を繋ぎ新しい価値を生み出す分野で輝きます。',
+      strengths: ['多様なアイデアを生み出し形にする', '人々を巻き込み熱意を伝える', '柔軟に環境変化に適応できる']
+    },
+    pairHighlights: [
+      {
+        partner: 'INFJ',
+        title: 'ENFP × INFJ — 魂の伴侶のような深い結びつき',
+        description: 'ENFPの創造的エネルギーとINFJの深い洞察が融合し、理想を実現する強力なパートナーシップを築きます。恋愛では感情的な共鳴と豊かな対話が生まれ、職場では戦略と実行の完璧なバランスを実現します。互いのペース調整が重要です。'
+      },
+      {
+        partner: 'INTJ',
+        title: 'ENFP × INTJ — 論理と情熱の完璧な融合',
+        description: 'ENFPの情熱とINTJの戦略性が組み合わさり、革新的なプロジェクトを実現します。恋愛では互いの違いを刺激として楽しみ、職場では創造性と計画性を両立できます。お互いの強みを認め合うことが鍵です。'
+      }
+    ],
     loveTendencies: {
       approach: '情熱と好奇心で相手の世界を広げながら共感的に寄り添う自由な恋愛スタイル。',
       strengths: ['感情豊かな表現で愛情を伝える', '相手の可能性を見つけ応援する', '記念日やサプライズで関係を盛り上げる'],
@@ -390,6 +449,22 @@ export const typeData: Record<string, TypeInfo> = {
     compatibility: { excellent: ['ENFP', 'ENTP', 'INTJ'], good: ['INFP', 'ENFJ', 'INFJ', 'ISFP', 'ENFJ'], challenging: ['ESTP', 'ESTJ', 'ESFP', 'ISTP'] },
     careers: ['カウンセラー', '教育企画', 'UXリサーチ', '非営利活動', '人材開発', '編集・ライティング', '心理学者', 'ソーシャルワーカー', 'ライター', '宗教指導者', 'HRコンサルタント', 'コーチ', '仲裁・調停役', '哲学者', '芸術家', '研究者', 'プログラマー（独立系）', 'オカルト関連'],
     unsuitableCareers: ['営業職', 'テレマーケティング', 'テレアポ', '一般事務', 'データ入力', '経理', '工場ラインスタッフ', 'レストラン支配人', '接客業務（過密環境）', '救急救命士', '上層部マネジメント', '競争率の高い職業', '単調なルーチンワーク', '数字で評価される環境', '急な判断が求められる仕事', '対立や強い主張が多い環境'],
+    careerReasons: {
+      why: 'INFJは深い洞察力と共感力を活かし、人の内面を理解し成長を支援する分野で卓越した能力を発揮します。',
+      strengths: ['本質的な課題を見抜き解決策を提示できる', '一対一の深い対話で信頼関係を築く', '長期的視点で人や組織の変革を導く']
+    },
+    pairHighlights: [
+      {
+        partner: 'ENFP',
+        title: 'INFJ × ENFP — 魂の伴侶のような深い結びつき',
+        description: 'INFJは深い洞察と安定性を提供し、ENFPは創造的エネルギーと情熱をもたらします。恋愛では互いに感情的な共鳴と豊かな対話が生まれやすく、友人・職場でも補完的な強みを発揮します。実行のディテールと締め切り管理だけ注意が必要です。'
+      },
+      {
+        partner: 'ENTP',
+        title: 'INFJ × ENTP — 直観と革新の化学反応',
+        description: '深い洞察力と多角的発想が融合し、革新的なアイデアを生み出す組み合わせ。恋愛では知的刺激と感情的深さが両立し、職場では戦略立案と実行の完璧なバランスを実現します。互いの処理速度の違いを尊重することが重要です。'
+      }
+    ],
     loveTendencies: {
       approach: '静かな献身と深い精神的つながりを求める内向的ロマンチスト。',
       strengths: ['パートナーの感情を丁寧に読み取り支える', '長期的な関係構築を真剣に考える', '意味のある会話で親密さを育む'],
@@ -444,6 +519,22 @@ export const typeData: Record<string, TypeInfo> = {
     growthTips: ['段階的な変化採用を試す', '完璧より進捗を重視', '価値観を言語化して共有'],
     compatibility: { excellent: ['ESFP', 'ISFP', 'ESTP'], good: ['ISTP', 'ISFJ', 'ESTJ', 'INFP'], challenging: ['ENFP', 'ENTP', 'INTJ', 'INFJ'] },
     careers: ['品質管理', '経理', '運用マネージャー', '行政事務', 'サプライチェーン', '監査'],
+    careerReasons: {
+      why: 'ISTJは几帳面さと責任感を活かし、安定した運用と品質管理が求められる分野で信頼を築きます。',
+      strengths: ['手順を守り品質を維持できる', 'リスクを予測し未然に防ぐ', '長期的に安定した成果を出す']
+    },
+    pairHighlights: [
+      {
+        partner: 'ESFP',
+        title: 'ISTJ × ESFP — 安定と活力の完璧なバランス',
+        description: 'ISTJの安定性とESFPの活力が組み合わさり、実務と人間関係のバランスを実現します。恋愛では互いの違いを楽しみ、職場では計画性と柔軟性を両立できます。お互いのペースを尊重することが重要です。'
+      },
+      {
+        partner: 'ESFJ',
+        title: 'ISTJ × ESFJ — 揺るぎない現実の盟友',
+        description: '両者は実務的価値観と責任感を共有し、恋愛・友情・職場いずれにおいても実践的で安定した関係を築きます。ESFJが対外的な調整を担い、ISTJが裏方で計画と品質管理を行うことで高い信頼性を発揮します。'
+      }
+    ],
     loveTendencies: {
       approach: '誠実で一貫した行動を通じて信頼を築き、責任感を持って関係を守る堅実なスタイル。',
       strengths: ['約束や時間を厳守し安心感を提供する', '現実的なサポートで生活基盤を整える', '長期的視点で家族計画を立てられる'],
@@ -495,6 +586,22 @@ export const typeData: Record<string, TypeInfo> = {
     compatibility: { excellent: ['ENTJ', 'INTJ', 'ESFP'], good: ['ENFJ', 'INFJ', 'INTP', 'ISFP', 'ESFJ', 'ISTJ', 'INFP'], challenging: ['ENTP', 'ESFJ', 'ISTP'] },
     careers: ['医療事務', '看護師', '看護補助', '教育支援', '教師', 'カスタマーサクセス', '人事サポート', '社会福祉士', '栄養士', 'セラピスト', '学芸員', '経理', '事務', '図書館司書', '公務員', '介護士', '文書管理'],
     unsuitableCareers: ['飲食店スタッフ', '起業家', '経営者', '営業マン', '販売スタッフ', '芸能業界', 'アナウンサー', '競争が激しい環境の仕事', '常に注目される仕事'],
+    careerReasons: {
+      why: 'ISFJは献身性と細やかな気配りを活かし、人々を支え安定したサービスを提供する分野で輝きます。',
+      strengths: ['相手のニーズを先回りして察知できる', '継続的に高品質なサポートを提供する', '調和的な環境を作り信頼を築く']
+    },
+    pairHighlights: [
+      {
+        partner: 'ENTJ',
+        title: 'ISFJ × ENTJ — 支援と実行の強力タッグ',
+        description: 'ISFJの献身的サポートとENTJの実行力が融合し、大きな目標を実現できる組み合わせ。恋愛では互いの役割を尊重し合い、職場ではリーダーシップとサポートの完璧なバランスを実現します。感謝の表現が重要です。'
+      },
+      {
+        partner: 'ESFP',
+        title: 'ISFJ × ESFP — 安定と活力の調和',
+        description: 'ISFJの安定性とESFPの活力が組み合わさり、温かく楽しい関係を築きます。恋愛では互いを補完し合い、職場では実務力と対人スキルを両立できます。お互いのペースを尊重することが鍵です。'
+      }
+    ],
     loveTendencies: {
       approach: '思いやり深く献身的に支え、安定した日常を大切にする家庭的な恋愛スタイル。受け身の姿勢が強く、自分から積極的にアプローチすることは少ないですが、関係を真剣に考え慎重に行動します。尽くされるより尽くすことを好み、交際は比較的長く続きます。',
       strengths: ['細かな気配りで安心感を与える', '相手の好みや予定を覚えてサポートする', '約束を守り信頼を積み重ねる', '献身的なパートナーとして支える', '家庭的で安定した関係を築く'],
@@ -865,6 +972,22 @@ export const typeData: Record<string, TypeInfo> = {
     compatibility: { excellent: ['ENFJ', 'ENTJ', 'ENFP', 'INTJ'], good: ['INFJ', 'ISFJ', 'ESFJ', 'ENTP'], challenging: ['ESTJ', 'ESFP', 'ESTP', 'ISTJ'] },
     careers: ['作家', 'アーティスト', 'カウンセラー', '心理学者', 'ソーシャルワーカー', '人事（HR）', 'キャリアカウンセラー', '編集者', 'アートディレクター', '建築家', 'ファッションデザイナー', 'ジャーナリスト', '理学療法士', '教育者', '聖職者'],
     unsuitableCareers: ['競争が激しい営業職', '厳格なルールや規律が支配する軍隊・警察', '単純作業の繰り返し', '価値観に反するビジネス'],
+    careerReasons: {
+      why: 'INFPは深い価値観と創造性を活かし、人の内面に寄り添い意味ある作品や支援を提供する分野で輝きます。',
+      strengths: ['個人の本質を理解し共感的に支援できる', '独自の視点で創造的な作品を生み出す', '価値観に基づいた誠実な働き方ができる']
+    },
+    pairHighlights: [
+      {
+        partner: 'ENFJ',
+        title: 'INFP × ENFJ — 理想を共有する心の同盟',
+        description: 'INFPの深い価値観とENFJの行動力が融合し、理想を実現する強力なパートナーシップを築きます。恋愛では感情的な深さと献身性が結びつき、職場では創造性と実行力が補完し合います。ペース調整と現実的な目標設定が重要です。'
+      },
+      {
+        partner: 'ENTJ',
+        title: 'INFP × ENTJ — 理想と戦略の意外な調和',
+        description: 'INFPの理想主義とENTJの実行力が組み合わさり、大きなビジョンを実現できる組み合わせ。恋愛では互いの違いを補完し合い、職場では価値創造と効率化のバランスを実現します。相互理解と尊重が鍵です。'
+      }
+    ],
     loveTendencies: {
       approach: '心の共鳴と深い精神的な繋がりを求め、表面的な付き合いを避ける。慎重に信頼関係を築くロマンチスト。',
       strengths: ['深く献身的で誠実', '相手の感情を敏感に察知し受容する', 'パートナーのために尽くすことを厭わない'],

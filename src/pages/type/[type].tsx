@@ -164,21 +164,35 @@ export default function TypeDetailPage({ type, data, relatedBlogs }: { type: str
           </div>
         )}
 
-        {/* Pair Anchors (static showcase) */}
-        <div className="mb-12">
-          <div id="pair-INFJ-ENFP" className="bg-white rounded-2xl p-6 shadow-sm mb-6">
-            <h3 className="text-xl font-bold mb-2">INFJ × ENFP — 魂の伴侶のような深い結びつき</h3>
-            <p className="text-gray-700 text-sm whitespace-pre-line">INFJは深い洞察と安定性を提供し、ENFPは創造的エネルギーと情熱をもたらします。恋愛では互いに感情的な共鳴と豊かな対話が生まれやすく、友人・職場でも補完的な強みを発揮します。実行のディテールと締め切り管理だけ注意が必要です。</p>
+        {/* Pair Highlights (dynamic showcase) */}
+        {currentType.pairHighlights && currentType.pairHighlights.length > 0 && (
+          <div className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center flex items-center justify-center">
+              <HeartHandshake className="w-6 h-6 mr-2 text-pink-600" />
+              注目の相性ペア
+            </h2>
+            {currentType.pairHighlights.map((pair, index) => (
+              <div key={index} id={`pair-${upperType}-${pair.partner}`} className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-6 shadow-sm mb-6 border border-pink-100">
+                <h3 className="text-xl font-bold mb-3 text-gray-900">{pair.title}</h3>
+                <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line mb-4">{pair.description}</p>
+                <div className="flex gap-3">
+                  <Link
+                    href={`/type/${upperType?.toLowerCase()}`}
+                    className="px-4 py-2 bg-white text-purple-700 rounded-lg text-sm font-medium hover:bg-purple-50 transition-colors border border-purple-200"
+                  >
+                    {upperType}の詳細
+                  </Link>
+                  <Link
+                    href={`/type/${pair.partner.toLowerCase()}`}
+                    className="px-4 py-2 bg-purple-600 text-white rounded-lg text-sm font-medium hover:bg-purple-700 transition-colors"
+                  >
+                    {pair.partner}の詳細
+                  </Link>
+                </div>
+              </div>
+            ))}
           </div>
-          <div id="pair-ISTJ-ESFJ" className="bg-white rounded-2xl p-6 shadow-sm mb-6">
-            <h3 className="text-xl font-bold mb-2">ISTJ × ESFJ — 揺るぎない現実の盟友</h3>
-            <p className="text-gray-700 text-sm whitespace-pre-line">両者は実務的価値観と責任感を共有し、恋愛・友情・職場いずれにおいても実践的で安定した関係を築きます。ESFJが対外的な調整を担い、ISTJが裏方で計画と品質管理を行うことで高い信頼性を発揮します。</p>
-          </div>
-          <div id="pair-INTJ-ENTP" className="bg-white rounded-2xl p-6 shadow-sm">
-            <h3 className="text-xl font-bold mb-2">INTJ × ENTP — 火花散る知的な挑戦</h3>
-            <p className="text-gray-700 text-sm whitespace-pre-line">知的な刺激と戦略的思考で惹かれ合う組み合わせ。友人や職場では圧倒的な相互補完を見せますが、恋愛では結論志向の違いが摩擦を生むことがあるため、議論を楽しむだけで終わらせない合意形成が重要です。</p>
-          </div>
-        </div>
+        )}
 
         {/* Career Suggestions */}
         {currentType.careers && currentType.careers.length > 0 && (
@@ -187,21 +201,52 @@ export default function TypeDetailPage({ type, data, relatedBlogs }: { type: str
               <Briefcase className="w-6 h-6 mr-2" />
               向いている職業
             </h2>
-            <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8 border border-purple-100">
+              {/* Career Reasons Section */}
+              {currentType.careerReasons && (
+                <div className="mb-6 bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="text-lg font-bold text-purple-900 mb-3 flex items-center">
+                    <Star className="w-5 h-5 mr-2 text-purple-600" />
+                    なぜこれらの職業が向いているのか？
+                  </h3>
+                  {currentType.careerReasons.why && (
+                    <p className="text-gray-700 mb-4 leading-relaxed">{currentType.careerReasons.why}</p>
+                  )}
+                  {currentType.careerReasons.strengths && currentType.careerReasons.strengths.length > 0 && (
+                    <div className="space-y-2">
+                      <p className="text-sm font-semibold text-purple-800">職業上の強み：</p>
+                      <ul className="space-y-2">
+                        {currentType.careerReasons.strengths.map((strength: string, idx: number) => (
+                          <li key={idx} className="flex items-start text-sm text-gray-700">
+                            <span className="mt-1 mr-2 text-purple-600">✓</span>
+                            <span>{strength}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              )}
+              
+              {/* Career List */}
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
                 {currentType.careers.map((career: string, index: number) => (
                   <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
                     <div className="text-gray-700 font-medium">{career}</div>
                   </div>
                 ))}
               </div>
-              {upperType && (
-                <div className="text-center mt-6">
-                  <p className="text-gray-600">
-                    {upperType}タイプの方は、人と関わり成長を支援する職業で力を発揮します
-                  </p>
-                </div>
-              )}
+              
+              {/* Link to Career Compatibility Page */}
+              <div className="text-center mt-6 pt-6 border-t border-purple-200">
+                <Link
+                  href="/careers"
+                  className="inline-flex items-center px-6 py-3 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition-colors shadow-sm"
+                >
+                  <Briefcase className="w-5 h-5 mr-2" />
+                  全職業とMBTI相性を詳しく見る
+                </Link>
+              </div>
             </div>
           </div>
         )}
