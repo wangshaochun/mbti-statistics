@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Heart, Users, Briefcase, Star, Shield, Zap } from 'lucide-react';
+import { Heart, Users, Briefcase, Star, Shield, Zap, Brain, Sparkles, Activity, Flower } from 'lucide-react';
 import Seo from '../components/Seo';
+import { compatibilityDatabase } from '../data/compatibility_pairs';
 
 const CompatibilityOverview = () => {
   const [selectedContext, setSelectedContext] = useState<'love' | 'friendship' | 'work'>('love');
@@ -134,44 +135,34 @@ const CompatibilityOverview = () => {
 
   const allTypes = ['ISTJ', 'ISFJ', 'ESTJ', 'ESFJ', 'ISTP', 'ISFP', 'ESTP', 'ESFP', 'INFJ', 'INFP', 'INTJ', 'INTP', 'ENFP', 'ENFJ', 'ENTJ', 'ENTP'];
   
-  const popularPairs = [
-    {
-      types: 'INFJ × ENFP',
-      title: '魂の伴侶のような深い結びつき',
-      icon: Star,
-      gradient: 'from-pink-400 to-rose-500',
-      summary: 'NFの共有による深い対話と理解。直感と感情が共鳴する関係。',
-      details: {
-        love: '両者は互いの内面世界を深く理解し、長時間の対話が自然に続く理想的なパートナー。',
-        friendship: 'ENFPは内向的なINFJを外へ導き、INFJはENFPに深い洞察を提供する補完関係。',
-        work: '芸術・教育・心理分野で高い相乗効果を発揮。INFJの構想力とENFPの創造性が調和。'
-      }
-    },
-    {
-      types: 'ISTJ × ESFJ',
-      title: '揺るぎない現実の盟友',
-      icon: Shield,
-      gradient: 'from-green-400 to-teal-500',
-      summary: 'SJの共有による安定と信頼性。伝統と責任を重んじる関係。',
-      details: {
-        love: '事実・責任・伝統・家庭を大切にする共通価値観で堅実な関係を築く。',
-        friendship: '実務的な協力体制に優れ、地域活動や家庭の企画を効率よく進められる。',
-        work: '組織の安定運営に最適。ESFJが人間関係を調整し、ISTJが品質管理を担う。'
-      }
-    },
-    {
-      types: 'INTJ × ENTP',
-      title: '火花散る知的な挑戦',
-      icon: Zap,
-      gradient: 'from-yellow-400 to-orange-500',
-      summary: 'NTの共有による知的興奮。戦略と可能性を探求する関係。',
-      details: {
-        love: '抽象概念と戦略的思考への共通の興味。知的な刺激と駆け引きが関係を活性化。',
-        friendship: '「思考のジム」のような関係で、複雑な問題や新しいアイデアを議論するのを楽しむ。',
-        work: 'ENTPのアイデア創出力とINTJの体系化能力が高効率な補完関係を形成する。'
-      }
-    }
+  const pairMetadata = [
+    { slug: 'infj-enfp', icon: Star, gradient: 'from-pink-400 to-rose-500', title: '魂の伴侶のような深い結びつき' },
+    { slug: 'istj-esfj', icon: Shield, gradient: 'from-green-400 to-teal-500', title: '揺るぎない現実の盟友' },
+    { slug: 'intj-entp', icon: Zap, gradient: 'from-yellow-400 to-orange-500', title: '火花散る知的な挑戦' },
+    { slug: 'intp-entj', icon: Brain, gradient: 'from-blue-400 to-indigo-500', title: '最強の戦略的パートナー' },
+    { slug: 'enfp-intj', icon: Sparkles, gradient: 'from-purple-400 to-pink-500', title: '互いの世界を広げる補完関係' },
+    { slug: 'isfp-esfj', icon: Flower, gradient: 'from-red-300 to-pink-400', title: '温かな感性の調和' },
+    { slug: 'estp-isfj', icon: Activity, gradient: 'from-orange-400 to-red-500', title: '行動と安定のベストバランス' },
+    { slug: 'infp-enfj', icon: Heart, gradient: 'from-indigo-400 to-purple-500', title: '理想を共有するソウルメイト' }
   ];
+
+  const popularPairs = pairMetadata.map(meta => {
+    const data = compatibilityDatabase[meta.slug];
+    if (!data) return null;
+    return {
+      types: `${data.type1} × ${data.type2}`,
+      pairSlug: meta.slug,
+      title: meta.title,
+      icon: meta.icon,
+      gradient: meta.gradient,
+      summary: data.cognitiveDynamics,
+      details: {
+        love: data.loveCompatibility.strengths[0],
+        friendship: data.friendshipCompatibility.strengths[0],
+        work: data.workCompatibility.strengths[0]
+      }
+    };
+  }).filter((item): item is NonNullable<typeof item> => item !== null);
 
   return (
     <div className="min-h-screen bg-[#F0F7F4] py-12 font-sans">
@@ -362,17 +353,12 @@ const CompatibilityOverview = () => {
                     </div>
                     
                     <div className="mt-6 text-center">
-                      {(() => {
-                        const firstType = pair.types.split('×')[0].trim().toLowerCase();
-                        return (
-                          <Link 
-                            href={`/type/${firstType}`} 
-                            className="inline-block w-full px-4 py-3 bg-gray-100 text-gray-700 rounded-xl text-sm font-bold hover:bg-gray-200 transition-colors"
-                          >
-                            詳細ページへ
-                          </Link>
-                        );
-                      })()}
+                      <Link 
+                        href={`/compatibility/${pair.pairSlug}`} 
+                        className="inline-block w-full px-4 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl text-sm font-bold hover:from-purple-700 hover:to-pink-700 transition-all shadow-md"
+                      >
+                        詳細な相性分析を見る
+                      </Link>
                     </div>
                   </div>
                 </div>

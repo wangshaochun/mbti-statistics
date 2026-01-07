@@ -3,6 +3,7 @@ import { GetStaticProps, GetStaticPaths } from 'next';
 import Link from 'next/link';
 import { Calendar, Clock, User, Tag, ArrowLeft } from 'lucide-react';
 import Seo from '../../components/Seo';
+import { ArticleStructuredData, BreadcrumbStructuredData } from '../../components/StructuredData';
 import MarkdownRenderer from '../../components/MarkdownRenderer';
 import seoConfig from '../../config/seo.config';
 
@@ -55,6 +56,21 @@ const BlogPostPage: React.FC<BlogPostPageProps> = ({ post, relatedPosts }) => {
           author: post.author,
           tags: post.tags
         }}
+      />
+      <ArticleStructuredData
+        title={post.title}
+        description={post.excerpt}
+        author={post.author}
+        publishDate={post.publishDate}
+        image={post.image}
+        url={`${seoConfig.siteUrl}/blog/${post.id}`}
+      />
+      <BreadcrumbStructuredData
+        items={[
+          { name: 'ホーム', url: seoConfig.siteUrl },
+          { name: 'ブログ', url: `${seoConfig.siteUrl}/blog` },
+          { name: post.title, url: `${seoConfig.siteUrl}/blog/${post.id}` }
+        ]}
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* 戻るボタン */}

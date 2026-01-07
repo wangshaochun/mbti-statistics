@@ -151,6 +151,45 @@ const TypesOverview = ({ categories }:{ categories:Category[] }) => {
         
         <TypeGrid />
 
+        {/* Type Comparisons */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">タイプ比較分析</h2>
+          <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+            似ているようで違う2つのタイプの詳細比較。認知機能、性格特性、キャリア、恋愛スタイルの違いを徹底解説します。
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/compare/infp-infj" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group">
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">INFP vs INFJ</h3>
+              <p className="text-sm text-gray-600">似ているようで大きく異なる理想主義者の比較</p>
+            </Link>
+            
+            <Link href="/compare/intj-entj" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group">
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">INTJ vs ENTJ</h3>
+              <p className="text-sm text-gray-600">内向・外向の違いが生む戦略家の対比</p>
+            </Link>
+            
+            <Link href="/compare/enfp-enfj" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group">
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">ENFP vs ENFJ</h3>
+              <p className="text-sm text-gray-600">外向的理想主義者の微妙な違い</p>
+            </Link>
+            
+            <Link href="/compare/istj-isfj" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group">
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">ISTJ vs ISFJ</h3>
+              <p className="text-sm text-gray-600">責任感の強い実務家の判断基準の違い</p>
+            </Link>
+
+            <Link href="/compare/intp-intj" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group">
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">INTP vs INTJ</h3>
+              <p className="text-sm text-gray-600">論理的思考のアプローチの違い：探求者と建築家</p>
+            </Link>
+
+            <Link href="/compare/isfp-infp" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group">
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">ISFP vs INFP</h3>
+              <p className="text-sm text-gray-600">同じ「自分らしさ」を追求するタイプの表現の違い</p>
+            </Link>
+          </div>
+        </div>
+
         {/* Call to Action */}
         <div className="text-center mt-16 mb-16">
           <div className="bg-[#4FC3F7] rounded-3xl p-10 text-white shadow-[0_8px_0_#0288D1] border-2 border-[#0288D1] relative overflow-hidden">

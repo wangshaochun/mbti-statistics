@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, Brain, Heart, Users, BarChart3, Gamepad2, TestTube, BookOpen,Briefcase } from 'lucide-react';
+import { Menu, X, Brain, Heart, Users, BarChart3, Gamepad2, TestTube, BookOpen, Briefcase, HelpCircle } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,6 +12,7 @@ const Header = () => {
     { path: '/characters', label: 'キャラ分析', icon: Gamepad2 },
     { path: '/diagnostics', label: '診断ツール', icon: TestTube },
     { path: '/careers', label: '職業分析', icon: Briefcase },
+    { path: '/faq', label: 'FAQ', icon: HelpCircle },
     { path: '/blog', label: 'ブログ', icon: BookOpen },
   ];
 

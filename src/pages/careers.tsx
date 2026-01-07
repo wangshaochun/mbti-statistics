@@ -231,6 +231,67 @@ export default function CareersPage() {
           </div>
         </div>
 
+        {/* Detailed Career Pages */}
+        <div className="mt-16 mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+            職業詳細ページ
+          </h2>
+          <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+            各職業について、必要なスキル、MBTIタイプ別の適性分析、キャリアパス、成功者の事例など、詳しい情報を提供しています。
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Link 
+              href="/career/software-engineer" 
+              className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group"
+            >
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">ソフトウェアエンジニア</h3>
+              <p className="text-sm text-gray-600 mb-3">IT・テクノロジー</p>
+              <p className="text-xs text-gray-500">タイプ別の適性、キャリアパス、必要スキルを詳しく解説</p>
+            </Link>
+            
+            <Link 
+              href="/career/teacher" 
+              className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group"
+            >
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">教師・教育者</h3>
+              <p className="text-sm text-gray-600 mb-3">教育</p>
+              <p className="text-xs text-gray-500">タイプ別の適性、キャリアパス、必要スキルを詳しく解説</p>
+            </Link>
+            
+            <Link 
+              href="/career/designer" 
+              className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group"
+            >
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">デザイナー</h3>
+              <p className="text-sm text-gray-600 mb-3">クリエイティブ</p>
+              <p className="text-xs text-gray-500">タイプ別の適性、キャリアパス、必要スキルを詳しく解説</p>
+            </Link>
+            
+            <Link 
+              href="/career/nurse" 
+              className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group"
+            >
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">看護師</h3>
+              <p className="text-sm text-gray-600 mb-3">医療・ヘルスケア</p>
+              <p className="text-xs text-gray-500">タイプ別の適性、キャリアパス、必要スキルを詳しく解説</p>
+            </Link>
+            
+            <Link 
+              href="/career/entrepreneur" 
+              className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 group"
+            >
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">起業家</h3>
+              <p className="text-sm text-gray-600 mb-3">ビジネス</p>
+              <p className="text-xs text-gray-500">タイプ別の適性、キャリアパス、必要スキルを詳しく解説</p>
+            </Link>
+            
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-6 border-2 border-dashed border-blue-300 flex flex-col items-center justify-center">
+              <p className="text-sm text-gray-600 text-center mb-2">さらに多くの職業詳細ページを追加予定</p>
+              <p className="text-xs text-gray-500">ご希望の職業があればお知らせください</p>
+            </div>
+          </div>
+        </div>
+
         {/* CTA */}
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-white">

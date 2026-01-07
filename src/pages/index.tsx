@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowRight, Heart, Brain, BarChart3, Users, Sparkles, Target } from 'lucide-react';
 import TypeGrid from '../components/TypeGrid';
 import Seo from '../components/Seo';
+import { OrganizationStructuredData, WebPageStructuredData } from '../components/StructuredData';
 import CompatibilityPreview from '../components/CompatibilityPreview';
 import BlogPreview from '../components/BlogPreview';
 
@@ -52,6 +53,16 @@ const HomePage = ({ latestPosts }: { latestPosts: BlogPostMeta[] }) => {
       <Seo 
         title="MBTI 16タイプ一覧・相性診断 - 詳細分析と統計データ"
         description="MBTI 16タイプの詳細な特徴・相性・統計データを無料で提供。INFP、ENFP、INTJなど人気タイプの分析から、恋愛・仕事・友情の相性診断まで充実のコンテンツ。"
+      />
+      <OrganizationStructuredData
+        name="MBTI相性診断ガイド"
+        url="https://mbti-aisho.com"
+        description="MBTI 16タイプの詳細な分析、相性診断、統計データを提供する総合ガイド"
+      />
+      <WebPageStructuredData
+        name="MBTI 16タイプ一覧・相性診断"
+        description="MBTI 16タイプの詳細な特徴・相性・統計データを無料で提供"
+        url="https://mbti-aisho.com"
       />
       {/* Hero Section */}
       <section className="bg-[#F0F7F4] py-16 lg:py-24 relative overflow-hidden">
